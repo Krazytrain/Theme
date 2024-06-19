@@ -7,22 +7,22 @@
     --ML-role-background: var(--opacity02a); /* role color */
   }
   
-  .member_aa4760{
+  .member_a31c43{
     background: var(--ML-member-background)!important;
     border-radius: 0;
   }
-  .membersGroup_cad095{
+  .membersGroup_cbd271{
     background: var(--ML-role-background)!important;
   }
   
-  .member_aa4760:has(+.membersGroup_cad095){
+  .member_a31c43:has(+.membersGroup_cbd271){
     border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
     margin-bottom: 10px;
   }
-  .membersGroup_cad095:has(+.member_aa4760){
+  .membersGroup_cbd271:has(+.member_a31c43){
     border-radius: var(--ML-border-radius) var(--ML-border-radius) 0 0;
   }
-.memberInner__4dac6{
+.memberInner_a31c43{
   border-radius: inherit!important;
 }
 [class^=membersGroup]{
