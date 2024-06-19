@@ -27,8 +27,8 @@
 
 @import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/ChannelsBG.css);
-@import url(https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css);
+@import url('https://feorev.github.io/Themes/Discord/PublicSnippets/BG/ChannelsBG.css');
+@import url('https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
@@ -641,4 +641,42 @@ div[class^=numberBadge] {
 /*Text Bar*/
 .themedBackground_d0696b, .channelTextArea_a7d72e {
     background-color: var(--channel-title-background)!important;
+}
+
+.themedBackground_d0696b, .channelTextArea_a7d72e {
+    background-color: var(--channel-title-background)!important;
+}
+
+div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
+    background-color: var(--channel-title-background)!important;
+}
+[data-list-id^=forum-channel-list] button[class^=submitButton][class*=colorBrand] {
+    background-color: #89b4fa;
+    color: #f6f6f8;
+}
+.uploadInput_a15d29 {
+    background-color: #1e1e2e;
+}
+svg[class^=uploadIcon] {
+    color: var(--text-muted);
+}
+
+
+.channelRow_f04d06, .content__41e2, .increasedActivityMainCard_e53744, .row_b53f4f {
+    background: var(--bg-overlay-3,var(--channel-title-background));
+}
+.card_cc2c09, .sidebarCardWrapper_e85cee, .container_ddbb27, .descriptionContainer_ddbb27, .profileCard_c6b11b, .prompt_c6b11b, .container_a039eb, .chatHeaderBar_efb691 {
+    background: var(--bg-overlay-3,var(--channel-title-background));
+}
+.optionButtonWrapper_bd5e1f.selected_bd5e1f {
+    background-color: #181825;
+    border: 2px solid var(--background-modifier-accent);
+}
+
+.channelRow_f04d06:not(.disabled_f04d06):hover{
+    background-color: var(--bg-overlay-3,var(--channel-title-background));
+}
+
+div[class*=chat_] div[class*=content_][class*=container_] div[class*=search_] {
+    background-color: var(--channel-title-background) !important;
 }
