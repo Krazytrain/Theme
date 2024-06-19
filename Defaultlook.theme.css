@@ -252,11 +252,11 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
 .withTagAsButton_b2ca13 .nameTag_b2ca13, .withTagless_b2ca13 .nameTag_b2ca13{
     display: none;
 }
-.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background: var(--bg-overlay-3,var(--background-secondary-alt));
+    background: var(--background-secondary);
     border-radius: 20px;
     padding-top: 50px;
     margin-top: -8px!important;
