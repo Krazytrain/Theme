@@ -628,4 +628,8 @@ background: var(--bg-overlay-3,var(--background-secondary));
     line-height: 16px;
 }
 
-
+/*Ping background color*/
+div[class^=numberBadge] {
+    font-weight: 700;
+    background-color: #f33535fa !important;
+}
