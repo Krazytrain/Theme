@@ -58,3 +58,6 @@
 .container__342a0:has(+.containerDefault_ae2ea4) .containerDefault_ae2ea4{
   border-radius: 0!important;
 }
+.mainContent_a08117:before{
+    background: none!important;
+}

@@ -25,4 +25,11 @@
 .memberInner__4dac6{
   border-radius: inherit!important;
 }
+[class^=membersGroup]{
+  height: fit-content;
+  text-align: center;
+  padding: 12px 8px 0 16px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
   /*=====  End of Section MemberList background  ======*/
