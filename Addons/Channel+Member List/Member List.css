@@ -32,4 +32,15 @@
   margin-top: 10px;
   margin-left: 8px;
 }
+.offline_a31c43 .username_a31c43  {
+    opacity: .3;
+}
+.offline_a31c43 {
+    opacity: 1;
+}
+
+.offline_a31c43:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
   /*=====  End of Section MemberList background  ======*/
