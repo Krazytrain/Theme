@@ -636,5 +636,5 @@ div[class^=numberBadge] {
 
 /*Text Bar*/
 .themedBackground_d0696b, .channelTextArea_a7d72e {
-    background-color: var(--channel-title-background);
+    background-color: var(--channel-title-background)!important;
 }
