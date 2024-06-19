@@ -1,0 +1,67 @@
+
+/*=============================================
+=                  Main Theme                 =
+=============================================*/
+
+/*User Info*//*FIXED*/
+.fade_f88ae3.didRender_f88ae3{
+    margin-left: 20px;
+}
+.guilds_a4d4d9 {
+    padding-bottom: 170px;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.panels_a4d4d9 {
+    position: relative;
+    z-index: 3;
+}
+.panels_a4d4d9 > .container_b2ca13 {
+    height: 85px;
+    z-index: 3;
+    position: fixed;
+    bottom: 60px;
+    left: 0px;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.withTagAsButton_b2ca13, .withTagless_b2ca13 {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    min-width: 0px;
+    padding-left: 2px;
+    position: fixed;
+    margin-top: 5px;
+}
+.withTagAsButton_b2ca13 .nameTag_b2ca13, .withTagless_b2ca13 .nameTag_b2ca13{
+    display: none;
+}
+.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: var(--bg-overlay-3,var(--background-secondary-alt));
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-top: -8px!important;
+}
+.popoutContainer_ad5fac {
+    margin-left: 80px;
+    margin-bottom: -50px;
+}
+/*User Game Button*//*FIXED*/
+.guilds_a4d4d9 {
+    padding-bottom: 220px;
+}
+.panels_a4d4d9 > .container_b2ca13 {
+    height: 130px;
+}
+[class*="withTagAsButton"] {
+    min-width: 36px !important;
+}
+.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    padding-top: 55px;
+    margin-top: -6px!important;
+}

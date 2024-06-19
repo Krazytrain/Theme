@@ -1,0 +1,32 @@
+
+/*=============================================
+=                 Forum Theme                 =
+=============================================*/
+
+/*---------- Settings  ----------*/
+
+
+/*Forum*/
+.increasedActivityMainCard_e53744, .increasedActivityMainCard_e53744:hover{
+    background-color: var(--background-tertiary);
+}
+.tags_b7acc4{
+    zoom: 130%;
+    background-color: var(--background-primary);
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.increasedActivityDotIcon_feef86 {
+    display: none;
+}
+
+.reaction_f61c73.reactionMe_f61c73 .reactionCount_f61c73 {
+    color: var(--brand-500);
+}
+
+
+/*Forum Following*/
+.active_b385c8{
+    border-color: var(--brand-500)!important;
+}

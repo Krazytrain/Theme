@@ -1,0 +1,68 @@
+
+/*=============================================
+=                  Main Theme                 =
+=============================================*/
+
+/* Any custom CSS below here */
+.chatContent_a7d72e{
+    /*put image url here (if it wasn't obvious)*/
+    background-image: url("https://discord.com/assets/68691bc51a5e2da8e8cf.svg");
+    background-size: contain!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-blend-mode: darken;
+}
+
+.themedBackground_d0696b, .channelTextArea_a7d72e {
+    background-color: var(--bg-overlay-3,var(--background-secondary));
+}
+
+.vc-settings-quick-actions-card {
+    gap: 0em;
+}
+
+.container_d1c246 .chatContent_a7d72e {
+    background-image: url(https://discord.com/assets/68691bc….svg);
+    background-size: contain!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-blend-mode: darken;
+}
+
+/*Status Box*/
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252{
+    border-radius:12px;
+    border:1px solid #000}
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252::before{
+    border:1px solid #000;
+    border-radius:0;
+    inset:unset;
+    height:6px;
+    width:12px;
+    top:10px;
+    transform:skewX(60deg);
+    left:-6px}
+.statusBubble_d0a252{
+    border-radius:10px;
+    padding:6px}
+.content_d0a252{
+    color:#000}
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
+    display:none}
+
+/*moves vc hang status to the left*/
+[class*=iconGroup]:has([class*=hangStatusIcon], [d*='M13 3a1'], [class*=gameIcon]) {
+  display: flex;
+  position: absolute;
+  right: 101%;
+}
+
+/*Discord Bot Tags that they messed up*/
+.px_a02df3 .botText_a02df3 {
+    line-height: 16px;
+}
+
+/*Members in voice channel*/
+.listDefault_cdc675{
+    margin-left: -30px!important;
+}
