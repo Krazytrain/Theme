@@ -5,19 +5,6 @@
  * @description A soft and comfy feel for Discord.
 */
 
-
-/**
- * @name Default Look
- * @author Krazytrain
- * @version 1.0.0
- * @description Light weight theme for Discord.
-*/
-/*
------------Font---------
-> Uncomment the font-weight to enable San Fransisco Bold
-> Designed by Apple in California - https://developer.apple.com/fonts/ 
-*/
-
 @import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
@@ -43,9 +30,6 @@
   --ML-member-background: var(--background-tertiary); /* member color */
   --ML-role-background: var(--background-tertiary); /* role color */
 }
-
-
-
 
 
 
