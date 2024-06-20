@@ -57,6 +57,14 @@
 .mainContent_a08117:before{
     background: none!important;
 }
+.sidebar_a4d4d9 li:first-of-type{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sidebar_a4d4d9 li:first-child{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
 /*=============================================
 =            MemberList background            =
 =============================================*/
