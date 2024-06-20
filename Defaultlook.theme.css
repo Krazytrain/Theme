@@ -109,7 +109,7 @@
 /*=============================================
 =            MemberList background            =
 =============================================*/
-  /*
+  
   .member_a31c43{
     background: var(--ML-member-background)!important;
     border-radius: 0;
@@ -117,7 +117,7 @@
   .membersGroup_cbd271{
     background: var(--ML-role-background)!important;
   }
-  
+  /*
   .member_a31c43:has(+.membersGroup_cbd271){
     border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
     margin-bottom: 10px;
