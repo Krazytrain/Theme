@@ -7,13 +7,17 @@
 /*=============================================
 =           Color Theme Pick One              =
 =============================================*/
--@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
--@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
+/*@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');*/
+/*@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');*/
 @import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
--@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
-*/
+/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');*/
+/*=============================================
+=         Main Theme Don't Remove             =
+=============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
-
+/*=============================================
+=                RadialStatus                 =
+=============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
   --rs-small-spacing: 2px;
@@ -30,7 +34,8 @@
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
 }
-
-
+/*=============================================
+=              Custom CSS Code                =
+=============================================*/
 
 
