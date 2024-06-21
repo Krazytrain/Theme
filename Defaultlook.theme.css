@@ -4,12 +4,13 @@
  * @version 1.0.0
  * @description A soft and comfy feel for Discord.
 */
-/*Colors Themes (PICK ONE OF THEM)*//*
-@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
-@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
-*/
+/*=============================================
+=           Color Theme Pick One              =
+=============================================*/
+-@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
+-@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
 @import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
-/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
+-@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
 */
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
 
