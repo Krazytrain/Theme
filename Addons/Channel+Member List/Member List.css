@@ -43,4 +43,38 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.member_a31c43{
+    background: var(--ML-member-background)!important;
+    border-radius: 0;
+  }
+.membersGroup_cbd271{
+    background: var(--ML-role-background)!important;
+  }
+
+/*Channels and Member list*/
+.containerDefault_f6f816:has(+.sectionDivider_c43953) {
+    border-radius: 0 0 var(--channel-border-radius) var(--channel-border-radius)!important;
+}
+
+:is(.containerDefault_f6f816:hover, 
+.selected_f6f816):has(+.sectionDivider_c43953) .link_d8bfb3 {
+    border-radius: 0 0 var(--channel-border-radius) var(--channel-border-radius);
+}
+
+[style="height: 16px;"]{
+  display: none ;
+}
+.offline_a31c43 .username_a31c43  {
+    opacity: .3;
+}
+.offline_a31c43 {
+    opacity: 1;
+}
+
+.offline_a31c43:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
   /*=====  End of Section MemberList background  ======*/
