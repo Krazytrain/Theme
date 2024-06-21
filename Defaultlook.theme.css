@@ -4,28 +4,14 @@
  * @version 1.0.0
  * @description A soft and comfy feel for Discord.
 */
-/*Colors*/
-/* frappe */
-/*@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
-/* macchiato */
-/*@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
-/* mocha */
-@import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
-/* mocha (pink accent)*/
-/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
-/**
- * @name Default Look
- * @author Krazytrain
- * @version 1.0.0
- * @description Light weight theme for Discord.
+/*Colors Themes (PICK ONE OF THEM)*//*
+@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
+@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
 */
-/*
------------Font---------
-> Uncomment the font-weight to enable San Fransisco Bold
-> Designed by Apple in California - https://developer.apple.com/fonts/ 
+@import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
+/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
 */
 
-@import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://krazytrain.github.io/Theme/Addons/Channel&Member List.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
@@ -52,19 +38,6 @@
   --ML-role-background: var(--background-tertiary); /* role color */
 }
 
-code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .after_inlineCode_cdb578, .before_inlineCode_cdb578, .inlineCode_cdb578 {
-  font-family: "SF Mono",mono,monospace;
-}
 
-* {
-  --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-display: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  text-rendering: optimizeLegibility;
-  text-transform: none !important;
-  letter-spacing: 0.015em;
-
-  // font-weight: bold !important;
-}
 
 
