@@ -11,11 +11,13 @@
 @import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
 /*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
 */
-
+/*
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://krazytrain.github.io/Theme/Addons/Channel&Member List.css');
+*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
 
+@import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
@@ -30,12 +32,6 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-  --channel-border-radius:10px; /* Rounding */
-  --channel-background: var(--background-tertiary); /* channel color */
-  --channel-title-background: var(--background-tertiary); /* title color */
-  --ML-border-radius:10px; /* Rounding */
-  --ML-member-background: var(--background-tertiary); /* member color */
-  --ML-role-background: var(--background-tertiary); /* role color */
 }
 
 
