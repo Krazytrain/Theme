@@ -28,7 +28,8 @@
 @import url("https://rawcdn.githack.com/yurifuko/AppleFontsCSS/63d11c4a50ce8ee001f70870bbe4f2752983848d/Apple-fonts.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://krazytrain.github.io/Theme/Addons/Channel&Member List.css');
-@import url('https://feorev.github.io/Themes/Discord/PublicSnippets/BG/MemberListBG.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
+
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
@@ -51,9 +52,8 @@
   --ML-role-background: var(--background-tertiary); /* role color */
 }
 
-/* Any custom CSS below here */
+/* Any custom CSS below here *//*
 .chatContent_a7d72e{
-    /*put image url here (if it wasn't obvious)*/
     background-image: url("https://discord.com/assets/68691bc51a5e2da8e8cf.svg");
     background-size: contain!important;
     background-position: center!important;
@@ -96,7 +96,7 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
 }
 
 
-/*User Info*//*FIXED*/
+/*User Info*//*FIXED*//*
 .fade_f88ae3.didRender_f88ae3{
     margin-left: 20px;
 }
@@ -144,7 +144,7 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
     margin-left: 80px;
     margin-bottom: -50px;
 }
-/*User Game Button*//*FIXED*/
+/*User Game Button*//*FIXED*//*
 .guilds_a4d4d9 {
     padding-bottom: 220px;
 }
@@ -160,7 +160,7 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
 }
 
 
-/*Forum*/
+/*Forum*//*
 .increasedActivityMainCard_e53744, .increasedActivityMainCard_e53744:hover{
     background-color: var(--background-tertiary);
 }
@@ -180,13 +180,13 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
 }
 
 
-/*Forum Following*/
+/*Forum Following*//*
 .active_b385c8{
     border-color: var(--brand-500)!important;
 }
 
 
-/*Spotify Fix*/
+/*Spotify Fix*//*
 .panels_a4d4d9 {
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
     top: 12px !important;
 }
 
-/* Spotify panel */
+/* Spotify panel *//*
 .vc-spotify-button-row {
   padding: 0;
   margin-top: 10px;
@@ -222,7 +222,7 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
   background: var(--bg-overlay-4, var(--background-secondary)) !important;
 }
 
-/* Hide Buttons */
+/* Hide Buttons *//*
 button[aria-label="Send a gift"] {
     display: none;
 }
@@ -247,12 +247,12 @@ button[aria-label="Open GIF picker"] {
 .anchor_af404b.anchorUnderlineOnHover_af404b [aria-label="Help"]{
   display: none;
 }
-/*Reactions*/
+/*Reactions*//*
 .reaction_ec6b19, .updateReactionButton_d331f1>div{
     zoom: 120%;
 }
 
-/*Emoji*//*FIXED*/
+/*Emoji*//*FIXED*//*
 .theme-light .reaction_ec6b19, 
 .theme-light .addReactButton_b385c8, 
 .theme-light .button_b385c8.button_dd4f85 .contents_dd4f85, 
@@ -269,7 +269,7 @@ button[aria-label="Open GIF picker"] {
     border: 1px solid hsl(var(--white-500-hsl)/.2);
 }
 
-/*Super Reactions*//*FIXED*/
+/*Super Reactions*//*FIXED*//*
 .reaction_ec6b19.reactionMe_ec6b19, .reaction_f61c73.reactionMe_ec6b19 {
     border-color: var(--brand-500);
 }
@@ -280,7 +280,7 @@ button[aria-label="Open GIF picker"] {
     border-color: var(--brand-500);
 }
 
-/*Channel text*/
+/*Channel text*//*
 .icon_a08117{
     left: 10px!important;
 }
@@ -342,14 +342,14 @@ button[aria-label="Open GIF picker"] {
     margin-left: 36px!important;
 }
 
-/*Members in voice channel*/
+/*Members in voice channel*//*
 .listDefault_cdc675{
     margin-left: -30px!important;
 }
 
 
 
-/*NSFW TAG*/
+/*NSFW TAG*//*
 [class*=linkTop_]:has(> [class*=iconContainer__] [d^="M18.09 1.63"]) > [class*=children_]::after {
     content: "NSFW";
     background: var(--status-danger-background);
@@ -362,7 +362,7 @@ button[aria-label="Open GIF picker"] {
     line-height: 16px;
     margin-left: 4px;
 }
-/*Settings Popout Layout*/
+/*Settings Popout Layout*//*
 [class^=standardSidebarView_]
  {  position: static;
    overflow: auto !important;
@@ -391,7 +391,7 @@ button[aria-label="Open GIF picker"] {
 .layer_d4b6c5[aria-hidden="false"] + .layer_d4b6c5[aria-hidden="false"] {
   display: none
 }
-#app-mount .baseLayer_d4b6c5 /*keep view under settings*/
+#app-mount .baseLayer_d4b6c5
  { opacity: 1 !important;
    transform: scale(1) !important;
  }
@@ -408,7 +408,7 @@ button[aria-label="Open GIF picker"] {
 
 
 
-/* Fix Nitro Colors */
+/* Fix Nitro Colors *//*
 .container_f1fd9c, .header_f1fd9c, .scrollerContainer_c6b11b .container_c2efea, .content_fa4e6d{
   background: var(--bg-overlay-chat,var(--background-primary))
 }
@@ -473,7 +473,7 @@ background: var(--bg-overlay-3,var(--background-secondary));
 
 
 
-/*Status Box*/
+/*Status Box*//*
 .userProfileOuter_c69a7b .statusBubbleOuter_d0a252{
     border-radius:12px;
     border:1px solid #000}
@@ -494,30 +494,30 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
     display:none}
 
-/*moves vc hang status to the left*/
+/*moves vc hang status to the left*//*
 [class*=iconGroup]:has([class*=hangStatusIcon], [d*='M13 3a1'], [class*=gameIcon]) {
   display: flex;
   position: absolute;
   right: 101%;
 }
 
-/*Emoji Box Full Height*/
+/*Emoji Box Full Height*//*
 [class^="positionContainer_"] {
   height: calc(100vh - 180px);
 }
 
-/*Discord Bot Tags that they messed up*/
+/*Discord Bot Tags that they messed up*//*
 .px_a02df3 .botText_a02df3 {
     line-height: 16px;
 }
 
-/*Ping background color*/
+/*Ping background color*//*
 div[class^=numberBadge] {
     font-weight: 700;
     background-color: #f33535fa !important;
 }
 
-/*Text Bar*/
+/*Text Bar*//*
 .themedBackground_d0696b, .channelTextArea_a7d72e {
     background-color: var(--channel-title-background)!important;
 }
