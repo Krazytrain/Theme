@@ -22,8 +22,8 @@
 
 /*---------- Settings  ----------*/
 
-@import url('https://krazytrain.github.io/Theme/Addons/Channel+Member List/Channel.css');
-@import url('https://krazytrain.github.io/Theme/Addons/Channel+Member List/Member List.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Channel.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Member List.css');
 :root {
   --channel-border-radius:10px; /* Rounding */
   --channel-background: var(--background-tertiary); /* channel color */
