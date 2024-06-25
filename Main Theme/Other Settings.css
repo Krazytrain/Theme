@@ -41,12 +41,6 @@
 .userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
     display:none}
 
-/*moves vc hang status to the left*/
-[class*=iconGroup]:has([class*=hangStatusIcon], [d*='M13 3a1'], [class*=gameIcon]) {
-  display: flex;
-  position: absolute;
-  right: 101%;
-}
 
 /*Discord Bot Tags that they messed up*/
 .px_a02df3 .botText_a02df3 {
