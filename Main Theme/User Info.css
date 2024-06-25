@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background: var(--bg-overlay-3,var(--background-secondary-alt));
+    background: var(--bg-overlay-3,var(--background-secondary));
     border-radius: 20px;
     padding-top: 50px;
     margin-top: -8px!important;
