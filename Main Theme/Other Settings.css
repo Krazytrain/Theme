@@ -40,7 +40,38 @@
     color:#000}
 .userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
     display:none}
+/*Nitro Themes Remove Color*/
+* {
+    --profile-gradient-primary-color: var(--background-tertiary)!important;
+    --profile-gradient-secondary-color: var(--background-tertiary)!important;
+    --profile-gradient-overlay-color: transparent!important;
+    --profile-gradient-button-color: var(--button-secondary-background)!important;
+    --profile-avatar-border-color: var(--background-tertiary)!important;
+    --profile-message-input-border-color: var(--background-modifier-accent)!important;
+    --profile-body-background-color: var(--background-floating)!important;
+    --profile-body-background-hover: var(--background-modifier-hover)!important;
+    --profile-body-divider-color: var(--background-modifier-accent)!important;
+    --profile-role-pill-background-color: var(--primary-500-hsl)!important;
+    --profile-role-pill-border-color: var(--border-faint)!important;
+}
 
+.custom-profile-theme .inner_dc0b43 {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.pill_f9575e, .pill_c83b44, .button_edead5 {
+    border-radius: var(--radius-xs);
+    background: var(--bg-overlay-3,var(--background-secondary))!important;
+    border: 1px solid var(--border-faint);
+}
+.custom-profile-theme .statusBubble_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252:before, .custom-profile-theme .statusBubbleOuter_d0a252:after {
+    background-color: var(--bg-overlay-3,var(--background-secondary));
+}
+.statusBubble_d0a252 {
+    background-color: var(--bg-overlay-3,var(--background-secondary));
+}
+.statusBubbleOuter_d0a252:before {
+    background-color: var(--bg-overlay-3,var(--background-secondary));
+}
 
 /*Discord Bot Tags that they messed up*/
 .px_a02df3 .botText_a02df3 {
