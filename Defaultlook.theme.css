@@ -4,18 +4,21 @@
  * @version 1.0.0
  * @description A soft and comfy feel for Discord.
 */
-/*Colors Themes (PICK ONE OF THEM)*//*
-@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');
-@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');
-*/
+/*=============================================
+=           Color Theme Pick One              =
+=============================================*/
+/*@import url('https://krazytrain.github.io/Theme/Colors/frappe.css');*/
+/*@import url('https://krazytrain.github.io/Theme/Colors/macchiato.css');*/
 @import url('https://krazytrain.github.io/Theme/Colors/Mocha.css');
-/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');
-*/
-
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://krazytrain.github.io/Theme/Addons/Channel&Member List.css');
+/*@import url('https://krazytrain.github.io/Theme/Colors/Mocha Pink.css');*/
+/*=============================================
+=         Main Theme Don't Remove             =
+=============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
-
+/*=============================================
+=                RadialStatus                 =
+=============================================*/
+@import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
@@ -30,14 +33,9 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-  --channel-border-radius:10px; /* Rounding */
-  --channel-background: var(--background-tertiary); /* channel color */
-  --channel-title-background: var(--background-tertiary); /* title color */
-  --ML-border-radius:10px; /* Rounding */
-  --ML-member-background: var(--background-tertiary); /* member color */
-  --ML-role-background: var(--background-tertiary); /* role color */
 }
-
-
+/*=============================================
+=              Custom CSS Code                =
+=============================================*/
 
 

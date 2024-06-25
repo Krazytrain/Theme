@@ -1,4 +1,3 @@
-
 /*=============================================
 =                  Main Theme                 =
 =============================================*/
@@ -64,4 +63,16 @@
 .container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
     padding-top: 55px;
     margin-top: -6px!important;
+}
+
+.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
+    left: 10px;
+}
+[class*="panels"] [class*="avatarWrapper"] {
+    min-width: 34px!important;
+    position: absolute;
+    left: 20px;
+}
+.nameTag_b2ca13.canCopy_b2ca13 {
+    display: none;
 }
