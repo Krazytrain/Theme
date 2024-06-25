@@ -4,15 +4,6 @@
 =============================================*/
 
 /* Any custom CSS below here */
-.chatContent_a7d72e{
-    /*put image url here (if it wasn't obvious)*/
-    background-image: url("https://discord.com/assets/68691bc51a5e2da8e8cf.svg");
-    background-size: contain!important;
-    background-position: center!important;
-    background-repeat: no-repeat!important;
-    background-blend-mode: darken;
-}
-
 .themedBackground_d0696b, .channelTextArea_a7d72e {
     background-color: var(--bg-overlay-3,var(--background-secondary));
 }
