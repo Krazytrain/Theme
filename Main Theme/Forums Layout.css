@@ -25,7 +25,11 @@
     color: var(--brand-500);
 }
 .uploadIcon_a15d29 {
-    color: var(--interactive-normal);
+    color: var(--interactive-normal)!important;
+}
+.theme-dark .container_d331f1.isOpen_d331f1 {
+    background-color: var(--background-modifier-selected)!important;
+    border-color: var(--brand-500);
 }
 
 /*Forum Following*/
