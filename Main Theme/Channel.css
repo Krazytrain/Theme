@@ -99,3 +99,14 @@ li:not([class]) > .containerDefault_f6f816{
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
+
+
+.containerDefault_a08117:has(+.containerDefault_a08117), .containerDefault_a08117:nth-last-child(1), [style="height: 12px;"] + .containerDefault_f6f816:has(+.containerDefault_a08117), .content_eed6a8:not(:has([data-list-item-id^="channels___upcoming-events-"])):not(:has([data-list-item-id^="channels___home-tab-"])) li:has([data-list-item-id^="channels___channels-"]) {
+    border-radius: 10px;
+}
+.theme-dark .icon_a08117, .theme-dark .children_a08117{
+    display: none;
+}
+.name_a08117.container_cc72c1 .overflow_c74e70{
+    left: 0px!important;
+} 
