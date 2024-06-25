@@ -164,3 +164,26 @@
     bottom:4px;
     right:4px;
 }
+
+
+
+
+.channelRow_f04d06, .content__41e2, .increasedActivityMainCard_e53744, .row_b53f4f {
+    background: var(--bg-overlay-3,var(--channel-background));
+}
+.card_cc2c09, .sidebarCardWrapper_e85cee, .container_ddbb27, .descriptionContainer_ddbb27, .profileCard_c6b11b, .prompt_c6b11b, .container_a039eb, .chatHeaderBar_efb691{
+    background: var(--bg-overlay-3,var(--channel-background));
+}
+
+
+div[class*=chat_] li[class*=mainCard_][class*=container]:hover {
+    background-color: #45475a;
+}
+
+div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]:hover {
+    background-color: #45475a;
+}
+
+.container_a57509.isOpen_a57509, .optionButtonWrapper_bd5e1f.selected_bd5e1f{
+    border-color: var(--brand-500);
+}
