@@ -2,7 +2,7 @@
 /*=============================================
 =                  Main Theme                 =
 =============================================*/
-
+@import url('https://krazytrain.github.io/Theme/Main Theme/Theme Info.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Channel Text.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Fix Nitro Colors.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Forums Layout.css');
@@ -14,7 +14,6 @@
 @import url('https://krazytrain.github.io/Theme/Main Theme/Spotify Layout.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/User Info.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/fonts.css');
-
 
 /*=============================================
 =        Channel and Member background        =
