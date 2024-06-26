@@ -110,3 +110,8 @@ li:not([class]) > .containerDefault_f6f816{
 .name_a08117.container_cc72c1 .overflow_c74e70{
     left: 0px!important;
 } 
+
+ul[aria-label$=" threads"]>li:nth-child(1n){
+    border-top-right-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+}
