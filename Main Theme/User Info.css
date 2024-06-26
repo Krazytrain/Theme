@@ -76,3 +76,8 @@
 .nameTag_b2ca13.canCopy_b2ca13 {
     display: none;
 }
+
+/*Hide Mobile Icons*/
+#app-mount .wrapper_c51b4e foreignObject[mask*=mobile]:after{
+    display: none;
+}
