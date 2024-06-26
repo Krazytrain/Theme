@@ -77,7 +77,3 @@
     display: none;
 }
 
-/*Hide Mobile Icons*/
-.wrapper_c51b4e foreignObject[mask*=mobile]:after{
-    display: none!important;
-}
