@@ -231,3 +231,10 @@
   content: "RadialStatus " var(--rs-version);
   display: block;
 }
+#app-mount .memberNameContainer_d936aa .wrapper_c51b4e rect[mask*=offline], 
+#app-mount .memberNameContainer_d936aa .wrapper_c51b4e rect[mask*=online],
+#app-mount .memberNameContainer_d936aa .wrapper_c51b4e rect[mask*=idle],
+#app-mount .memberNameContainer_d936aa .wrapper_c51b4e rect[mask*=dnd] {
+    height: 48px;
+    width: 48px;
+}
