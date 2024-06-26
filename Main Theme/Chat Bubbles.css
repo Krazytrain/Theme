@@ -99,6 +99,9 @@
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
+.message_d5deea.selected_d5deea, .mouse-mode.full-motion .message_d5deea:hover {
+    background: var(--bg-overlay-1,var(--background-message-hover));
+}
 .markup_d6076c blockquote, .markup_d6076c pre {
     max-width: 100%;
 }
