@@ -31,3 +31,9 @@
   --ML-member-background: var(--background-tertiary); /* member color */
   --ML-role-background: var(--background-tertiary); /* role color */
 }
+
+
+/*Hide Mobile Icons*/
+.wrapper_c51b4e foreignObject[mask*=mobile]:after{
+    display: none!important;
+}
