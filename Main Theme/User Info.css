@@ -78,6 +78,6 @@
 }
 
 /*Hide Mobile Icons*/
-#app-mount .wrapper_c51b4e foreignObject[mask*=mobile]:after{
+.wrapper_c51b4e foreignObject[mask*=mobile]:after{
     display: none!important;
 }
