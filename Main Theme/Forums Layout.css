@@ -10,6 +10,9 @@
 .increasedActivityMainCard_e53744, .increasedActivityMainCard_e53744:hover{
     background-color: var(--background-tertiary);
 }
+.channelRow_f04d06:not(.disabled_f04d06):hover {
+    background: var(--bg-overlay-3,var(--channel-background));
+}
 .tags_b7acc4{
     zoom: 130%;
     background-color: var(--background-primary);
