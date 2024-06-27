@@ -77,4 +77,7 @@
     border-bottom-right-radius: 10px;
 }
 
+.member_a31c43:last-child {
+    border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
+}
   /*=====  End of Section MemberList background  ======*/
