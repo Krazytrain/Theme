@@ -16,14 +16,12 @@
 =============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Main.css');
 /*=============================================
-=                Chat Bubbles                 =
-=    0 = Disable | 1 = Normal | 2 = Bigger    =
-=                RadialStatus                 =
+=               Custom Addons                 =
 =============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Chat Bubbles.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
-  --chat-bubble: 1;
+  --chat-bubble: 1; /*0 = Disable | 1 = Normal | 2 = Bigger*/
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
   --rs-large-spacing: 2px;
