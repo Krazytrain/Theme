@@ -1,95 +1,203 @@
 /*=============================================
 =                 Chat Bubbles                =
 =============================================*/
- :root {
-    --chat-bubble: 1;
 
-    --chat-bubble-background-color: var(--background-secondary);
-    --chat-bubble-border-color: var(--background-secondary-alt);
-    --chat-bubble-code-background-color: var(--background-secondary-alt);
+:root {
+  --cb-bubble-background: var(--background-secondary); /* Message bubble background */
+  --cb-bubble-corner-radius: 10px; /* Message bubble corner radius */
 
-    --chat-bubble-max-width: 100%;
-    --chat-bubble-border-radius: 10px;
+  --cb-mentioned-indicator-width: 2px; /* Width of left indicator line in messages with mention */
+  --cb-replying-indicator-width: 2px; /* Width of left indicator line in message that you are replying */
 
-    --chat-bubble-box-shadow-h-offset: 0;
-    --chat-bubble-box-shadow-v-offset: 4px;
-    --chat-bubble-box-shadow-blur: 4px;
+  --chat-bubble: 1;
+
+  --chat-bubble-background-color: var(--background-secondary);
+  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-code-background-color: var(--background-secondary-alt);
+
+  --chat-bubble-box-shadow-h-offset: 0;
+  --chat-bubble-box-shadow-v-offset: 4px;
+  --chat-bubble-box-shadow-blur: 4px;
     
-    --chat-bubble-box-shadow-color-h: 0;
-    --chat-bubble-box-shadow-color-s: 0%;
-    --chat-bubble-box-shadow-color-l: 0%;
-    --chat-bubble-box-shadow-color-a: 0.16;
+  --chat-bubble-box-shadow-color-h: 0;
+  --chat-bubble-box-shadow-color-s: 0%;
+  --chat-bubble-box-shadow-color-l: 0%;
+  --chat-bubble-box-shadow-color-a: 0.16;
 }
 
-.groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa,
-.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
-    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
-    background-size: calc(var(--chat-bubble) * 1px);
-    max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
-    width: fit-content;
-    margin: 0;
-    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
-    border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
-    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
-    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
+/*#region Message*/
+.message_d5deea:not(.systemMessage_d5deea), .message_d5deea:not(.systemMessage_d5deea):hover {
+  background: var(--cb-bubble-background)!important;
+  margin-left: 4rem;
+  margin-top: .125rem;
+  margin-bottom: .125rem;
+  margin-right: 48px;
+  width: fit-content;
+  max-width: calc(100% - 9rem);
+  padding: 10px !important;
+  border-radius: var(--cb-bubble-corner-radius);
+  background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+  background-size: calc(var(--chat-bubble) * 1px);
+  border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+  box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
 }
 
-.cozyMessage_d5deea.automodMessage_d5deea:before,
-.cozyMessage_d5deea.ephemeral_d5deea:before,
-.cozyMessage_d5deea.mentioned_d5deea:before,
-.cozyMessage_d5deea.replying_d5deea:before {
-    width: calc(2px - (var(--chat-bubble) * 2px));
+div[class*=pollContainer] {
+    max-width: 100%;
+    min-width: fit-content;
+    width: auto;
+}
+.spine_c15230.cozy_c15230 {
+    display: ruby;
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
-    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
+.avatar_ec86aa,
+.avatarDecoration_ec86aa,
+.timestampVisibleOnHover_ec86aa { /* Fix avatar, avatar decoration, timestamp position */
+  margin-left: -4rem;
+}
+.repliedMessage_ec86aa:before{
+    left: -2.5rem;
+    width: 34px;
+    border-top: 2px solid var(--background-accent);
+    border-left: 2px solid var(--background-accent);
+    position: absolute;
 }
 
-.cozyMessage_d5deea.mentioned_d5deea {
-    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
+/*Mentioned*/
+.mentioned_d5deea::before { /* Recreate mentioned style to have rounded corners */
+  display: none;
+}
+.mentioned_d5deea {
+  border: var(--cb-mentioned-indicator-width) solid var(--info-warning-foreground)!important;
+  border-width: 2px!important;
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
-.groupStart_d5deea.cozyMessage_d5deea.ephemeral_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.ephemeral_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
-    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
+/*Replying*/
+.replying_d5deea::before { /* Recreate replying style to have rounded corners */
+  display: none;
+}
+.replying_d5deea {
+  border-left: var(--brand-experiment) 2px solid;
 }
 
-.cozyMessage_d5deea.replying_d5deea,
-.cozyMessage_d5deea.ephemeral_d5deea {
-    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
+.replying_d5deea .avatar_ec86aa { /* Fix avatar indent when replying */
+  margin-left: calc(-4.5rem - var(--cb-replying-indicator-width));
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
-    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+/*Threads*/
+.container_c15230 {
+  background: var(--background-secondary-alt);
+  width: -webkit-fill-available;
+  margin-top: unset;
 }
 
-.cozyMessage_d5deea.automodMessage_d5deea {
-    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
+.hasThread_ec86aa::after { /* Remove thread "arrow" */
+  display: none;
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea:hover .contents_ec86aa,
-.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea):hover .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
-    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
-    background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+/*Reactions*/
+.reaction_f61c73 { /* Add background to reactions */
+  background: var(--background-primary);
+  border-color: hsla(0,calc(var(--saturation-factor, 1)*0%),100%,.2);
+  margin-top: 5px;
+}
+.theme-light.reaction_f61c73 {
+  border-color: hsla(0,calc(var(--saturation-factor, 1)*0%),0%,.2);
 }
 
-.cozyMessage_d5deea.automodMessage_d5deea:hover {
-    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
-    background-size: calc((1 - var(--chat-bubble)) * 1px);
+.reactions_f61c73 { /* Fix reactions bottom margin */
+  margin-bottom: -1px;
+  padding-bottom: unset;
+}
+.reaction_f61c73 {
+  margin-bottom: unset;
+}
+
+.reactionBtn_f61c73 { /* Fix add reaction button bottom margin */
+  margin-bottom: unset;
+}
+
+/*Emoji*/
+.emojiContainer_bae8cb {
+  width: fit-content;
+  height: fit-content;
+}
+.emoji {
+  width: 21px;
+  height: 21px;
+}
+
+/*Dividers*/
+.divider_d5deea, .divider_fc5f50 { /* Fix dividers indents */
+  position: relative;
+  top: 0px !important;
+  margin: 17px 0px !important;
+}
+/*Dividers*/
+
+/*Alt-text*/
+.altText_cf58b5 { /* Fix alt-text indents */
+  margin: 10px 0 0 0px;
+}
+.altText_cf58b5:empty {
+  display: none;
+}
+
+/*Embeds*/
+.container_b558d0 { /* Add gaps between embeds */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reaction_f61c73 { /* Fix reactions top margin */
+  margin-top: unset;
+}
+
+.reactions_f61c73 { /* Fix reactions position */
+  width: 100%;
+}
+
+/*Images*/
+.imageWrapper__178ee {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.imageContainer_cf58b5 + .altText_cf58b5 { /* Hide image details */
+  display: none;
+}
+
+.messageAttachment__5dae1 .imageWrapper__178ee { /* Make images same width */
+  max-width: 350px !important;
+}
+
+.messageAttachment__5dae1 {
+  width: 100%;
+}
+
+/*Remove attachment buttons*/
+.imageContainer_cf58b5 {
+  position: relative;
+}
+.removeAttachmentButton__692b5 {
+  z-index: 1;
+
+  position: absolute;
+  top: 4px;
+  right: -4px;
+
+  background: var(--background-primary);
+  border-radius: 4px;
+  width: 24px; height: 24px;
+  box-shadow: -0.4px 0.4px 2px 0px rgba(0,0,0,0.4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: translate3d(0,-10px,0);
+  transition: all .1s ease-in-out;
 }
 
 .groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa .markup_d6076c code,
@@ -138,3 +246,5 @@
 .groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa .codeContainer_d6076c {
     padding-right: 50px!important;
 }
+
+
