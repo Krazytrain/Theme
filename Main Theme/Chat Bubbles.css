@@ -134,7 +134,10 @@ div[class*=pollContainer] {
   top: 0px !important;
   margin: 17px 0px !important;
 }
-/*Dividers*/
+/*Polls and Threads Backgrounds*/
+.container_c15230, div[class*=pollContainer]{
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color))!important;
+}
 
 /*Alt-text*/
 .altText_cf58b5 { /* Fix alt-text indents */
