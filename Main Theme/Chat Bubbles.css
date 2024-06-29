@@ -249,7 +249,18 @@ div[class*=pollContainer] {
 .groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa .codeContainer_d6076c {
     padding-right: 50px!important;
 }
-
+/*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
     width: auto;
+}
+.wrapper_ef319f {
+    background-color: var(--background-secondary) !important;
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
+    border: 1px solid var(--background-tertiary);
+}
+.scrollerInner_e2e187 .container_b385c8{
+    background-color: transparent;
+}
+.scrollerInner_e2e187 .container_b385c8 {
+    box-shadow: none;
 }
