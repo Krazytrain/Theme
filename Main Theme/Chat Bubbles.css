@@ -271,3 +271,7 @@ div[class*=pollContainer] {
 .group-spacing-16 .groupStart_d5deea:hover {
     margin-top: 1rem!important;
 }
+/*Poll width Fix*/
+[class*=pollContainer] {
+    width: -webkit-fill-available!important;
+}
