@@ -37,6 +37,9 @@
 .theme-dark .matchingPostsRow_a6d69a, div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
     background: var(--channel-background);
 }
+div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]:hover{
+    border-color: var(--brand-500);
+}
 /*Forum Following*/
 .active_b385c8{
     border-color: var(--brand-500)!important;
