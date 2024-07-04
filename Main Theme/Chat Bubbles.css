@@ -278,3 +278,22 @@ div[class*=pollContainer] {
 [class*=pollContainer] {
     width: -webkit-fill-available!important;
 }
+
+
+
+
+/*Quick Fix*/
+.repliedMessage_f9f2ca:before{
+    border-color: var(--brand-500);
+    left: -48px;
+}
+.hasThread_f9f2ca:after {
+    border-left: 2px solid var(--brand-500)!important;
+    border-bottom: 2px solid var(--brand-500)!important;
+    border-bottom-left-radius: 8px;
+    left: -35px!important;
+    bottom: 39px!important;
+}
+.avatar_f9f2ca {
+    left: -58px;
+}
