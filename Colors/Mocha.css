@@ -12,3 +12,6 @@
 .theme-dark .footer_fa823b{
     background: var(--channel-background);
 }
+.theme-dark .overlayBackground_c69a7b, .theme-dark .activity_cd74cc {
+    background-color: var(--bg-overlay-chat,var(--background-primary))!important;
+}
