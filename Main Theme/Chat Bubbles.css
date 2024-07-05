@@ -262,6 +262,11 @@ div[class*=pollContainer] {
     background-color: var(--background-secondary) !important;
     background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
     border: 1px solid var(--background-tertiary);
+    border-radius: var(--cb-bubble-corner-radius);
+    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset)* var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur)* var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a)* var(--chat-bubble)));
+}
+.inner_a3b500 {
+    overflow: hidden;
 }
 .scrollerInner_e2e187 .container_b385c8{
     background-color: transparent;
@@ -275,6 +280,9 @@ div[class*=pollContainer] {
 }
 .group-spacing-16 .groupStart_d5deea:hover {
     margin-top: 1rem!important;
+}
+.messageListItem_d5deea {
+    margin-top: 8px!important;
 }
 /*Poll width Fix*/
 [class*=pollContainer] {
