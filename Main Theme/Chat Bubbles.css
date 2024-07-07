@@ -305,11 +305,11 @@ div[class*=pollContainer] {
     bottom: 39px!important;
 }
 .avatar_f9f2ca {
-    left: -58px;
+    left: -58px!important;
 }
 .avatarDecoration_f9f2ca{
-    left: -60px;
+    left: -60px!important;
 }
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
-    left: -76px;
+    left: -76px!important;
 }
