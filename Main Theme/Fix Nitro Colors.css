@@ -10,7 +10,7 @@
 .mainCard_a6d69a, .matchingPostsRow_a6d69a{
     background: var(--bg-overlay-3,var(--background-primary));
 }
-.page_d20375, .header_f1fd9c{
+.page_d20375{
     background: var(--bg-overlay-chat,var(--background-tertiary))!important;
 }
 
