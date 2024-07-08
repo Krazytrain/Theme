@@ -54,7 +54,7 @@ background: var(--bg-overlay-3,var(--background-secondary));
 }
 
 .titleContainer_e87574, .header_bd05f1{
-	background-color: var(--bg-overlay-4,var(--background-primary))!important;
+	background: var(--bg-overlay-4,var(--background-primary))!important;
 }
 .sidebarRegionScroller_c25c6d, .container_cc7b67, .background_b69b77, .fieldList_b69b77, .container_d00e26, .container_b01337, .container_a2e886 {
     background: var(--bg-overlay-3,var(--background-secondary));
