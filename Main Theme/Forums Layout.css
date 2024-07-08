@@ -30,11 +30,11 @@
 .uploadIcon_a15d29 {
     color: var(--interactive-normal)!important;
 }
-.theme-dark .container_d331f1.isOpen_d331f1 {
+.container_d331f1.isOpen_d331f1 {
     background-color: var(--background-modifier-selected)!important;
     border-color: var(--brand-500);
 }
-.theme-dark .matchingPostsRow_a6d69a, div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
+.matchingPostsRow_a6d69a, div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
     background: var(--channel-background);
 }
 div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]:hover{
