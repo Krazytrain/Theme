@@ -3,7 +3,7 @@
 =============================================*/
 
 :root {
-  --cb-bubble-background: var(--bg-overlay-app-frame,var(--background-tertiary)); /* Message bubble background */
+  --cb-bubble-background: var(--channel-background); /* Message bubble background */
   --cb-bubble-corner-radius: 10px; /* Message bubble corner radius */
 
   --cb-mentioned-indicator-width: 2px; /* Width of left indicator line in messages with mention */
@@ -11,7 +11,6 @@
 
   --chat-bubble: 1;
 
-  --chat-bubble-background-color: var(--background-secondary);
   --chat-bubble-border-color: var(--background-secondary-alt);
   --chat-bubble-code-background-color: var(--background-secondary-alt);
 
@@ -46,9 +45,6 @@ div[class*=pollContainer] {
     max-width: 100%;
     min-width: fit-content;
     width: auto;
-}
-.spine_c15230.cozy_c15230 {
-    display: ruby;
 }
 
 .avatar_ec86aa,
@@ -152,6 +148,7 @@ div[class*=pollContainer] {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 
 .reaction_f61c73 { /* Fix reactions top margin */
@@ -161,6 +158,15 @@ div[class*=pollContainer] {
 .reactions_f61c73 { /* Fix reactions position */
   width: 100%;
 }
+
+.embedFull_ad0b71 {
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color))!important;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+
+
 
 /*Images*/
 .imageWrapper__178ee {
