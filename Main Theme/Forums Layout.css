@@ -192,9 +192,6 @@ div[class*=chat_] li[class*=mainCard_][class*=container]:hover {
     background-color: var(--bg-overlay-3,var(--channel-background));
 }
 
-div[class^=chat]>div[class^=content]>div[class^=container] div[class*=container_d331f1]:hover {
-    background-color: var(--bg-overlay-3,var(--channel-background));
-}
 
 .container_a57509.isOpen_a57509, .optionButtonWrapper_bd5e1f.selected_bd5e1f{
     border-color: var(--brand-500);
