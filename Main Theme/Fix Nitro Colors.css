@@ -72,7 +72,7 @@ background: var(--bg-overlay-3,var(--background-secondary));
     background: var(--bg-overlay-chat, var(--background-primary));
 }
 
-.container_f1fd9c, .header_f1fd9c, .scrollerContainer_c6b11b .container_c2efea, .content_fa4e6d {
+.container_f1fd9c, .scrollerContainer_c6b11b .container_c2efea, .content_fa4e6d {
     background: var(--bg-overlay-3,var(--background-tertiary));
 }
 
