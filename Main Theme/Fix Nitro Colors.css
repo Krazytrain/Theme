@@ -65,6 +65,9 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .content_a7d72e {
     background: var(--bg-overlay-chat);
 }
+.themedBackground_d0696b, .channelTextArea_a7d72e {
+    background: var(--cb-bubble-background)!important;
+}
 .container_d1c246 {
     background: var(--bg-overlay-chat, var(--background-primary));
 }
