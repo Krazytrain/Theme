@@ -65,3 +65,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .content_a7d72e {
     background: var(--bg-overlay-chat);
 }
+.container_d1c246 {
+    background: var(--bg-overlay-chat, var(--background-primary));
+}
