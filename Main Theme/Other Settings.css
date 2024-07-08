@@ -40,6 +40,17 @@
     color:#000}
 .userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
     display:none}
+
+
+.custom-profile-theme .statusBubble_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252:before, .custom-profile-theme .statusBubbleOuter_d0a252:after {
+    background-color: var(--background-secondary)!important;
+}
+.statusBubbleOuter_d0a252:before {
+    background-color: var(--custom-status-bubble-background)!important;
+}
+.statusBubble_d0a252 {
+    background-color: var(--custom-status-bubble-background)!important;
+}
 /*Nitro Themes Remove Color*/
 * {
     --profile-gradient-primary-color: var(--background-tertiary)!important;
