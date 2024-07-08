@@ -24,13 +24,13 @@
     background: var(--bg-overlay-active,var(--background-secondary-alt));
 }
 .channelRow_f04d06, .content__41e2, .increasedActivityMainCard_e53744, .row_b53f4f {
-   background: var(--cb-bubble-background);
+   background: var(--cb-bubble-background)!important;
 }
 .optionButtonWrapper_bd5e1f.selected_bd5e1f, .replies__1b03e {
-    background: var(--bg-overlay-2,(--background-tertiary));
+    background: var(--cb-bubble-background)!important;
 }
 .card_cc2c09, .sidebarCardWrapper_e85cee, .container_ddbb27, .descriptionContainer_ddbb27, .profileCard_c6b11b, .prompt_c6b11b, .container_a039eb, .chatHeaderBar_efb691{
-    background: var(--cb-bubble-background);
+    background: var(--cb-bubble-background)!important;
 }
 .container__33507 {
     background: var(--bg-overlay-3,(--background-tertiary));
@@ -73,7 +73,7 @@ background: var(--bg-overlay-3,var(--background-secondary));
 }
 
 .container_f1fd9c, .header_f1fd9c, .scrollerContainer_c6b11b .container_c2efea, .content_fa4e6d {
-    background: var(--cb-bubble-background)!important;
+    background: var(--bg-overlay-3,var(--background-tertiary));
 }
 
 .container_b385c8{
