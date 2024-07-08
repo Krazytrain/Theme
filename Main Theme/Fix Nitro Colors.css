@@ -79,3 +79,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .container_b385c8{
     background: var(--cb-bubble-background)!important;
 }
+.content_fa4e6d {
+    background: var(--cb-bubble-background)!important;;
+}
