@@ -65,8 +65,8 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .content_a7d72e {
     background: var(--bg-overlay-chat);
 }
-.themedBackground_d0696b, .channelTextArea_a7d72e, .searchBar_a46bef {
-    background: var(--cb-bubble-background)!important;
+.themedBackground_d0696b, .searchBar_a46bef {
+    background: var(--cb-bubble-background);
 }
 .container_d1c246 {
     background: var(--bg-overlay-chat, var(--background-primary));
