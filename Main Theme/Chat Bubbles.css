@@ -3,7 +3,7 @@
 =============================================*/
 
 :root {
-  --cb-bubble-background: var(--background-secondary); /* Message bubble background */
+  --cb-bubble-background: var(--bg-overlay-app-frame,var(--background-tertiary)); /* Message bubble background */
   --cb-bubble-corner-radius: 10px; /* Message bubble corner radius */
 
   --cb-mentioned-indicator-width: 2px; /* Width of left indicator line in messages with mention */
@@ -289,27 +289,21 @@ div[class*=pollContainer] {
     width: -webkit-fill-available!important;
 }
 
-
-
-
 /*Quick Fix*/
-.repliedMessage_f9f2ca:before{
-    border-color: var(--brand-500);
-    left: -48px;
-}
 .hasThread_f9f2ca:after {
-    border-left: 2px solid var(--brand-500)!important;
-    border-bottom: 2px solid var(--brand-500)!important;
     border-bottom-left-radius: 8px;
-    left: -35px!important;
+    top: 57px!important;
+    left: -27px!important;
     bottom: 39px!important;
+    
 }
 .avatar_f9f2ca {
-    left: -58px!important;
+    left: -46px;
+    margin-top: 3px;
 }
 .avatarDecoration_f9f2ca{
-    left: -60px!important;
+    left: -60px;
 }
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
-    left: -76px!important;
+    left: -67px!important;
 }
