@@ -28,7 +28,7 @@
 /*#region Message*/
 .message_d5deea:not(.systemMessage_d5deea), .message_d5deea:not(.systemMessage_d5deea):hover {
   background: var(--cb-bubble-background)!important;
-  margin-left: 4rem;
+  margin-left: 3.0rem;
   margin-top: .125rem;
   margin-bottom: .125rem;
   margin-right: 48px;
@@ -214,9 +214,6 @@ div[class*=pollContainer] {
     max-width: 100%;
 }
 
-.message_d5deea.selected_d5deea, .mouse-mode.full-motion .message_d5deea:hover {
-    background: var(--bg-overlay-1,var(--background-message-hover))!important;
-}
 
 .wrapper_ef319f {
     background-color: var(--background-secondary)!important;
@@ -227,11 +224,10 @@ div[class*=pollContainer] {
     opacity: 1;
     display: flex;
     border-radius: 5px;
-    margin-right: -4px;
+    margin-right: -6px;
     padding: 10px 10px 6px 10px;
     margin-top: -8px;
-    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
-    background-color: var(--background-secondary);
+    background: var(--background-secondary);
     border: 1px solid var(--background-tertiary);
 }
 .markup_f8f345 .codeActions_f8f345:hover {
@@ -243,13 +239,13 @@ div[class*=pollContainer] {
     max-width: 100%;
 }
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) .codeContainer_f8f345 {
-    padding-right: 50px!important;
+    padding-right: 40px!important;
 }
 .groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_f9f2ca .codeContainer_f8f345  {
-    padding-right: 50px!important;
+    padding-right: 40px!important;
 }
 .groupStart_d5deea.cozyMessage_d5deea>.contents_f9f2ca .codeContainer_f8f345 {
-    padding-right: 50px!important;
+    padding-right: 40px!important;
 }
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) .codeContainer_f8f345, .markup_f8f345 .codeContainer_f8f345{
     padding-right: 55px;
@@ -302,7 +298,7 @@ div[class*=pollContainer] {
     margin-top: 3px;
 }
 .avatarDecoration_f9f2ca{
-    left: -60px;
+    left: -50px;
 }
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
     left: -67px!important;
