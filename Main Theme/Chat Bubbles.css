@@ -26,7 +26,7 @@
 
 /*#region Message*/
 .message_d5deea:not(.systemMessage_d5deea), .message_d5deea:not(.systemMessage_d5deea):hover {
-  background: var(--cb-bubble-background)!important;
+  background: var(--cb-bubble-background);
   margin-left: 3.0rem;
   margin-top: .125rem;
   margin-bottom: .125rem;
