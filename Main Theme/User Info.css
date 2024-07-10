@@ -84,11 +84,11 @@
 
 
 .button_adcaac.buttonColor_adcaac {
-    background: var(--background-secondary)!important;
+    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
     border: 3px solid var(--background-primary)!important;
 }
 .vc-spotify-button-row button, .vc-spotify-button-row:hover button {
-    background: var(--background-secondary)!important;
+    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
     border: 3px solid var(--background-primary)!important;
 }
 .container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
