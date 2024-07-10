@@ -85,3 +85,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .searchBar_e0840f, .searchBar_f0963d .searchBarComponent_f0963d{
     background: var(--cb-bubble-background)!important;
 }
+.theme-light.custom-theme-background .button_adcaac.buttonColor_adcaac.buttonActive_adcaac{
+    color: var(--interactive-active);
+}
