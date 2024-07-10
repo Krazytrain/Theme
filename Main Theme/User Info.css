@@ -99,7 +99,12 @@
 button.button_f67531:hover{
     background: transparent!important;
 }
-
+.lookFilled_dd4f85 .contents_dd4f85{
+    scale: 150%;
+}
+.dot_ccd671 {
+    display: none!important;
+}
 .container_b2ca13 .avatar_b2ca13{
     margin-left: 1px!important;
     margin-top: 5px!important;
