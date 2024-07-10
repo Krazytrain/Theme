@@ -83,7 +83,7 @@
 
 
 
-.vc-spotify-button-row button, .vc-spotify-button-row:hover button {
+.button_adcaac.buttonColor_adcaac {
     background: var(--background-secondary)!important;
     border: 3px solid var(--background-primary)!important;
 }
