@@ -82,6 +82,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .content_fa4e6d {
     background: var(--cb-bubble-background)!important;;
 }
-.searchBar_e0840f{
+.searchBar_e0840f, .searchBar_f0963d .searchBarComponent_f0963d{
     background: var(--cb-bubble-background)!important;
 }
