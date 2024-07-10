@@ -80,4 +80,8 @@
 .member_a31c43:last-child {
     border-radius: 0 0 var(--ML-border-radius) var(--ML-border-radius);
 }
+
+.members_cbd271 {
+    background: none;
+}
   /*=====  End of Section MemberList background  ======*/
