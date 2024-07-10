@@ -286,12 +286,18 @@ div[class*=pollContainer] {
 }
 
 /*Quick Fix*/
+.lookFilled_f6639d.select_f6639d{
+    background: var(--bg-overlay-1,var(--background-secondary-alt))!important;
+}
+.select_f49825{
+    width: 100%;
+}
+
 .hasThread_f9f2ca:after {
     border-bottom-left-radius: 8px;
     top: 57px!important;
     left: -27px!important;
     bottom: 39px!important;
-    
 }
 .avatar_f9f2ca {
     left: -46px!important;
