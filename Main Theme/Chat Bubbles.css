@@ -294,11 +294,11 @@ div[class*=pollContainer] {
     
 }
 .avatar_f9f2ca {
-    left: -46px;
-    margin-top: 3px;
+    left: -46px!important;
+    margin-top: 3px!important;
 }
 .avatarDecoration_f9f2ca{
-    left: -50px;
+    left: -50px!important;
 }
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
     left: -67px!important;
