@@ -124,3 +124,6 @@ ul[aria-label$=" threads"]>li:nth-child(1n){
 .container_c75f85:after{
     display: none;
 }
+.sidebar_a4d4d9{
+    border-top-left-radius: 0px!important;
+}
