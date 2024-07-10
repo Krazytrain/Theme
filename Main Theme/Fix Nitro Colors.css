@@ -88,3 +88,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .theme-light.custom-theme-background .button_adcaac.buttonColor_adcaac.buttonActive_adcaac{
     color: var(--interactive-active);
 }
+.themedBackground_d0696b, .channelTextArea_a7d72e {
+    background: var(--cb-bubble-background)!important;
+}
