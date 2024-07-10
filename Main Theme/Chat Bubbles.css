@@ -159,10 +159,8 @@ div[class*=pollContainer] {
   width: 100%;
 }
 
-.embedFull_ad0b71 {
-    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color))!important;
-    border: 3px solid;
-    border-radius: 10px;
+.embedFull_ad0b71{
+    background: var(--background-secondary)!important;
 }
 
 
@@ -287,7 +285,7 @@ div[class*=pollContainer] {
 
 /*Quick Fix*/
 .lookFilled_f6639d.select_f6639d{
-    background: var(--bg-overlay-1,var(--background-secondary-alt))!important;
+    background: var(--background-secondary)!important;
 }
 .select_f49825{
     width: 100%;
