@@ -115,3 +115,12 @@ ul[aria-label$=" threads"]>li:nth-child(1n){
     border-top-right-radius: 0px!important;
     border-top-left-radius: 0px!important;
 }
+.container_c75f85{
+    border-radius: var(--channel-border-radius) var(--channel-border-radius) 0 0;
+    background: var(--channel-title-background);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container_c75f85:after{
+    display: none;
+}
