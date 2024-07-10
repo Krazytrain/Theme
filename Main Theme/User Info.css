@@ -80,3 +80,26 @@
 .nameTag_b2ca13.canCopy_b2ca13 {
     display: none;
 }
+
+
+
+.vc-spotify-button-row button, .vc-spotify-button-row:hover button {
+    background: var(--background-secondary)!important;
+    border: 3px solid var(--background-primary)!important;
+}
+.container_b2ca13 .flex_bba380.horizontal_bba380.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
+    border: 3px solid var(--background-primary)!important;
+    margin-left: -2px;
+}
+button.button_f67531:hover{
+    background: transparent!important;
+}
+
+.container_b2ca13 .avatar_b2ca13{
+    margin-left: 1px!important;
+    margin-top: 5px!important;
+}
+.avatarWrapper_b2ca13:hover{
+    background: transparent!important;
+}
