@@ -65,8 +65,8 @@ div[class*=pollContainer] {
   display: none;
 }
 .mentioned_d5deea {
-  border: var(--cb-mentioned-indicator-width) solid var(--info-warning-foreground)!important;
-  border-width: 4px!important;
+    background: var(--background-mentioned-hover)!important;
+    border: none!important;
 }
 
 /*Replying*/
@@ -223,12 +223,14 @@ div[class*=pollContainer] {
     background-color: var(--background-secondary)!important;
 }
 
+
+
 /*Code Blocks MD Bash and other*/
 .markup_f8f345 .codeActions_f8f345 {
     opacity: 1;
     display: flex;
     border-radius: 5px;
-    margin-right: -6px;
+    margin-right: -4px;
     padding: 10px 10px 6px 10px;
     margin-top: -8px;
     background: var(--background-secondary);
@@ -243,16 +245,16 @@ div[class*=pollContainer] {
     max-width: 100%;
 }
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) .codeContainer_f8f345 {
-    padding-right: 40px!important;
+    padding-right: 46px!important;
 }
 .groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_f9f2ca .codeContainer_f8f345  {
-    padding-right: 40px!important;
+    padding-right: 46px!important;
 }
 .groupStart_d5deea.cozyMessage_d5deea>.contents_f9f2ca .codeContainer_f8f345 {
-    padding-right: 40px!important;
+    padding-right: 46px!important;
 }
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) .codeContainer_f8f345, .markup_f8f345 .codeContainer_f8f345{
-    padding-right: 55px;
+    padding-right: 62px;
 }
 /*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
@@ -306,4 +308,11 @@ div[class*=pollContainer] {
 }
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
     left: -67px!important;
+}
+.theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover{
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+}
+
+.theme-light .message_d5deea.selected_d5deea, .theme-light.mouse-mode.full-motion .message_d5deea:hover{
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
 }
