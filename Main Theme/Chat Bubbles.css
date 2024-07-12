@@ -157,8 +157,9 @@ div[class*=pollContainer] {
   margin: 17px 0px !important;
 }
 /*Polls and Threads Backgrounds*/
-.container_c15230, div[class*=pollContainer]{
-    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color))!important;
+.container_c15230, div[class*=pollContainer] {
+    background: var(--background-tertiary) !important;
+    border: calc(1px* var(--chat-bubble)) solid var(--background-message-highlight-hover)!important;
 }
 
 /*Alt-text*/
@@ -188,8 +189,6 @@ div[class*=pollContainer] {
 .embedFull_ad0b71{
   background: var(--background-tertiary) !important;
 }
-
-
 
 
 /*Images*/
