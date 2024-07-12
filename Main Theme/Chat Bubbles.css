@@ -156,8 +156,8 @@ div[class*=pollContainer] {
   top: 0px !important;
   margin: 17px 0px !important;
 }
-/*Polls and Threads Backgrounds*/
-.container_c15230, div[class*=pollContainer] {
+/*Polls, Threads and Invite Backgrounds*/
+.container_c15230, div[class*=pollContainer], .wrapper_b9fe76 {
     background: var(--background-tertiary) !important;
     border: calc(1px* var(--chat-bubble)) solid var(--background-message-highlight-hover)!important;
 }
