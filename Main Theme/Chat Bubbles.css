@@ -189,7 +189,10 @@ div[class*=pollContainer] {
 .embedFull_ad0b71{
   background: var(--background-tertiary) !important;
 }
-
+.embed_ad0b71 code {
+    border: none;
+    background: var(--bg-surface-overlay)!important;
+}
 
 /*Images*/
 .imageWrapper__178ee {
