@@ -14,3 +14,6 @@ Yes this theme works with both!
 #### Does this theme have dark and light mode?
 Yes this theme works with dark and light mode!
 
+### Does this theme work with nitro themes?
+Yes this theme was made around discord nitro themes.
+(To get nitro themes install vencord and add the plugin Fake Nitro)
