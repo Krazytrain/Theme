@@ -9,10 +9,8 @@ Any problems with it please let us know about them as i will be keeping it updat
 ## FAQ
 
 #### Does this work with Better Discord and Vencord?
-
 Yes this theme works with both!
 
 #### Does this theme have dark and light mode?
-
-Sadly this theme is only made for dark mode for now.
+Yes this theme works with dark and light mode!
 
