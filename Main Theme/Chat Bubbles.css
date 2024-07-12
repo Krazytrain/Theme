@@ -40,10 +40,10 @@
   box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
 }
 .message_d5deea:not(.systemMessage_d5deea) {
-    background: var(--background-primary);
+    background: var(--background-primary)!important;
 }
 .message_d5deea:not(.systemMessage_d5deea):hover {
-    background: var(--background-secondary);
+    background: var(--background-secondary)!important;
 }
 .cozy_f9f2ca .contents_f9f2ca {
     margin-left: 5px!important;
@@ -73,15 +73,15 @@ div[class*=pollContainer] {
     display: ruby!important;
     width: 3px!important;
 }
-.mentioned_d5deea {
-    background: var(--background-mentioned);
-    border: none !important;
+.message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
+    background: var(--background-mentioned)!important;
+    border: calc(1px* var(--chat-bubble)) solid var(--background-mentioned)!important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
-.mentioned_d5deea:hover {
-    background: var(--background-mentioned-hover);
-    border: none !important;
+.message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    background: var(--background-mentioned-hover)!important;
+    border: calc(1px* var(--chat-bubble)) solid var(--background-mentioned-hover)!important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
@@ -93,15 +93,15 @@ div[class*=pollContainer] {
     display: ruby !important;
     width: 3px !important;
 }
-.replying_d5deea {
-    background: var(--background-message-highlight) !important;
-    border: none !important;
+.message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
+    background: var(--background-message-highlight)!important;
+    border: calc(1px* var(--chat-bubble)) solid var(--background-message-highlight)!important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
-.replying_d5deea:hover {
-    background: var(--background-message-highlight-hover) !important;
-    border: none !important;
+.message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    background: var(--background-message-highlight-hover)!important;
+    border: calc(1px* var(--chat-bubble)) solid var(--background-message-highlight-hover)!important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
