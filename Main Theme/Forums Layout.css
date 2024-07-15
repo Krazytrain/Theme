@@ -37,7 +37,14 @@
 .matchingPostsRow_a6d69a, div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
     background: var(--channel-background);
 }
-div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]:hover{
+.mainCard_a6d69a {
+    background: var(--channel-background)!important;
+}
+.mainCard_a6d69a:hover {
+    background-color: var(--background-modifier-selected) !important;
+}
+.container_a57509.isOpen_a57509 {
+    background-color: var(--background-modifier-selected) !important;
     border-color: var(--brand-500);
 }
 /*Forum Following*/
