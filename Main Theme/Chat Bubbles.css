@@ -135,6 +135,17 @@ div[class*=pollContainer] {
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
+.hasThread_f9f2ca:after {
+    border-width: 3px!important;
+    width: 18px!important;
+}
+.repliedMessage_f9f2ca:before{
+    border-top-width: 3px!important;
+    border-left-width: 3px!important;
+    border-right-width: 0px!important;
+    border-bottom-width: 0px!important;
+    width: 22px!important;
+}
 
 /*Threads*/
 .container_c15230 {
