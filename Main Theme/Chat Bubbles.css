@@ -384,3 +384,8 @@ div[class*=pollContainer] {
 .theme-light .message_d5deea.selected_d5deea, .theme-light.mouse-mode.full-motion .message_d5deea:hover{
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
 }
+
+.cozy_f9f2ca .messageContent_f9f2ca{
+    margin-left: 0px;
+    padding-left: 0px;
+}
