@@ -31,7 +31,7 @@
   margin-bottom: .125rem;
   margin-right: 48px;
   width: fit-content;
-  max-width: 100%;
+  
   padding: 10px !important;
   border-radius: var(--cb-bubble-corner-radius);
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
