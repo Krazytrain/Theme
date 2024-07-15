@@ -106,14 +106,14 @@ div[class*=pollContainer] {
 .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     background: var(--background-mentioned)!important;
     border: calc(1px* var(--chat-bubble)) solid var(--background-mentioned)!important;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
 }
 .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
     background: var(--background-mentioned-hover)!important;
     border: calc(1px* var(--chat-bubble)) solid var(--background-mentioned-hover)!important;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
 }
 .replying_d5deea .avatar_ec86aa { /* Fix avatar indent when replying */
   margin-left: calc(-4.5rem - var(--cb-replying-indicator-width));
