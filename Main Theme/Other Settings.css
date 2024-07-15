@@ -96,3 +96,12 @@
     width: 25px!important;
     height: 25px!important;
 }
+
+
+/*Fix Message Viewer*/
+.cozy_f9f2ca.wrapper_f9f2ca {
+    padding-left: 0;
+}
+.message_ddc613{
+    padding-left: 48px;
+}
