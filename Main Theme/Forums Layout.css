@@ -32,7 +32,7 @@
 }
 .container_d331f1.isOpen_d331f1 {
     background-color: var(--background-modifier-selected)!important;
-    border-color: var(--brand-500);
+    border-color: var(--brand-500)!important;
 }
 .matchingPostsRow_a6d69a, div[class^=chat]>div[class^=content]>div[class^=container] div[class*=mainCard_]{
     background: var(--channel-background);
@@ -45,7 +45,7 @@
 }
 .container_a57509.isOpen_a57509 {
     background-color: var(--background-modifier-selected) !important;
-    border-color: var(--brand-500);
+    border-color: var(--brand-500)!important;
 }
 /*Forum Following*/
 .active_b385c8{
