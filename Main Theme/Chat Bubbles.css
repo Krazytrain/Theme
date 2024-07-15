@@ -68,6 +68,36 @@ div[class*=pollContainer] {
     position: absolute;
 }
 
+/*System Messages*/
+.systemMessage_d5deea {
+    margin-left: 2.8rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
+    margin-right: 48px;
+    width: fit-content;
+    max-width: 100%;
+    padding: 10px !important;
+    border-radius: var(--cb-bubble-corner-radius);
+    background: var(--background-primary)!important;
+    background-size: calc(var(--chat-bubble)* 1px);
+    border: calc(1px* var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset)* var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur)* var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a)* var(--chat-bubble)));
+}
+.systemMessage_d5deea:hover {
+    margin-left: 2.8rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
+    margin-right: 48px;
+    width: fit-content;
+    max-width: 100%;
+    padding: 10px !important;
+    border-radius: var(--cb-bubble-corner-radius);
+    background: var(--background-secondary)!important;
+    background-size: calc(var(--chat-bubble)* 1px);
+    border: calc(1px* var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset)* var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur)* var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a)* var(--chat-bubble)));
+}
+
 /*Mentioned*/
 .mentioned_d5deea::before {
     display: ruby!important;
@@ -105,7 +135,6 @@ div[class*=pollContainer] {
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
-
 
 /*Threads*/
 .container_c15230 {
