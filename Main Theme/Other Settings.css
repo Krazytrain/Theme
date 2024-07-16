@@ -99,9 +99,12 @@
 
 
 /*Fix Message Viewer*/
-.cozy_f9f2ca.wrapper_f9f2ca {
-    padding-left: 0;
+.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2{
+    margin-left: 55px;
 }
-.message_ddc613{
-    padding-left: 48px;
+.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .repliedMessage_f9f2ca:before{
+    margin-left: 8px;
+}
+.searchResult_ddc613 .repliedMessage_f9f2ca:before{
+    margin-left: 8px;
 }
