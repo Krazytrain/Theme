@@ -26,10 +26,10 @@
 
 /*#region Message*/
 .message_d5deea:not(.systemMessage_d5deea), .message_d5deea:not(.systemMessage_d5deea):hover {
-  margin-left: 2.8rem;
+  margin-left: 48px!important;
   margin-top: .125rem;
   margin-bottom: .125rem;
-  margin-right: 48px;
+  margin-right: 48px!important;
   width: fit-content;
   
   padding: 10px !important;
@@ -70,10 +70,10 @@ div[class*=pollContainer] {
 
 /*System Messages*/
 .systemMessage_d5deea {
-    margin-left: 2.8rem;
+    margin-left: 48px!important;
     margin-top: .125rem!important;
     margin-bottom: .125rem;
-    margin-right: 48px;
+    margin-right: 48px!important;
     width: fit-content;
     max-width: 100%;
     padding: 10px !important;
@@ -84,10 +84,10 @@ div[class*=pollContainer] {
     box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset)* var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur)* var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a)* var(--chat-bubble)));
 }
 .systemMessage_d5deea:hover {
-    margin-left: 2.8rem;
+    margin-left: 48px!important;
     margin-top: .125rem!important;
     margin-bottom: .125rem;
-    margin-right: 48px;
+    margin-right: 48px!important;
     width: fit-content;
     max-width: 100%;
     padding: 10px !important;
