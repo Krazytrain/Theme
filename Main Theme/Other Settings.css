@@ -112,3 +112,13 @@
 .searchResult_ddc613 .contents_f9f2ca .avatar_f9f2ca{
     margin-left: 72px;
 }
+
+/*Message Forward*/
+.wrapper_f9f2ca .container_b558d0 .avatar_f9f2ca {
+    left: 16px !important;
+    margin-top: -6px !important;
+}
+.wrapper_f9f2ca .container_b558d0 .avatarDecoration_f9f2ca{
+    left: 12px !important;
+    margin-top: -8px !important;
+}
