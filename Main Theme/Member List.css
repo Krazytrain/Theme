@@ -90,6 +90,6 @@
     background: var(--ML-role-background)!important;
     border-radius: var(--ML-border-radius) var(--ML-border-radius) var(--ML-border-radius) var(--ML-border-radius);
     margin-left: 10px;
-    padding: 8px;
+    padding: 6px;
 }
   /*=====  End of Section MemberList background  ======*/
