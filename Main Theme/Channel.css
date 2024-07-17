@@ -127,3 +127,12 @@ ul[aria-label$=" threads"]>li:nth-child(1n){
 .sidebar_a4d4d9{
     border-top-left-radius: 0px!important;
 }
+
+
+
+#channels div{
+  font-size: 14px;
+}
+.name_a08117.container_cc72c1 .overflow_c74e70{
+  font-size: 12px!important;
+}
