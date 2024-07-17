@@ -85,11 +85,4 @@
     background: none;
 }
 
-.vc-membercount-member-list {
-    margin-top: 12px;
-    background: var(--ML-role-background)!important;
-    border-radius: var(--ML-border-radius) var(--ML-border-radius) var(--ML-border-radius) var(--ML-border-radius);
-    margin-left: 10px;
-    padding: 6px;
-}
   /*=====  End of Section MemberList background  ======*/
