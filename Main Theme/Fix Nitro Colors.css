@@ -17,7 +17,7 @@
 .sidebarRegionScroller_c25c6d{
     background: var(--bg-overlay-app-frame,var(--background-secondary));
 }
-.contentRegionScroller_c25c6d, .scroller_e9196a, .content_a7d72e.container_f1fd9c{
+.contentRegionScroller_c25c6d, .content_a7d72e.container_f1fd9c{
     background: var(--bg-overlay-chat,var(--background-primary));
 }
 .embedFull_ad0b71, .wrapper_b9fe76 {
@@ -94,5 +94,8 @@ background: var(--bg-overlay-3,var(--background-secondary));
 
 
 .scrollerContainer_c6b11b {
+    background: transparent!important;
+}
+.scroller_e9196a{
     background: transparent!important;
 }
