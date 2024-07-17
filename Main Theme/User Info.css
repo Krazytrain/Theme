@@ -73,9 +73,10 @@
     left: 10px;
 }
 [class*="panels"] [class*="avatarWrapper"] {
-    min-width: 34px!important;
+    min-width: 34px !important;
     position: absolute;
-    left: 19px;
+    justify-content: center!important;
+    align-items: center!important;
 }
 .nameTag_b2ca13.canCopy_b2ca13 {
     display: none;
