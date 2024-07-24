@@ -228,12 +228,16 @@ div[class*=pollContainer] {
   width: 100%;
 }
 
-.embedFull_ad0b71{
+.embedFull_b0068a{
   background: var(--background-tertiary) !important;
 }
-.embed_ad0b71 code {
+
+.embedFull_b0068a code {
     border: none;
-    background: var(--bg-surface-overlay)!important;
+    background: var(--background-modifier-accent)!important;
+}
+.markup_f8f345 code.inline{
+    font-size: 100%;
 }
 
 /*Images*/
