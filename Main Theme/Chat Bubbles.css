@@ -307,13 +307,16 @@ div[class*=pollContainer] {
     margin-right: -4px;
     padding: 8px 8px 4px 8px;
     margin-top: -8px;
-    background: var(--background-secondary);
+    background: var(--background-modifier-accent);
     border: 1px solid var(--background-tertiary);
 }
 .markup_f8f345 .codeActions_f8f345:hover {
     opacity: 1;
     border-radius: 5px;
     background: var(--background-modifier-active);
+}
+.markup_f8f345 code{
+    background: var(--background-modifier-accent);
 }
 .markup_f8f345 pre{
     max-width: 100%;
