@@ -415,6 +415,9 @@ div.message_d5deea.cozyMessage_d5deea.groupStart_d5deea.wrapper_f9f2ca.cozy_f9f2
 div.message_d5deea.cozyMessage_d5deea.groupStart_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca{
     max-width: calc(100% - 114px);
 }
+div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca{
+    max-width: calc(100% - 114px);
+}
 
 .theme-dark .message_d5deea.selected_d5deea, .theme-dark.mouse-mode.full-motion .message_d5deea:hover{
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
