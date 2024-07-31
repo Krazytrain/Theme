@@ -441,3 +441,7 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca{
 .container_d1c246 .chat_d6c7e0 .message_d5deea:not(.systemMessage_d5deea), .container_d1c246 .chat_d6c7e0 .message_d5deea:not(.systemMessage_d5deea):hover {
     width: auto;
 }
+.repliedTextPreview_f9f2ca {
+    display: flex;
+    max-height: none;
+}
