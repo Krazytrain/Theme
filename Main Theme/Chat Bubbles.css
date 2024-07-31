@@ -148,6 +148,26 @@ div[class*=pollContainer] {
     border-bottom-width: 0px!important;
     width: 22px!important;
 }
+/*Epmemeral Messages*/
+.message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
+    background: var(--background-message-highlight) !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border: 1px solid var(--background-message-highlight);
+}
+.message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    background: var(--background-message-highlight-hover) !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border: 1px solid var(--background-message-highlight);
+}
+.ephemeral_d5deea:before {
+    background: var(--brand-500);
+    display: ruby !important;
+    width: 3px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
 
 /*Threads*/
 .container_c15230 {
