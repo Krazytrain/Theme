@@ -11,9 +11,18 @@
 /*=============================================
 =               Custom Addons                 =
 =============================================*/
-@import url('https://krazytrain.github.io/Theme/Main Theme/Private Channel Icons.css');
-@import url('https://krazytrain.github.io/Theme/Main Theme/Server shortcuts Icons.css');
-@import url('https://krazytrain.github.io/Theme/Main Theme/Chat Bubbles.css');
+/*------ Channel and Member background ------*/
+@import url('https://krazytrain.github.io/Theme/Main Theme/Channel.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Member List.css');
+:root {
+  --channel-border-radius:10px; /* Rounding */
+  --channel-background: var(--background-tertiary); /* channel color */
+  --channel-title-background: var(--background-tertiary); /* title color */
+  --ML-border-radius:10px; /* Rounding */
+  --ML-member-background: var(--background-tertiary); /* member color */
+  --ML-role-background: var(--background-tertiary); /* role color */
+}
+/*---------------- RadialStatus -------------*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
   --chat-bubble: 1; /*0 = Disable | 1 = Normal | 2 = Bigger*/
