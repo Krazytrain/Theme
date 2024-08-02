@@ -11,6 +11,8 @@
 /*=============================================
 =               Custom Addons                 =
 =============================================*/
+@import url('https://krazytrain.github.io/Theme/Main Theme/Private Channel Icons.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Server shortcuts Icons.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Chat Bubbles.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
