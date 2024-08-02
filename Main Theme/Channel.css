@@ -133,6 +133,9 @@ ul[aria-label$=" threads"]>li:nth-child(1n){
 #channels div{
   font-size: 14px;
 }
+.mentionsBadge_e2a798 .numberBadge_df8943{
+    font-size: 12px!important;
+}
 .name_a08117.container_cc72c1 .overflow_c74e70{
   font-size: 12px!important;
 }
