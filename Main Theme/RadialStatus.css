@@ -239,3 +239,6 @@
     width: 48px;
 }
 
+#app-mount .wrapper_c51b4e .avatarDecoration_c51b4e foreignObject[mask*=mobile]  {
+    scale: 85%;
+}
