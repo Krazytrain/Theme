@@ -13,21 +13,7 @@
 @import url('https://krazytrain.github.io/Theme/Main Theme/Settings Popout Layout.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Spotify Layout.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/User Info.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Private Channel Icons.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Server shortcuts Icons.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Chat Bubbles.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/fonts.css');
-
-/*=============================================
-=        Channel and Member background        =
-=============================================*/
-
-/*---------- Settings  ----------*/
-
-@import url('https://krazytrain.github.io/Theme/Main Theme/Channel.css');
-@import url('https://krazytrain.github.io/Theme/Main Theme/Member List.css');
-:root {
-  --channel-border-radius:10px; /* Rounding */
-  --channel-background: var(--background-tertiary); /* channel color */
-  --channel-title-background: var(--background-tertiary); /* title color */
-  --ML-border-radius:10px; /* Rounding */
-  --ML-member-background: var(--background-tertiary); /* member color */
-  --ML-role-background: var(--background-tertiary); /* role color */
-}
