@@ -107,7 +107,7 @@ li:not([class]) > .containerDefault_f6f816{
 .icon_a08117, .children_a08117{
     display: none;
 }
-.name_a08117.container_cc72c1 .overflow_c74e70{
+.name_a08117.container_cc72c1 .overflow_a82120{
     left: 0px!important;
 } 
 
@@ -140,6 +140,6 @@ ul[aria-label$=" threads"]>li:nth-child(1n){
 .goalText_c75f85, .progressFraction_c75f85{
     scale: 0.9;
 }
-.name_a08117.container_cc72c1 .overflow_c74e70{
+.name_a08117.container_cc72c1 .overflow_a82120{
   font-size: 12px!important;
 }
