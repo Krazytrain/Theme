@@ -17,7 +17,9 @@
 .container_a5ad5c{
     text-align: center;
 }
-
+[class^=membersGroup]{
+    font-size: 14px;
+}
 .membersGroup_cbd271.container_cc72c1 {
   font-weight: 900!important;
 }
