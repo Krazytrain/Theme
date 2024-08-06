@@ -19,7 +19,7 @@
 .contentRegionScroller_c25c6d, .content_a7d72e.container_f1fd9c{
     background: var(--bg-overlay-chat,var(--background-primary));
 }
-.embedFull_ad0b71, .wrapper_b9fe76 {
+.embedFull_b0068a, .wrapper_a71a1c {
     background: var(--bg-overlay-active,var(--background-secondary-alt));
 }
 .channelRow_f04d06, .content__41e2, .increasedActivityMainCard_e53744, .row_b53f4f {
@@ -95,6 +95,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .scrollerContainer_c6b11b {
     background: transparent!important;
 }
-.scroller_e9196a{
+.scroller_ff90b2{
     background: transparent!important;
 }
