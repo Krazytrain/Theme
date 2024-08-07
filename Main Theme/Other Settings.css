@@ -1,6 +1,5 @@
-
 /*=============================================
-=                  Main Theme                 =
+=               Other Settings                =
 =============================================*/
 
 /* Any custom CSS below here */
@@ -78,12 +77,12 @@
 }
 
 /*Discord Bot Tags that they messed up*/
-.px_a02df3 .botText_a02df3 {
+.px_a9e77f .botText_a9e77f {
     line-height: 16px;
 }
 
 /*Members in voice channel*/
-.listDefault_cdc675{
+.listDefault_d80634{
     margin-left: -30px!important;
 }
 
