@@ -3,10 +3,6 @@
 =============================================*/
 
 /* Any custom CSS below here */
-.themedBackground_d0696b, .channelTextArea_a7d72e {
-    background-color: var(--bg-overlay-3,var(--background-secondary));
-}
-
 .vc-settings-quick-actions-card {
     gap: 0em;
 }
