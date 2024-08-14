@@ -99,3 +99,6 @@ background: var(--bg-overlay-3,var(--background-secondary));
 .scroller_ff90b2{
     background: transparent!important;
 }
+.themedBackground_d0696b {
+    background: var(--cb-bubble-background);
+}
