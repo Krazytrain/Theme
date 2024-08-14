@@ -453,3 +453,7 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
 .popover_e986d9{
     overflow: hidden;
 }
+
+.themedBackground_d0696b {
+    background: var(--cb-bubble-background);
+}
