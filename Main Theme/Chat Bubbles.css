@@ -462,23 +462,23 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
 
 `/* merge app launcher to be part of the chat bar */
 [class^=channelTextArea_] > [class^=scrollableContainer_] {
-    margin-right: -10px;
+    margin-right: -10px!important;
     &:not(:has(> [class^=inner_][class*=innerDisabled_])) {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+        border-top-right-radius: 0!important;
+        border-bottom-right-radius: 0!important;
     }
 }
 .button_df39bd{
     background: var(--cb-bubble-background)!important;
 }
 [class^=channelAppLauncher_] {
-    margin-left: 0;
-    min-width: 44px;
+    margin-left: 0!important;
+    min-width: 44px!important;
     background-color: var(--cb-bubble-background)!important;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
     [class^=buttonContainer_] {
-        top: 0;
-        position:absolute;
+        top: 0!important;
+        position:absolute!important;
     }
 }
