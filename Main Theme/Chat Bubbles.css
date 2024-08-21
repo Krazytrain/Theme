@@ -457,3 +457,28 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
 .themedBackground_d0696b {
     background: var(--cb-bubble-background);
 }
+
+
+
+`/* merge app launcher to be part of the chat bar */
+[class^=channelTextArea_] > [class^=scrollableContainer_] {
+    margin-right: -10px;
+    &:not(:has(> [class^=inner_][class*=innerDisabled_])) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+.button_df39bd{
+    background: var(--cb-bubble-background)!important;
+}
+[class^=channelAppLauncher_] {
+    margin-left: 0;
+    min-width: 44px;
+    background-color: var(--cb-bubble-background)!important;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    [class^=buttonContainer_] {
+        top: 0;
+        position:absolute;
+    }
+}
