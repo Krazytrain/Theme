@@ -190,7 +190,7 @@
 .channelRow_f04d06, .content__41e2, .increasedActivityMainCard_e53744, .row_b53f4f {
     background: var(--bg-overlay-3,var(--channel-background));
 }
-.card_cc2c09, .sidebarCardWrapper_e85cee, .container_ddbb27, .descriptionContainer_ddbb27, .profileCard_c6b11b, .prompt_c6b11b, .container_a039eb, .chatHeaderBar_efb691{
+.sidebarCardWrapper_e85cee, .container_ddbb27, .descriptionContainer_ddbb27, .profileCard_c6b11b, .prompt_c6b11b, .container_a039eb, .chatHeaderBar_efb691{
     background: var(--bg-overlay-3,var(--channel-background));
 }
 
