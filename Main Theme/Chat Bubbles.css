@@ -458,11 +458,12 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
     background: var(--cb-bubble-background);
 }
 
-
-
 /* merge app launcher to be part of the chat bar */
 [class^=channelTextArea_] > [class^=scrollableContainer_] {
     margin-right: -10px!important;
+}
+.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b  {
+    margin-right: 0px!important;
 }
 &:not(:has(> [class^=inner_][class*=innerDisabled_])) {
     border-top-right-radius: 0!important;
@@ -478,4 +479,3 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
     border-top-right-radius: 8px!important;
     border-bottom-right-radius: 8px!important;
 }
-
