@@ -117,3 +117,10 @@
     left: 12px !important;
     margin-top: -8px !important;
 }
+/*Active Status*/
+h3[class="membersGroup_cbd271 container_a5ad5c"]:has(.headerContainer_bc6acb) {
+        display: none;
+}
+div[class="container_c64476 openOnHover_c64476"]{
+        display: none;
+}
