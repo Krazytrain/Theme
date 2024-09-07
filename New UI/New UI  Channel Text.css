@@ -30,3 +30,54 @@
     width: 18px;
     height: 18px;
 }
+
+
+/* merge app launcher to be part of the chat bar */
+[class^=channelTextArea_] > [class^=scrollableContainer_] {
+    margin-right: -10px!important;
+}
+.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b  {
+    margin-right: 0px!important;
+}
+&:not(:has(> [class^=inner_][class*=innerDisabled_])) {
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+.button_df39bd{
+    background: var(--bg-overlay-3,var(--bg-surface-raised))!important;
+}
+[class^=channelAppLauncher_] {
+    margin-left: 0!important;
+    min-width: 44px!important;
+    background-color: var(--bg-overlay-3,var(--bg-surface-raised))!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+.jumpToPresentBar_cf58b5{
+    right: 16px;
+    
+}
+/* re-edging the corner padding to match pre-refresh */
+.visual-refresh [class^=appAsidePanelWrapper] {
+    padding: 1px;
+}
+/* Make profile & derivatives stop hogging the entire bottom left corner*/
+.visual-refresh [class^=panels_] {
+  border-radius: 10px;
+}
+/* preference, match spotifycontrols to panel tint */
+.theme-dark #vc-spotify-player {
+ background: unset; 
+}
+.theme-light #vc-spotify-player {
+ background: unset; 
+}
+/*Chat bars*/
+.visual-refresh .form_a7d72e {
+    background-color: var(--bg-base-tertiary);
+    border: 1px solid var(--border-faint);
+    margin: 8px;
+    margin-top: -8px;
+    border-radius: var(--radius-sm);
+    padding: 8px;
+}
