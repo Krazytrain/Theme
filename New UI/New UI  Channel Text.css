@@ -39,6 +39,10 @@
     width: 18px;
     height: 18px;
 }
+/*Announcement Channel Following Box*/
+.wrapper_faf5ab {
+    margin-bottom: 0px;
+}
 
 /* re-edging the corner padding to match pre-refresh */
 .visual-refresh [class^=appAsidePanelWrapper] {
