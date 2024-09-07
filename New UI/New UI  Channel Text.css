@@ -71,6 +71,9 @@
 .base_d7ebeb{
     bottom: -26px;
 }
+.button_df39bd {
+    background: var(--bg-overlay-3, var(--background-primary));
+}
 .visual-refresh .form_a7d72e{
     margin-bottom: 26px!important;
 }
