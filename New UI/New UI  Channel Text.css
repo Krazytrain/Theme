@@ -32,31 +32,7 @@
 }
 
 
-/* merge app launcher to be part of the chat bar */
-[class^=channelTextArea_] > [class^=scrollableContainer_] {
-    margin-right: -10px!important;
-}
-.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b  {
-    margin-right: 0px!important;
-}
-&:not(:has(> [class^=inner_][class*=innerDisabled_])) {
-    border-top-right-radius: 0!important;
-    border-bottom-right-radius: 0!important;
-}
-.button_df39bd{
-    background: var(--bg-overlay-3,var(--bg-surface-raised))!important;
-}
-[class^=channelAppLauncher_] {
-    margin-left: 0!important;
-    min-width: 44px!important;
-    background-color: var(--bg-overlay-3,var(--bg-surface-raised))!important;
-    border-top-right-radius: 8px!important;
-    border-bottom-right-radius: 8px!important;
-}
-.jumpToPresentBar_cf58b5{
-    right: 16px;
-    
-}
+
 /* re-edging the corner padding to match pre-refresh */
 .visual-refresh [class^=appAsidePanelWrapper] {
     padding: 1px;
