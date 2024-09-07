@@ -68,3 +68,9 @@
 .visual-refresh .searchBar_a46bef{
     background: var(--bg-overlay-4,var(--background-tertiary));
 }
+.base_d7ebeb{
+    bottom: -26px;
+}
+.visual-refresh .form_a7d72e{
+    margin-bottom: 26px!important;
+}
