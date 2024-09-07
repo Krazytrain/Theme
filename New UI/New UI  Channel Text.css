@@ -24,6 +24,15 @@
     left: 0px;
     border-bottom: 1px solid var(--border-strong);
 }
+[class^=membersGroup]{
+    right: 0px;
+    left: 0px;
+    border-bottom: 1px solid var(--border-strong);
+}
+.membersGroup_cbd271 {
+    padding: 20px 8px 0 16px;
+    height: 40px;
+}
 .icon_a08117 {
     left: 6px;
     top: 3px;
