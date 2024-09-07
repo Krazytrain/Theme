@@ -31,8 +31,6 @@
     height: 18px;
 }
 
-
-
 /* re-edging the corner padding to match pre-refresh */
 .visual-refresh [class^=appAsidePanelWrapper] {
     padding: 1px;
@@ -56,4 +54,17 @@
     margin-top: -8px;
     border-radius: var(--radius-sm);
     padding: 8px;
+}
+.jumpToPresentBar_cf58b5{
+    right: 16px;
+    
+}
+.visual-refresh .button_df39bd{
+    margin-left: 8px;
+}
+.visual-refresh .channelAppLauncher_df39bd{
+    display:contents;
+}
+.visual-refresh .searchBar_a46bef{
+    background: var(--bg-overlay-4,var(--background-tertiary));
 }
