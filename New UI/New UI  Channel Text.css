@@ -81,7 +81,7 @@
     bottom: -26px;
 }
 .button_df39bd {
-    background: var(--bg-overlay-3, var(--background-primary));
+    background: var(--bg-overlay-3, var(--background-primary))!important;
 }
 .visual-refresh .form_a7d72e{
     margin-bottom: 26px!important;
