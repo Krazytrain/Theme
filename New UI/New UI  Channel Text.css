@@ -48,6 +48,11 @@
 .visual-refresh [class^=appAsidePanelWrapper] {
     padding: 1px;
 }
+.theme-dark .panel_bf1a22 {
+    background: var(--bg-overlay-1, var(--background-secondary-alt));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 /* Make profile & derivatives stop hogging the entire bottom left corner*/
 .visual-refresh [class^=panels_] {
   border-radius: 10px;
