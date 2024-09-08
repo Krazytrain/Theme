@@ -87,6 +87,17 @@
 .button_df39bd {
     background: var(--bg-overlay-3, var(--background-primary))!important;
 }
-.visual-refresh .form_a7d72e{
-    margin-bottom: 26px!important;
+.visual-refresh .form_a7d72e {
+    background-color: var(--bg-base-tertiary)!important;
+    border: 1px solid var(--border-faint);
+    margin: -1px;
+    margin-top: -8px;
+    border-radius: 0px;
+    margin-bottom: -2px!important;
+    background: var(--border-faint);
+    padding-bottom: 26px;
+    border-top: 1px solid var(--border-strong);
+}
+.base_d7ebeb {
+    bottom: 0px;
 }
