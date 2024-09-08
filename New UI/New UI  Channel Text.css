@@ -90,7 +90,7 @@
     bottom: -26px;
 }
 .button_df39bd {
-    background: var(--bg-surface-raised, var(--background-primary)) !important;
+    background: var(--bg-overlay-3,var(--channeltextarea-background)) !important;
 }
 .visual-refresh .form_a7d72e {
     background-color: var(--bg-base-tertiary)!important;
