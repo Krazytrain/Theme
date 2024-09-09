@@ -106,3 +106,7 @@
 .base_d7ebeb {
     bottom: 0px;
 }
+/*Forum Channel Background*/
+.container_a6d69a{
+    background: var(--bg-overlay-chat,var(--bg-base-primary));
+}
