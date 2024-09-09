@@ -110,3 +110,24 @@
 .container_a6d69a{
     background: var(--bg-overlay-chat,var(--bg-base-primary));
 }
+.background_e85cee{
+    background: var(--bg-overlay-chat,var(--bg-base-primary))!important;
+}
+.container_f1fd9c, .header_f1fd9c, .pageBody_c2efea {
+    background: var(--bg-overlay-chat, var(--bg-base-primary))!important;
+}
+.notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd{
+    background: var(--bg-overlay-3,var(--bg-surface-raised)) !important;
+}
+.theme-dark .themed_fc4f04 {
+    background: var(--bg-base-tertiary)!important;
+}
+.theme-dark .children_fc4f04:after{
+    background: none;
+}
+.row_b53f4f, .sidebarCardWrapper_e85cee{
+    background: var(--bg-surface-raised);
+}
+.theme-midnight.row_b53f4f, .theme-midnight.sidebarCardWrapper_e85cee{
+    background: var(--bg-base-tertiary);
+}
