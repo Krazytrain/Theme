@@ -131,3 +131,8 @@
 .theme-midnight.row_b53f4f, .theme-midnight.sidebarCardWrapper_e85cee{
     background: var(--bg-base-tertiary);
 }
+.panel_bf1a22 {
+    background: var(--bg-overlay-1,var(--bg-surface-raised))!important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
