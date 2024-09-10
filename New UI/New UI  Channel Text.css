@@ -135,7 +135,7 @@
     background: var(--bg-base-tertiary)!important;
 }
 .page_d20375{
-    background: var(--bg-overlay-chat, var(--bg-base-primary))!important;
+    background: var(--bg-overlay-home, var(--bg-base-primary))!important;
 }
 .panel_bf1a22 {
     background: var(--bg-overlay-1,var(--bg-surface-raised))!important;
