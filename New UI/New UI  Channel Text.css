@@ -145,3 +145,6 @@
 .privateChannels_f0963d .scrollerBase_eed6a8  {
     margin-bottom: calc(-30px + var(--custom-app-panels-height));
 }
+.inner_c59af2 {
+    background: var(--input-background)!important;
+}
