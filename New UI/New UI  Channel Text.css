@@ -136,4 +136,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+.privateChannels_f0963d .scrollerBase_eed6a8  {
+    margin-bottom: calc(-30px + var(--custom-app-panels-height));
+}
