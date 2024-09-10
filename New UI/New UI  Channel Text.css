@@ -136,3 +136,6 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.scrollerBase_eed6a8 {
+    margin-bottom: calc(10px + var(--custom-app-panels-height));
+}
