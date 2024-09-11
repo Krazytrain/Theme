@@ -152,3 +152,11 @@
 .biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b{
     background: var(--bg-overlay-3,var(--bg-surface-raised))!important;
 }
+.body_cd82a7.inset_ac5d22{
+    background-color: var(--background-primary);
+    border-radius: 8px!important;
+    }
+
+.theme-midnight .outer_ac5d22, .theme-darker .outer_ac5d22 {
+    background-color: var(--bg-surface-raised);
+}
