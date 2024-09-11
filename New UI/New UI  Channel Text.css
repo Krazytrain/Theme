@@ -119,7 +119,7 @@
 .notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd{
     background: var(--bg-overlay-3,var(--bg-surface-raised)) !important;
 }
-.theme-dark .themed_fc4f04 {
+.theme-dark .themed_fc4f04, .container_fc4f04 {
     background: var(--bg-base-tertiary)!important;
 }
 .theme-dark .children_fc4f04:after{
