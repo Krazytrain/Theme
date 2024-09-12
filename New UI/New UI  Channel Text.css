@@ -176,11 +176,15 @@
 .wrapper_ba23fe, .wrapper_efd8e6, .categoryHeader_fe2299{
     background: var(--bg-surface-raised);
 }
+/*Message forwarding*/
 .root_f9a4c9{
     background: var(--bg-base-secondary);
 }
 .footer_f9a4c9{
     background: var(--bg-surface-raised);
+}
+.container_c18ec9{
+    background: var(--bg-surface-raised) !important;
 }
 /*Server side bar*/
 .bannerImage_fd6364{
