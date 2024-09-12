@@ -176,3 +176,9 @@
 .wrapper_ba23fe, .wrapper_efd8e6, .categoryHeader_fe2299{
     background: var(--bg-surface-raised);
 }
+.root_f9a4c9{
+    background: var(--bg-base-secondary);
+}
+.footer_f9a4c9{
+    background: var(--bg-surface-raised);
+}
