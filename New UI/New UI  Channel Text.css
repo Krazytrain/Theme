@@ -182,3 +182,16 @@
 .footer_f9a4c9{
     background: var(--bg-surface-raised);
 }
+/*Server side bar*/
+.bannerImage_fd6364{
+    width: auto!important;
+}
+.visual-refresh .bannerImg_fd6364{
+    min-width: 256px!important;
+}
+.platform-win .sidebar_a4d4d9{
+    min-width: 256px!important;
+}
+.visual-refresh [class^=panels_]{
+    min-width: 312px;
+}
