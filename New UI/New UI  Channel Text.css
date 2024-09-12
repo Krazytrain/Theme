@@ -160,3 +160,19 @@
 .theme-midnight .outer_ac5d22, .theme-darker .outer_ac5d22 {
     background-color: var(--bg-surface-raised);
 }
+.contentWrapper_f7506e{
+    margin-top: -5px;
+}
+.autocompleteAttached_bea0d0{
+    background: var(--bg-base-secondary);
+    bottom: calc(100% + 12px);
+}
+.wrapper_fe2299{
+    background: var(--bg-base-secondary);
+}
+.outerWrapper_fe2299{
+    bottom: calc(100% + 12px);;
+}
+.wrapper_ba23fe, .wrapper_efd8e6, .categoryHeader_fe2299{
+    background: var(--bg-surface-raised);
+}
