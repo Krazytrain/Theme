@@ -199,3 +199,9 @@
 .visual-refresh [class^=panels_]{
     min-width: 312px;
 }
+.listItem_c96c45 {
+    margin: 0 0 12px;
+}
+.expandedFolderBackground_bc7085{
+    margin-top: -5px!important;
+}
