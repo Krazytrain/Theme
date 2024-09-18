@@ -64,6 +64,9 @@
 .theme-light #vc-spotify-player {
  background: unset; 
 }
+button.button_adca65, span.button_adca65{
+    border-radius: 50%;
+}
 /*Chat bars*/
 .visual-refresh .form_a7d72e {
     background-color: var(--bg-base-tertiary);
