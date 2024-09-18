@@ -10,7 +10,7 @@
     position: absolute;
     top: 0px;
     left: 100px;
-    color: var(--brand-500);
+    color: var(--text-muted);
     display: block;
     height: 16px;
     width: 300px;
