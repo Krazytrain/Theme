@@ -415,6 +415,7 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
     border: 1px solid var(--border-strong);
     top: 0px;
     right: -10px;
+    background: var(--bg-base-tertiary)!important;
 }
 .cozyMessage_d5deea.groupStart_d5deea .popover_e986d9{
     border-radius: 10px;
@@ -422,6 +423,7 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
     border: 1px solid var(--border-strong);
     top: -8px;
     right: -10px;
+    background: var(--bg-base-tertiary)!important;
 }
 .group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
     margin-bottom: 0px;
