@@ -81,7 +81,15 @@
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid var(--border-strong);
-    top: -10px;
+    top: 0px;
+    right: -10px;
+}
+.cozyMessage_d5deea.groupStart_d5deea .popover_e986d9{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-strong);
+    top: -8px;
+    right: -10px;
 }
 .group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
     margin-bottom: 0px;
