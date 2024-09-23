@@ -58,6 +58,9 @@ div[class*=pollContainer] {
 .timestampVisibleOnHover_f9f2ca { /* Fix avatar, avatar decoration, timestamp position */
   margin-left: -16px;
 }
+.timestampVisibleOnHover_f9f2ca {
+  margin-left: -8px;
+}
 .repliedMessage_f9f2ca:before{
     left: -2.5rem;
     width: 23px !important;
