@@ -1,5 +1,3 @@
-
-
 /*=============================================
 =                 Chat Bubbles                =
 =============================================*/
@@ -58,7 +56,7 @@ div[class*=pollContainer] {
 .avatar_f9f2ca,
 .avatarDecoration_f9f2ca,
 .timestampVisibleOnHover_f9f2ca { /* Fix avatar, avatar decoration, timestamp position */
-  margin-left: -8px;
+  margin-left: -16px;
 }
 .repliedMessage_f9f2ca:before{
     left: -2.5rem;
@@ -138,18 +136,32 @@ div[class*=pollContainer] {
     border-bottom-left-radius: 0px !important;
 }
 .cozy_f9f2ca.hasThread_f9f2ca:after {
-    border-width: 3px!important;
-    width: 22px!important;
-    left: -30px!important;
+    border-left: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    border-bottom: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    border-width: 4px!important;
+    width: 36px!important;
+    left: -40px!important;
+    top: 66px!important;
 }
 .cozy_f9f2ca .repliedMessage_f9f2ca:before{
-    border-top-width: 3px!important;
-    border-left-width: 3px!important;
+    border-top-width: 4px!important;
+    border-left-width: 4px!important;
     border-right-width: 0px!important;
     border-bottom-width: 0px!important;
-    width: 26px!important;
-    
+    width: 40px!important;
+    margin-left: -10px;
 }
+
+.searchResult_ddc613 .cozy_f9f2ca .repliedMessage_f9f2ca:before{
+    margin-left: 0px;
+    width: 30px!important;
+}
+.searchResult_ddc613 .avatar_f9f2ca{
+    margin-left: 62px;
+}
+
+
+
 /*Epmemeral Messages*/
 .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     background: var(--background-message-highlight) !important;
@@ -178,9 +190,7 @@ div[class*=pollContainer] {
   margin-top: unset;
 }
 
-.hasThread_f9f2ca::after { /* Remove thread "arrow" */
-  display: none;
-}
+
 
 /*Reactions*/
 .reaction_f61c73 { /* Add background to reactions */
@@ -288,23 +298,15 @@ div[class*=pollContainer] {
 
 
 .markup_f8f345 blockquote, .markup_f8f345 pre {
-    max-width: 100%;
+    max-width: fit-content;
 }
 .wrapper_f7e168 {
     background-color: var(--background-secondary)!important;
 }
 
-code.scrollbarGhostHairline_c858ce.scrollbar_c858ce.hljs{
-    width: fit-content;
-}
-.markup_f8f345 .codeContainer_f8f345{
-    width: fit-content;
-}
+
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
-   
-    
     padding-right: 24px!important;
-    
 }
 
 
@@ -331,6 +333,7 @@ code.scrollbarGhostHairline_c858ce.scrollbar_c858ce.hljs{
 }
 .messageListItem_d5deea {
     margin-top: 8px!important;
+    margin-left: 10px;
 }
 /*Poll width Fix*/
 [class*=pollContainer] {
@@ -472,6 +475,14 @@ div.message_d5deea.cozyMessage_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca {
     background: var(--bg-overlay-3, var(--bg-surface-raised))!important;
     height: 52px;
 }
+
+
+
+
+
+
+
+
 
 
 
