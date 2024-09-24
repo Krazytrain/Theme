@@ -194,13 +194,17 @@ button.button_adca65, span.button_adca65{
     width: auto!important;
 }
 .visual-refresh .bannerImg_fd6364{
-    min-width: 256px!important;
+    min-width: 330px!important;
 }
-.platform-win .sidebar_a4d4d9{
-    min-width: 256px!important;
+.visual-refresh .sidebar_a4d4d9{
+    min-width: 330px!important;
 }
 .visual-refresh [class^=panels_]{
-    min-width: 312px;
+    min-width: 312px!important;
+}
+.buttons_c29ea9 {
+    max-width: 220px;
+    margin-left: 8px;
 }
 .listItem_c96c45 {
     margin: 0 0 12px;
