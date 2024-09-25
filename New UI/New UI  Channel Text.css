@@ -198,6 +198,10 @@ button.button_adca65, span.button_adca65{
 }
 .visual-refresh .sidebar_a4d4d9{
     min-width: 330px!important;
+    max-width: 330px!important;
+}
+.sidebarResizeHandle_a4d4d9{
+    display: none!important;
 }
 .visual-refresh [class^=panels_]{
     min-width: 312px!important;
@@ -206,6 +210,26 @@ button.button_adca65, span.button_adca65{
     max-width: 220px;
     margin-left: 8px;
 }
+.bannerImage_fd6364 {
+    height: 105px!important;
+    position: absolute;
+    width: auto!important;
+    top: 0;
+    left: -36px;
+    scale: 78%;
+    align-items: center;
+    display: flex;
+}
+.bannerImage_fd6364:before{
+    background: none;
+}
+.animatedContainer_fd6364{
+    height: 105px;
+}
+[style="height: 135px;"]{
+  height: 110px!important;
+}
+
 .listItem_c96c45 {
     margin: 0 0 12px;
 }
