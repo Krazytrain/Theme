@@ -8,7 +8,7 @@
 .wordmarkWindows_a934d8:before {
     content: 'Default Look New-UI';
     position: absolute;
-    top: 5px;
+    top: 0px;
     left: 100px;
     color: var(--text-muted);
     display: block;
@@ -21,3 +21,6 @@
     font-size: 14px;
     font-weight: 800;
 } 
+.visual-refresh .bar_b66418{
+    padding-left: 100px;
+}
