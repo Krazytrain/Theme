@@ -6,18 +6,20 @@ This is a clean and fast discord theme that works well together. It keeps the co
 Any problems with it please let us know about them as i will be keeping it updated when i can.
 
 ## How to install?
-Click copy on this and add it into your quick css.
-Default Look Old UI
+Click copy and add it into your quick css. Pick which one you wanna use.
+### Default Look Old UI
 ```
 @import url('https://krazytrain.github.io/Theme/Defaultlook.theme.css');
 ```
-Default Look New UI
+![alt text](https://i.postimg.cc/brW0v289/image-2024-09-27-054602950-defaced.png)
+
+### Default Look New UI
 ```
 @import url('https://krazytrain.github.io/Theme/Defaultlook New-UI.theme.css');
 ```
-Default Look New UI
-https://i.postimg.cc/LXzFDjQn/image-2024-09-27-053548066-defaced.png
-
+Inside Experiments add visual refresh! Wont work without it.
+![alt text](https://i.postimg.cc/yN1RsTcz/4234234234.png)
+![alt text](https://i.postimg.cc/LXzFDjQn/image-2024-09-27-053548066-defaced.png)
 ## FAQ
 
 #### Does this work with Better Discord and Vencord?
