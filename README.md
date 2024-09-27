@@ -1,5 +1,5 @@
 
-# Default Look
+# Default Look & New UI
 
 This is a clean and fast discord theme that works well together. It keeps the colors nice and easy on your eyes and supports dark and light mode. 
 
@@ -7,12 +7,16 @@ Any problems with it please let us know about them as i will be keeping it updat
 
 ## How to install?
 Click copy on this and add it into your quick css.
+Default Look Old UI
 ```
 @import url('https://krazytrain.github.io/Theme/Defaultlook.theme.css');
 ```
-You can also just download the main file. [Download](https://github.com/Krazytrain/Theme/blob/main/Defaultlook.theme.css)
-
-Downloading the main file means you can edit some of the code too your liking.
+Default Look New UI
+```
+@import url('https://krazytrain.github.io/Theme/Defaultlook New-UI.theme.css');
+```
+Default Look New UI
+https://i.postimg.cc/LXzFDjQn/image-2024-09-27-053548066-defaced.png
 
 ## FAQ
 
