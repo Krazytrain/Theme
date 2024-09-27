@@ -109,6 +109,19 @@ button.button_adca65, span.button_adca65{
 .base_d7ebeb {
     bottom: 0px;
 }
+.visual-refresh .button_df39bd{
+    height: 44px;
+    width: 42px;
+}
+.has-webkit-scrollbar .buttons_d0696b{
+    margin-top: 2px;
+}
+.fontSize16Padding_d0696b {
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+
 /*Forum Channel Background*/
 .container_a6d69a{
     background: var(--bg-overlay-chat,var(--bg-base-primary));
