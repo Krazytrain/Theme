@@ -249,3 +249,23 @@ button.button_adca65, span.button_adca65{
 .expandedFolderBackground_bc7085{
     margin-top: -5px!important;
 }
+
+
+
+
+.visual-refresh .container_ee69e0 {
+    margin-bottom: calc(16px + var(--custom-app-panels-height, 0));
+    border-bottom: 1px solid var(--border-strong);
+}
+.visual-refresh .container_b2ca13 {
+    height: calc(19px + var(--custom-channel-textarea-text-area-height));
+}
+
+
+
+.container_e462a4{
+    background: var(--bg-base-tertiary);
+}
+.scroller_b91a2d{
+    background: var(--bg-base-primary);
+}
