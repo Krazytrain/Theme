@@ -163,7 +163,10 @@ div[class*=pollContainer] {
 .searchResult_ddc613 .avatar_f9f2ca{
     margin-left: 62px;
 }
-
+.replying_d5deea .avatar_f9f2ca {
+    left: 12px !important;
+    margin-top: 3px !important;
+}
 
 
 /*Epmemeral Messages*/
