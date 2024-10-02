@@ -120,20 +120,16 @@ div[class*=pollContainer] {
 }
 /*Replying*/
 .replying_d5deea:before {
-    display: ruby !important;
+    display: none !important;
     width: 3px !important;
 }
 .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     background: var(--background-message-highlight)!important;
     border: calc(4px* var(--chat-bubble)) solid var(--background-message-highlight)!important;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
 }
 .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
     background: var(--background-message-highlight-hover)!important;
     border: calc(4px* var(--chat-bubble)) solid var(--background-message-highlight-hover)!important;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
 }
 .cozy_f9f2ca.hasThread_f9f2ca:after {
     border-left: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
