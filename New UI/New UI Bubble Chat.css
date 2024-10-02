@@ -168,8 +168,6 @@ div[class*=pollContainer] {
 }
 .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
     background: var(--background-message-highlight-hover) !important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
     border: 4px solid var(--background-message-highlight);
 }
 .ephemeral_d5deea:before {
