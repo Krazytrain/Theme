@@ -13,7 +13,7 @@
 =============================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Private Channel Icons.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Server shortcuts Icons.css');
-@import url('https://krazytrain.github.io/Theme/Main Theme/Chat Bubbles.css');
+@import url('https://krazytrain.github.io/Theme/New UI/New UI Bubble Chat.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/RadialStatus.css');
 :root {
   --chat-bubble: 1; /*0 = Disable | 1 = Normal | 2 = Bigger*/
@@ -34,3 +34,6 @@
 /*=============================================
 =              Custom CSS Code                =
 =============================================*/
+.channelTextArea_a7d72e .scrollableContainer_d0696b, .searchBar_a46bef, .button_df39bd, [class^=channelAppLauncher_]{
+    background: var(--bg-base-tertiary)!important;
+}
