@@ -102,7 +102,7 @@ div[class*=pollContainer] {
 
 /*Mentioned*/
 .mentioned_d5deea::before {
-    display: ruby!important;
+    display: none!important;
     width: 3px!important;
     border-top-left-radius: 50px!important;
     border-bottom-left-radius: 50px!important;
@@ -110,14 +110,10 @@ div[class*=pollContainer] {
 .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     background: var(--background-mentioned)!important;
     border: calc(4px* var(--chat-bubble)) solid var(--background-mentioned)!important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
 }
 .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
     background: var(--background-mentioned-hover)!important;
     border: calc(4px* var(--chat-bubble)) solid var(--background-mentioned-hover)!important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
 }
 .replying_d5deea .avatar_f9f2ca { /* Fix avatar indent when replying */
   margin-left: calc(-4.5rem - var(--cb-replying-indicator-width));
@@ -172,8 +168,6 @@ div[class*=pollContainer] {
 /*Epmemeral Messages*/
 .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     background: var(--background-message-highlight) !important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
     border: 4px solid var(--background-message-highlight);
 }
 .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
@@ -184,7 +178,7 @@ div[class*=pollContainer] {
 }
 .ephemeral_d5deea:before {
     background: var(--brand-500);
-    display: ruby !important;
+    display: none !important;
     width: 3px !important;
     border-top-left-radius: 50px !important;
     border-bottom-left-radius: 50px !important;
