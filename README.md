@@ -30,4 +30,3 @@ Yes this theme works with dark and light mode!
 Yes this theme was made around discord nitro themes.
 (To get nitro themes install vencord and add the plugin Fake Nitro)
 
-![alt text](https://e.widgetbot.io/channels/1132056980014501979/1132056981025325131)
