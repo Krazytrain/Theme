@@ -101,7 +101,6 @@ button.button_adca65, span.button_adca65{
     margin: -1px;
     margin-top: -8px;
     border-radius: 0px;
-    margin-bottom: -2px!important;
     background: var(--border-faint);
     padding-bottom: 26px;
     border-top: 1px solid var(--border-strong);
