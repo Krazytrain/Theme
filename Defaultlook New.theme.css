@@ -1,5 +1,5 @@
 /**
- * @name Defaultlook New-UI
+ * @name Defaultlook New
  * @author Krazytrain
  * @version 1.0.0
  * @description A soft and comfy feel for Discord.
@@ -7,11 +7,11 @@
 /*=============================================
 =         Main Theme Don't Remove             =
 =============================================*/
-@import url('https://krazytrain.github.io/Theme/New UI/New Theme.css');
+@import url('https://krazytrain.github.io/Theme/Defaultlook New/Theme Links.css');
 /*=============================================
 =                Custom Addons                =
 =============================================*/
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Radial Status.css');
+@import url('https://krazytrain.github.io/Theme/Defaultlook New/Radial Status.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
