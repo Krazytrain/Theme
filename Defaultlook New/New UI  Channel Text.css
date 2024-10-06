@@ -1,0 +1,83 @@
+/*=============================================
+=                Channel Text                 =
+=============================================*/
+
+/*Channel text*/
+.name_a08117.container_cc72c1 .overflow_a82120{
+    left: 6px!important;
+}
+.name_d8bfb3, .title_fc4f04, .title_fc4f04{
+    text-transform: capitalize!important;
+    
+}
+.container_a5ad5c{
+    text-align: center;
+}
+[class^=membersGroup]{
+    font-size: 14px;
+}
+.membersGroup_cbd271.container_cc72c1 {
+  font-weight: 900!important;
+}
+.mainContent_a08117:before {
+    right: 0px;
+    left: 0px;
+    border-bottom: 1px solid var(--border-strong);
+}
+.icon_a08117 {
+    left: 6px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+
+/* merge app launcher to be part of the chat bar */
+[class^=channelTextArea_] > [class^=scrollableContainer_] {
+    margin-right: -10px!important;
+}
+.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b  {
+    margin-right: 0px!important;
+}
+&:not(:has(> [class^=inner_][class*=innerDisabled_])) {
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+.button_df39bd{
+    background: var(--bg-overlay-3,var(--bg-surface-raised))!important;
+}
+[class^=channelAppLauncher_] {
+    margin-left: 0!important;
+    min-width: 44px!important;
+    background-color: var(--bg-overlay-3,var(--bg-surface-raised))!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+.jumpToPresentBar_cf58b5{
+    right: 16px;
+    
+}
+/* re-edging the corner padding to match pre-refresh */
+.visual-refresh [class^=appAsidePanelWrapper] {
+    padding: 1px;
+}
+/* Make profile & derivatives stop hogging the entire bottom left corner*/
+.visual-refresh [class^=panels_] {
+  border-radius: 10px;
+}
+/* preference, match spotifycontrols to panel tint */
+.theme-dark #vc-spotify-player {
+ background: unset; 
+}
+.theme-light #vc-spotify-player {
+ background: unset; 
+}
+/*Chat bars*/
+.visual-refresh .form_a7d72e {
+    background-color: var(--bg-base-tertiary);
+    border: 1px solid var(--border-faint);
+    margin: 8px;
+    margin-top: -8px;
+    border-radius: var(--radius-sm);
+    padding: 8px;
+}

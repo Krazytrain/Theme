@@ -1,0 +1,29 @@
+/*=============================================
+=                 Hide Buttons                =
+=============================================*/
+
+/* Hide Buttons */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+.toolbar_e44302 [aria-label="Help"] {
+  display: none;
+}
+.toolbar_e44302 [aria-label="Notification Settings"] {
+  display: none;
+}
+.iconWrapper_e44302 {
+    margin: 0 4px;
+}
+.searchBar_a46bef{
+    width: 140px;
+}
+.anchor_af404b.anchorUnderlineOnHover_af404b [aria-label="Help"]{
+  display: none;
+}
