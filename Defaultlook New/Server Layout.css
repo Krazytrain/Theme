@@ -314,3 +314,13 @@ li:not([class]) > .containerDefault_f6f816{
 .basicChannelRowLink_d8bfb3 .icon_d8bfb3:hover {
     color: var(--interactive-active);
 }
+.basicChannelRowLink_d8bfb3{
+    width: 50px!important;
+    background: var(--bg-surface-raised);
+    margin-left: -10px!important;
+    margin-top: 10px;
+}
+li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicChannelRowLink_d8bfb3){
+    margin-left: 10px!important;
+    direction:rtl;
+}
