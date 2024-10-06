@@ -3,5 +3,35 @@
 =                 Inbox Layout                =
 =                                             =
 =============================================*/
-/*Status Box*/
-
+/* Private Channel shortcuts as Icons */
+.avatarWithText_c91bad.layout_ec8679 .content_ec8679{
+  display: none;
+}
+.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+    width: 52px;
+    display: inline-flex ;
+}
+.channel_c91bad {
+    display:contents;
+}
+.linkButtonIcon_c91bad{
+  margin-left: 2px;
+  margin-top: 0px;
+  scale: 1.2;
+}
+.interactive_f5eb4b.interactive_c91bad.linkButton_c91bad{
+    background-color: transparent;
+    margin-left: 6px;
+}
+.content_eed6a8{
+    height: fit-content !important;
+    margin-bottom: 10px;
+}
+.friendsButtonContainer_f0963d{
+    width: 52px;
+    display: inline-flex ;
+}
+.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+    width: 58px;
+    display: inline-flex;
+}
