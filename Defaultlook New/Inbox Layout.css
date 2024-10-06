@@ -35,3 +35,6 @@
     width: 58px;
     display: inline-flex;
 }
+.privateChannels_f0963d .scrollerBase_eed6a8 {
+    margin-bottom: calc(10px + var(--custom-app-panels-height));
+}
