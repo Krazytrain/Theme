@@ -38,3 +38,10 @@
 .privateChannels_f0963d .scrollerBase_eed6a8 {
     margin-bottom: calc(10px + var(--custom-app-panels-height));
 }
+/*Shop Button*/
+.marketingButtonBackground_a25714{
+    display: none;
+}
+.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad .newBadge_a25714{
+    display: none;
+}
