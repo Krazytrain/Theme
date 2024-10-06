@@ -45,3 +45,13 @@
 .channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad .newBadge_a25714{
     display: none;
 }
+/*Shop and Nitro page*/
+.scroller_a8b566, .shop_ebba41{
+    background: var(--bg-overlay-chat,var(--bg-base-primary));
+}
+.searchBar_f0963d{
+    height: 49px!important;
+}
+.header_fd6364{
+    height: 49px!important;
+}
