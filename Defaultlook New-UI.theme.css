@@ -1,5 +1,5 @@
 /**
- * @name New UI
+ * @name Defaultlook New-UI
  * @author Krazytrain
  * @version 1.0.0
  * @description A soft and comfy feel for Discord.
@@ -7,15 +7,11 @@
 /*=============================================
 =         Main Theme Don't Remove             =
 =============================================*/
-@import url('https://krazytrain.github.io/Theme/New UI/New UI  Channel Text.css');
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Fonts.css');
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Hide Buttons.css');
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Reactions and Emojis.css');
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Status Box.css');
+@import url('https://krazytrain.github.io/Theme/New UI/New Theme.css');
+/*=============================================
+=                Custom Addons                =
+=============================================*/
 @import url('https://krazytrain.github.io/Theme/New UI/New UI Radial Status.css');
-@import url('https://krazytrain.github.io/Theme/New UI/Settings Popout.css');
-@import url('https://krazytrain.github.io/Theme/New UI/theme-info');
-@import url('https://krazytrain.github.io/Theme/New UI/New UI Bubble Chat.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;

@@ -28,3 +28,14 @@ button[aria-label="Open GIF picker"] {
 .anchor_af404b.anchorUnderlineOnHover_af404b [aria-label="Help"]{
   display: none;
 }
+/*Hide Reactions on message Hover*/
+div[class^="buttonContainer"]>div>div {
+    >div[aria-label^="Click to react with"],
+    >div[aria-label^="Click to remove"],
+    .separator_e986d9{
+        display: none;
+    }
+}
+.popover_a64b81.avatarPopover_a64b81.wrapper_f7e168{
+    display: none;
+}

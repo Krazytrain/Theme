@@ -30,3 +30,7 @@
 .statusBubble_d0a252 {
     background-color: var(--custom-status-bubble-background)!important;
 }
+/*Fix Account Popout*/
+.accountProfilePopoutWrapper_b2ca13 {
+    left: -8px;
+}

@@ -6,7 +6,7 @@
     left: -100px!important;
 }
 .wordmarkWindows_a934d8:before {
-    content: 'Default Look';
+    content: 'Default Look New-UI';
     position: absolute;
     top: 0px;
     left: 100px;
@@ -21,3 +21,6 @@
     font-size: 14px;
     font-weight: 800;
 } 
+.visual-refresh .bar_b66418{
+    padding-left: 100px;
+}

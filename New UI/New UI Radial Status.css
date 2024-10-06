@@ -246,3 +246,13 @@
 #app-mount .wrapper_c51b4e .avatarDecoration_c51b4e foreignObject[mask*=mobile]  {
     scale: 85%;
 }
+
+/*Fix Favorites Icons*/
+.iconContainer_d8bfb3 .wrapper_c51b4e {
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+#app-mount .iconContainer_d8bfb3 .wrapper_c51b4e foreignObject{
+    width: 25px!important;
+    height: 25px!important;
+}
