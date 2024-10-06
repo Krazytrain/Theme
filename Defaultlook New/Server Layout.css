@@ -422,3 +422,30 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     margin-bottom: -8px;
     background: var(--bg-surface-raised);
 }
+/*Other*/
+.jump_d5deea{
+    right: 55px;
+    margin-top: 6px;
+}
+.quotedChatMessage_d5deea{
+    left: 10px;
+}
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    color: var(--white-500);
+    background-color: var(--brand-500);
+}
+.app_a01fb1 button {
+    cursor: pointer;
+}
+.standardSidebarView_c25c6d, .standardSidebarView_c25c6d * {
+    box-sizing: border-box;
+}
+.changePasswordButton_ad4a7c {
+    margin-bottom: 28px;
+}
+.sizeSmall_dd4f85 {
+    height: 32px;
+}
+.button_bdfce3{
+    height: 32px;
+}
