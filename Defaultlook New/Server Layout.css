@@ -508,3 +508,11 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .floating_d1c246{
     filter: none!important;
 }
+/*User pics and status*/
+.avatarDecoration_f9f2ca, .avatar_f9f2ca{
+    scale: 80%!important;
+    margin-top: -5px!important;
+}
+.cozy_f9f2ca.hasThread_f9f2ca:after{
+    top: 58px!important;
+}
