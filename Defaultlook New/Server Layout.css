@@ -450,7 +450,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     margin-bottom: 0px!important;
 }
 .privateChannels_f0963d .scrollerBase_eed6a8 {
-    padding-bottom: calc(-60px + var(--custom-app-panels-height))!important;
     margin-bottom: 0px!important;
 }
 
