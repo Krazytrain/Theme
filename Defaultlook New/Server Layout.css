@@ -389,13 +389,7 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .visual-refresh .container_ee69e0, .guilds_a4d4d9, .privateChannels_f0963d .scrollerBase_eed6a8{
     border-bottom: none;
 }
-.privateChannels_f0963d .scrollerBase_eed6a8 {
-    padding-bottom: calc(-160px + var(--custom-app-panels-height))!important;
-}
-/*
-.privateChannels_f0963d {
-    margin-bottom: calc(-56px + var(--custom-app-panels-height));
-}*/
+
 .visual-refresh .form_a7d72e{
     border-top: none!important;
 }
