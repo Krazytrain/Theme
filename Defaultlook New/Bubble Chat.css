@@ -143,9 +143,9 @@ div[class*=pollContainer] {
     border-left: 4px solid var(--chat-bubble-border-color);
     border-bottom: 4px solid var(--chat-bubble-border-color);
     border-width: 4px solid var(--chat-bubble-border-color);
-    width: 36px!important;
-    left: -40px!important;
-    top: 66px!important;
+    width: 36px !important;
+    left: -40px !important;
+    top: 75px !important;
 }
 .cozy_f9f2ca .repliedMessage_f9f2ca:before{
     border-top-width: 4px!important;
