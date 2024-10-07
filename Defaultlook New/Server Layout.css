@@ -376,6 +376,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd, .searchBar_a46bef, .container_c18ec9 {
     background: var(--bg-surface-raised)!important;
 }
+.panel_bf1a22 {
+    background: var(--bg-surface-raised)!important;
+}
 .visual-refresh .container_ee69e0, .privateChannels_f0963d .scrollerBase_eed6a8{
     background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
 }
