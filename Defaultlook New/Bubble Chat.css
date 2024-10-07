@@ -496,3 +496,11 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     border-left: 4px solid var(--chat-bubble-border-color);
     position: absolute;
 }
+
+.avatarDecoration_f9f2ca, .avatar_f9f2ca{
+    scale: 80%!important;
+    margin-top: -5px!important;
+}
+.cozy_f9f2ca.hasThread_f9f2ca:after{
+    top: 58px!important;
+}
