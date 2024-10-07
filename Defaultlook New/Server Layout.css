@@ -465,8 +465,8 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     padding-bottom: calc(8px + var(--custom-app-panels-height)) !important;
 }
 .privateChannels_f0963d .scrollerBase_eed6a8 {
-    padding-bottom: calc(-200px + var(--custom-app-panels-height)) !important; 
-    margin-bottom: -170px !important;
+    padding-bottom: calc(-200px + var(--custom-app-panels-height)) !important;
+    margin-bottom: -380px !important;
 }
 .unreadMentionsFixedFooter_fea3ef {
     bottom: 0px;
