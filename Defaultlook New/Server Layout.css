@@ -157,9 +157,6 @@ button.button_adca65, span.button_adca65{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.privateChannels_f0963d .scrollerBase_eed6a8  {
-    margin-bottom: calc(-30px + var(--custom-app-panels-height));
-}
 
 .fullSizeInnerThemed_c69a7b, .biteSizeInnerThemed_c69a7b{
     background: var(--bg-base-tertiary)!important;
