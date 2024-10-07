@@ -445,7 +445,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 .visual-refresh .sidebarList_a4d4d9, .visual-refresh .privateChannels_f0963d {
     background: var(--bg-overlay-chat, var(--bg-base-tertiary)) !important;
-    padding-bottom: calc(8px + var(--custom-app-panels-height)) !important;
 }
 .privateChannels_f0963d .scrollerBase_eed6a8 {
     padding-bottom: calc(-200px + var(--custom-app-panels-height)) !important;
