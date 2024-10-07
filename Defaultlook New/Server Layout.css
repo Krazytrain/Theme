@@ -453,7 +453,7 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .visual-refresh .sidebarList_a4d4d9 {
     background: var(--bg-overlay-chat, var(--bg-base-tertiary)) !important;
     padding-bottom: 0px!important;
-}
+}/*
 .guilds_a4d4d9{
     margin-bottom: 0px !important;
     padding-bottom: calc(8px + var(--custom-app-panels-height)) !important;
@@ -461,7 +461,7 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 .scroller_fea3ef{
     padding-bottom: 0px !important;
-}
+}*/
 .unreadMentionsFixedFooter_fea3ef {
     bottom: 0px;
 }
