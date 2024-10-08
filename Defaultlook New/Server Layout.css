@@ -321,6 +321,12 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     margin-left: 10px!important;
     direction:rtl;
 }
+.basicChannelRowLink_d8bfb3{
+    border-radius: 10px;
+}
+.basicChannelRowLink_d8bfb3 .icon_d8bfb3{
+    margin-left: 6px;
+}
 /*Server Channel Sidebar*/
 .sectionDivider_c43953{
     margin-bottom: 5px;
