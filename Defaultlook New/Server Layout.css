@@ -162,7 +162,7 @@ button.button_adca65, span.button_adca65{
     background: var(--bg-base-tertiary)!important;
 }
 .biteSizeOverlayBackground_c69a7b, .fullSizeOverlayBackground_c69a7b{
-    background: var(--bg-overlay-3,var(--bg-surface-raised))!important;
+    background: var(--bg-surface-raised)!important;
 }
 .body_cd82a7.inset_ac5d22{
     background-color: var(--background-primary);
