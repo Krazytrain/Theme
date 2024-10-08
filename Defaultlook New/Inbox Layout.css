@@ -53,3 +53,7 @@
 .header_fd6364{
     height: 48px!important;
 }
+/*Private Call Background*/
+.wrapper_d880dc.minimum_d880dc{
+    background: var(--bg-base-tertiary)!important;
+}
