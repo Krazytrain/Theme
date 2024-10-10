@@ -190,3 +190,9 @@
 .channel_c91bad .interactive_f5eb4b {
   background: transparent;
 }
+.interactive_f5eb4b.interactive_c91bad.interactiveSelected_c91bad.selected_f5eb4b{
+    background: var(--bg-overlay-selected,var(--background-modifier-selected));
+}
+.interactive_f5eb4b.interactive_c91bad:hover{
+    background: var(--bg-overlay-hover,var(--background-modifier-hover));
+}
