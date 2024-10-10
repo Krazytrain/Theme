@@ -140,12 +140,12 @@ div[class*=pollContainer] {
     border: calc(4px* var(--chat-bubble)) solid var(--background-message-highlight-hover)!important;
 }
 .cozy_f9f2ca.hasThread_f9f2ca:after {
-    border-left: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
-    border-bottom: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
-    border-width: 4px!important;
-    width: 36px!important;
-    left: -40px!important;
-    top: 66px!important;
+    border-left: 4px solid var(--chat-bubble-border-color);
+    border-bottom: 4px solid var(--chat-bubble-border-color);
+    border-width: 4px solid var(--chat-bubble-border-color);
+    width: 36px !important;
+    left: -40px !important;
+    top: 58px !important;
 }
 .cozy_f9f2ca .repliedMessage_f9f2ca:before{
     border-top-width: 4px!important;
@@ -482,10 +482,25 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     height: 52px;
 }
 
-.repliedMessageSpine_f9f2ca{
+.cozy_f9f2ca .messageSpine_f9f2ca:before, .cozy_f9f2ca .repliedMessageClickableSpine_f9f2ca{
     left: -3rem;
     width: 36px !important;
-    border-top: 4px solid var(--background-accent);
-    border-left: 4px solid var(--background-accent);
+    border-top: 4px solid var(--chat-bubble-border-color);
+    border-left: 4px solid var(--chat-bubble-border-color);
     position: absolute;
+}
+.cozy_f9f2ca .messageSpine_f9f2ca:before {
+    left: -40px;
+    width: 38px !important;
+    border-top: 4px solid var(--chat-bubble-border-color);
+    border-left: 4px solid var(--chat-bubble-border-color);
+    position: absolute;
+}
+
+.avatarDecoration_f9f2ca, .avatar_f9f2ca{
+    scale: 80%!important;
+    margin-top: -5px!important;
+}
+.cozy_f9f2ca.hasThread_f9f2ca:after{
+    top: 58px!important;
 }

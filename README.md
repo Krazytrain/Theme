@@ -15,7 +15,7 @@ Click copy and add it into your quick css. Pick which one you wanna use.
 
 ### Default Look New UI
 ```
-@import url('https://krazytrain.github.io/Theme/Defaultlook New-UI.theme.css');
+@import url('https://krazytrain.github.io/Theme/Defaultlook New.theme.css');
 ```
 Inside Experiments add visual refresh! Wont work without it.
 ![alt text](https://i.postimg.cc/yN1RsTcz/4234234234.png)
