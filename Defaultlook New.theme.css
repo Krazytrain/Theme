@@ -11,6 +11,7 @@
 /*=============================================
 =                Custom Addons                =
 =============================================*/
+@import url('https://krazytrain.github.io/Theme/Defaultlook New/Indicators.css');
 @import url('https://krazytrain.github.io/Theme/Defaultlook New/Radial Status.css');
 :root {
   --rs-small-spacing: 2px;
