@@ -48,3 +48,7 @@
     position: relative;
     left: 0px;
 }
+.vc-permviewer-role-button{
+    width: fit-content;
+    height: 24px;
+}
