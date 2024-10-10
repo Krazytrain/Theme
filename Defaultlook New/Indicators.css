@@ -59,7 +59,7 @@
 .containerDefault_f6f816:has(.modeSelected_d8bfb3),
 .containerDragBefore_f6f816:has(.modeSelected_d8bfb3) {
   border-left-color: var(--indicator-selected-border);
-  background-color: var(--indicator-selected-background);
+  background-color: var(--indicator-selected-background) !important;
 }
 .containerDefault_f6f816:has(.modeSelected_d8bfb3):hover,
 .containerDragBefore_f6f816:has(.modeSelected_d8bfb3):hover {
