@@ -25,13 +25,13 @@
 :root {
   --indicator-hover: var(--background-modifier-hover);
   --indicator-unread-border: hsla(var(--indicator-unread)/0.75);
-  --indicator-unread-background: hsla(var(--indicator-unread)/0.05);
-  --indicator-unread-hover-background: hsla(var(--indicator-unread)/0.10);
+  --indicator-unread-background: hsla(var(--indicator-unread)/0.2);
+  --indicator-unread-hover-background: hsla(var(--indicator-unread)/0.3);
   --indicator-unread-mention-border: hsl(var(--indicator-unread-mention));
   --indicator-unread-mention-background: hsla(var(--indicator-unread-mention)/0.15);
   --indicator-unread-mention-hover-background: hsla(var(--indicator-unread-mention)/0.25);
   --indicator-selected-border: hsl(var(--indicator-selected));
-  --indicator-selected-background: hsla(var(--indicator-selected)/0.15);
+  --indicator-selected-background: hsla(var(--indicator-selected)/0.1);
   --indicator-selected-hover-background: hsla(var(--indicator-selected)/0.25);
   --indicator-connected-border: hsl(var(--indicator-connected));
   --indicator-connected-background: hsla(var(--indicator-connected)/0.15);
