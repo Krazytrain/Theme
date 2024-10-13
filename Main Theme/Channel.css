@@ -3,5 +3,12 @@
 =============================================*/
 
 .containerDefault_a08117, .membersGroup_cbd271:has(+.member_a31c43) {
+    margin-bottom: 4px;
     border-bottom: 1px solid var(--background-modifier-accent);
+}
+.mainContent_a08117:before{
+    background: none!important;
+}
+.membersGroup_cbd271.container_a5ad5c{
+    height: 45px;
 }
