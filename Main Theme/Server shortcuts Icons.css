@@ -5,6 +5,7 @@
 li:not([class]):has(.basicChannelRowLink_d8bfb3) {
     width: 48px;
     display: inline-flex;
+    margin-left: 10px;
 }
 div:not([class]):has(.basicChannelRowLink_d8bfb3){
     width: 56px;
