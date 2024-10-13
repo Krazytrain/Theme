@@ -6,8 +6,8 @@
 
 :root{
   --channel-border-radius:16px; /* Rounding */
-  --channel-background: var(--cb-bubble-background); /* channel color */
-  --channel-title-background: var(--cb-bubble-background); /* title color */
+  --channel-background: var(--background-primary); /* channel color */
+  --channel-title-background: var(--background-primary); /* title color */
 }
 
 /*----------  Code  ----------*/
