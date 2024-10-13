@@ -3,6 +3,7 @@
 =                  Main Theme                 =
 =============================================*/
 @import url('https://krazytrain.github.io/Theme/Defaultlook New/Indicators.css');
+@import url('https://krazytrain.github.io/Theme/Main Theme/Channel.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Theme Info.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Channel Text.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Fix Nitro Colors.css');
@@ -17,19 +18,4 @@
 @import url('https://krazytrain.github.io/Theme/Main Theme/fonts.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Role Icon Colors.css');
 
-/*=============================================
-=        Channel and Member background        =
-=============================================*/
 
-/*---------- Settings  ----------*/
-
-@import url('https://krazytrain.github.io/Theme/Main Theme/Channel.css');
-@import url('https://krazytrain.github.io/Theme/Main Theme/Member List.css');
-:root {
-  --channel-border-radius:10px; /* Rounding */
-  --channel-background: var(--background-tertiary); /* channel color */
-  --channel-title-background: var(--background-tertiary); /* title color */
-  --ML-border-radius:10px; /* Rounding */
-  --ML-member-background: var(--background-tertiary); /* member color */
-  --ML-role-background: var(--background-tertiary); /* role color */
-}
