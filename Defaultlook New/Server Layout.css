@@ -119,7 +119,9 @@ button.button_adca65, span.button_adca65{
     padding-bottom: 8px;
     padding-top: 10px;
 }
-
+.visual-refresh .panels_a4d4d9, .visual-refresh .themedBackground_d0696b, .button_df39bd, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd, .searchBar_a46bef, .container_c18ec9, .theme-dark .scrollableContainer_d0696b.themedBackground_d0696b, .theme-dark .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85, .theme-light .scrollableContainer_d0696b.themedBackground_d0696b, .theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
+    border: 1px solid var(--input-border)!important;
+}
 
 /*Forum Channel Background*/
 .container_a6d69a{
