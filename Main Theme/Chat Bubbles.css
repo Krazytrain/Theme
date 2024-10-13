@@ -511,4 +511,8 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 
 .button_df39bd{
     background: var(--cb-bubble-background)!important;
+    height: 46px;
+}
+.wrapper_faf5ab{
+    background: var(--cb-bubble-background)!important;
 }
