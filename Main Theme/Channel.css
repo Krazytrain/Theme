@@ -6,20 +6,18 @@
 
 :root{
   --channel-border-radius:16px; /* Rounding */
-  --channel-background: var(--background-primary); /* channel color */
-  --channel-title-background: var(--background-primary); /* title color */
 }
 
 /*----------  Code  ----------*/
 
 
 .containerDefault_f6f816{
-	background: var(--channel-background);
+	background: var(--background-primary)!important;
 	border-radius: 0;
 }
 
 .containerDefault_a08117{
-	background: var(--channel-title-background);
+	background: var(--background-primary)!important;
 	margin: 8px 0 0;
 	padding:0
 }
