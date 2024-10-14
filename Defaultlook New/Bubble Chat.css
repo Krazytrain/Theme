@@ -1,9 +1,72 @@
+/*
+    background: var(--bg-surface-raised)!important;
+    border: 1px solid var(--input-border)!important;
+    border-bottom: none!important;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=============================================
 =                 Chat Bubbles                =
 =============================================*/
 
 :root {
-  --cb-bubble-background: red; /* Message bubble background */
+  --cb-bubble-background: var(--bg-surface-raised); /* Message bubble background */
   --cb-bubble-corner-radius: 10px; /* Message bubble corner radius */
 
   --cb-mentioned-indicator-width: 2px; /* Width of left indicator line in messages with mention */
@@ -11,7 +74,7 @@
 
   --chat-bubble: 1;
 
-  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-border-color: var(--input-border);
   --chat-bubble-code-background-color: var(--background-secondary-alt);
 
   --chat-bubble-box-shadow-h-offset: 0;
@@ -73,8 +136,8 @@ div[class*=pollContainer] {
 .repliedMessage_f9f2ca:before{
     left: -2.5rem;
     width: 23px !important;
-    border-top: 2px solid var(--background-accent);
-    border-left: 2px solid var(--background-accent);
+    border-top: 2px solid var(--chat-bubble-border-color);
+    border-left: 2px solid var(--chat-bubble-border-color);
     position: absolute;
 }
 
