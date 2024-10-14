@@ -439,6 +439,10 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .visual-refresh .container_ee69e0 {
     margin-bottom: 0px!important;
 }
+.replyBar_b11c5e, .threadSuggestionBar_b11c5e{
+    background: var(--bg-surface-raised)!important;
+    border: 1px solid var(--input-border)!important;
+    border-bottom: none!important;
 
 .visual-refresh .sidebarList_a4d4d9 {
     background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
