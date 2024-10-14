@@ -484,18 +484,18 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 .theme-light .scrollableContainer_d0696b.themedBackground_d0696b, .theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
     background: var(--bg-base-tertiary)!important;
-    border: 1px solid var(--border-faint)!important;
+    border: 1px solid var(--input-border)!important;
 }
 .theme-dark .scrollableContainer_d0696b.themedBackground_d0696b, .theme-dark .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
-    border: 1px solid var(--border-faint)!important;
+    border: 1px solid var(--input-border)!important;
 }
 .theme-darker .scrollableContainer_d0696b.themedBackground_d0696b, .theme-darker .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
     background: var(--bg-base-tertiary)!important;
-    border: 1px solid var(--border-faint)!important;
+    border: 1px solid var(--input-border)!important;
 }
 .theme-midnight .scrollableContainer_d0696b.themedBackground_d0696b, .theme-midnight .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
     background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--border-faint)!important;
+    border: 1px solid var(--input-border)!important;
 }
 
 /*User Buttons VC*/
