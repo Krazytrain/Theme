@@ -473,12 +473,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 
 
-
-.visual-refresh .form_a7d72e{
-    background: none!important;
-}
-
-
 .visual-refresh .channelTextArea_a7d72e{
     margin-bottom: -2px;
 }
