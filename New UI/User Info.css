@@ -113,7 +113,7 @@ button.button_adca65:hover{
     display: none!important;
 }
 .container_b2ca13 .avatar_b2ca13{
-    margin-left: 1px!important;
+    margin-left: -1px!important;
     margin-top: 5px!important;
 }
 .avatarWrapper_b2ca13:hover{
