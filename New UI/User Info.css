@@ -111,3 +111,22 @@ button.button_adca65:hover{
 .avatarWrapper_b2ca13:hover{
     background: transparent!important;
 }
+
+
+
+
+
+[class^=panels_] {
+    margin: 5px !important;
+    border: 1px solid var(--input-border)!important;
+}
+
+.container_adcaac {
+    border-radius: 10px!important;
+    border-bottom: none;
+}
+#vc-spotify-player {
+    padding: .375rem .5rem;
+    border-bottom: 0px solid var(--background-modifier-accent);
+    --vc-spotify-green: #1db954;
+}
