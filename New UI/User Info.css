@@ -7,7 +7,7 @@
     margin-left: 20px;
 }
 .guilds_a4d4d9 {
-    padding-bottom: 170px;
+    padding-bottom: 270px;
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
 }
 .panels_a4d4d9 {
@@ -18,13 +18,18 @@
     height: 85px;
     z-index: 3;
     position: fixed;
-    bottom: 48px;
+    bottom: 15px;
     left: 2px;
     padding: 10px;
     background: transparent;
     display: flex;
     flex-direction: column;
 }
+.panels_a4d4d9 > .container_b2ca13:has([aria-label= "Disable Game Activity"]) {
+    bottom: 46px;
+}
+
+
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
     display: flex;
