@@ -102,6 +102,9 @@ button.button_adca65, span.button_adca65{
     padding-bottom: 26px;
     border-top: 1px solid var(--border-strong);
 }
+.form_a7d72e{
+    padding-left: 5px!important;
+}
 .base_d7ebeb {
     bottom: 0px;
 }
