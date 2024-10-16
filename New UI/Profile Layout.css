@@ -30,7 +30,25 @@
 .statusBubble_d0a252 {
     background-color: var(--custom-status-bubble-background)!important;
 }
-/*Fix Account Popout*/
+/*Profile Edit Buttons*/
+:where(.button_f9d37d).hover_f9d37d, :where(.button_f9d37d).banner_f9d37d{
+    padding: 8px 16px 8px 16px;
+}
+:where(.button_f9d37d).icon_f9d37d {
+    width: 32px;
+    height: 32px;
+}
+/*Message Box*/
+.footer_b8cc6d .fontSize16Padding_d0696b {
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+/*Profile Popout*/
 .accountProfilePopoutWrapper_b2ca13 {
-    left: -8px;
+    position: relative;
+    left: 0px;
+}
+.vc-permviewer-role-button{
+    width: fit-content;
+    height: 24px;
 }
