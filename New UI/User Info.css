@@ -86,12 +86,19 @@
 
 
 .button_adcaac.buttonColor_adcaac {
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: none;
+    border: 0px solid var(--background-primary)!important;
+    border-radius: 10px;
 }
 .vc-spotify-button-row button, .vc-spotify-button-row:hover button {
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: none!important;
+    border: 1px solid var(--input-border)!important;
+    border-radius: 10px;
+    width: 40px;
+}
+.vc-spotify-button-row{
+    gap: 8px!important;
+    padding-top: 5px;
 }
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
     background: var(--bg-surface-raised)!important;
@@ -129,4 +136,9 @@ button.button_adca65:hover{
     padding: .375rem .5rem;
     border-bottom: 0px solid var(--background-modifier-accent);
     --vc-spotify-green: #1db954;
+}
+
+
+.sidebar_a4d4d9 {
+    background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
 }
