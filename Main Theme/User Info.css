@@ -129,7 +129,6 @@ button.button_adca65:hover{
 
 [class^=panels_] {
     margin: 5px !important;
-    border: 1px solid var(--input-border)!important;
 }
 
 .container_adcaac {
