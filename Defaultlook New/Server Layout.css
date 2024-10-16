@@ -543,3 +543,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     background: var(--background-tertiary)!important;
     box-shadow: var(--shadow-ledge)!important;
 }
+.visual-refresh .sidebar_a4d4d9{
+  background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;
+}
