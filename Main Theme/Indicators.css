@@ -3,9 +3,9 @@
 =============================================*/
 
 :root {
-  --indicator-border-size: 2px;
+  --indicator-border-size: 4px;
   --indicator-border-style: solid;
-  --indicator-rounding: 0;
+  --indicator-rounding: 5px;
 }
 
 .theme-light {
