@@ -142,3 +142,19 @@ button.button_adca65:hover{
 .sidebar_a4d4d9 {
     background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
 }
+
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    color: var(--white-500);
+    background-color: var(--brand-500);
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
+    fill: var(--white-500)!important;
+    stroke: var(--white-500);
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[stroke][stroke-opacity] {
+    fill: var(--white-500)!important;
+    stroke: var(--white-500);
+}
+.theme-light .dot_d373b2 {
+    background-color:  var(--brand-500);
+}
