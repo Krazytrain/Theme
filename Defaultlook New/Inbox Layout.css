@@ -55,6 +55,10 @@
     height: 48px!important;
 }
 /*Private Call Background*/
-.wrapper_d880dc.minimum_d880dc{
-    background: var(--bg-base-tertiary)!important;
+.wrapper_d880dc.minimum_d880dc {
+    background: var(--background-tertiary)!important;
+}
+
+.flex_dc333f.horizontal_dc333f.justifyEnd_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    padding-top: 10px;
 }
