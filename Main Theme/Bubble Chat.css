@@ -3,7 +3,7 @@
 =============================================*/
 
 :root {
-  --cb-bubble-background: var(--background-primary); /* Message bubble background */
+  --cb-bubble-background: var(--bg-surface-raised); /* Message bubble background */
   --cb-bubble-corner-radius: 10px; /* Message bubble corner radius */
 
   --cb-mentioned-indicator-width: 2px; /* Width of left indicator line in messages with mention */
@@ -11,7 +11,7 @@
 
   --chat-bubble: 1;
 
-  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-border-color: var(--input-border);
   --chat-bubble-code-background-color: var(--background-secondary-alt);
 
   --chat-bubble-box-shadow-h-offset: 0;
@@ -73,8 +73,8 @@ div[class*=pollContainer] {
 .repliedMessage_f9f2ca:before{
     left: -2.5rem;
     width: 23px !important;
-    border-top: 2px solid var(--background-accent);
-    border-left: 2px solid var(--background-accent);
+    border-top: 2px solid var(--chat-bubble-border-color);
+    border-left: 2px solid var(--chat-bubble-border-color);
     position: absolute;
 }
 
@@ -501,18 +501,6 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     scale: 80%!important;
     margin-top: -5px!important;
 }
-.avatarDecoration_f9f2ca {
-    scale: 80% !important;
-    margin-top: -10px !important;
-}
 .cozy_f9f2ca.hasThread_f9f2ca:after{
-    top: 52px!important;
-}
-
-.button_df39bd{
-    background: var(--cb-bubble-background)!important;
-    height: 46px;
-}
-.wrapper_faf5ab{
-    background: var(--cb-bubble-background)!important;
+    top: 58px!important;
 }

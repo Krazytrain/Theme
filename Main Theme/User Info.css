@@ -7,7 +7,7 @@
     margin-left: 20px;
 }
 .guilds_a4d4d9 {
-    padding-bottom: 170px;
+    padding-bottom: 270px;
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
 }
 .panels_a4d4d9 {
@@ -18,12 +18,15 @@
     height: 85px;
     z-index: 3;
     position: fixed;
-    bottom: 60px;
-    left: 0px;
+    bottom: 30px;
+    left: 1px;
     padding: 10px;
     background: transparent;
     display: flex;
     flex-direction: column;
+}
+.panels_a4d4d9 > .container_b2ca13:has([aria-label= "Disable Game Activity"]) {
+    bottom: 46px;
 }
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
@@ -41,7 +44,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background: var(--bg-overlay-3,var(--background-secondary));
+    background: var(--bg-surface-raised);
     border-radius: 20px;
     padding-top: 50px;
     margin-top: -8px!important;
@@ -86,31 +89,114 @@
 
 
 .button_adcaac.buttonColor_adcaac {
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: none;
+    border: 0px solid var(--background-primary)!important;
+    border-radius: 10px;
 }
 .vc-spotify-button-row button, .vc-spotify-button-row:hover button {
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: var(--brand-500)!important;
+    color: var(--white-500);
+    border: 1px solid var(--input-border)!important;
+    border-radius: 10px;
+    width: 40px;
+}
+.vc-spotify-button-row{
+    gap: 8px!important;
+    padding-top: 5px;
 }
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: var(--bg-surface-raised)!important;
+    border: 1px solid var(--input-border)!important;
     margin-left: -2px;
 }
 button.button_adca65:hover{
     background: transparent!important;
 }
-.buttonContents_adcaac{
-    scale: 150%;
-}
 .dot_ccd671 {
     display: none!important;
 }
 .container_b2ca13 .avatar_b2ca13{
-    margin-left: 1px!important;
+    margin-left: -1px!important;
     margin-top: 5px!important;
 }
 .avatarWrapper_b2ca13:hover{
     background: transparent!important;
+}
+
+
+
+
+
+[class^=panels_] {
+    margin: 5px !important;
+    border: 1px solid var(--input-border)!important;
+}
+
+.container_adcaac {
+    border-radius: 10px!important;
+    border-bottom: none;
+}
+#vc-spotify-player {
+    padding: .375rem .5rem;
+    border-bottom: 0px solid var(--background-modifier-accent);
+    --vc-spotify-green: #1db954;
+}
+
+
+.sidebar_a4d4d9 {
+    background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
+}
+
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    color: var(--white-500);
+    background-color: var(--brand-500);
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
+    fill: var(--white-500)!important;
+    stroke: var(--white-500);
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[stroke][stroke-opacity] {
+    fill: var(--white-500)!important;
+    stroke: var(--white-500);
+}
+.theme-light .dot_d373b2 {
+    background-color:  var(--brand-500);
+}
+
+
+
+
+
+
+/*Shake animation hover to the text area when you don't have permission !*/
+
+/* Define the shake animation */
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Hover state to trigger the shake animation */
+.vc-spotify-button svg:hover {
+  animation: spin-animation 0.8s ease-in-out;
+}
+.vc-spotify-button svg{
+    width: 70px;
+    height: 26px;
+}
+
+[aria-label="Disable Game Activity"]:hover{
+    animation: spin-animation 0.8s ease-in-out;
 }
