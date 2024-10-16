@@ -546,3 +546,7 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .visual-refresh .sidebar_a4d4d9{
   background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;
 }
+.hasBanner_fd6364 .header_fd6364, .hasBanner_fd6364 .header_fd6364:hover, .communityInfoVisible_fd6364 .header_fd6364, .communityInfoVisible_fd6364 .header_fd6364:hover {
+    box-shadow: none!important;
+    background-color: transparent!important;
+}
