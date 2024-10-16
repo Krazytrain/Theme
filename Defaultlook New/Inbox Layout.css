@@ -63,6 +63,6 @@
     padding-top: 10px;
 }
 
-:where(.visual-refresh) .menu_d90b3d{
+.theme-light :where(.visual-refresh) .menu_d90b3d{
     background-color: var(--background-floating);
 }
