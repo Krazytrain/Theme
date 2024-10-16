@@ -337,6 +337,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .sectionDivider_c43953{
     margin-bottom: 5px;
 }
+.content_eed6a8 [style="height: 84px;"] {
+    margin-top: -25px;
+}
 
 /*VC Panel*/
 .disabledButtonWrapper_dd4f85.button_adcaac.buttonColor_adcaac.sizeSmall_dd4f85.grow_dd4f85.fullWidth_dd4f85 {
