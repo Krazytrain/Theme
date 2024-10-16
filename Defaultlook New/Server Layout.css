@@ -541,4 +541,5 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 .theme-dark .themed_fc4f04, .container_fc4f04, .header_fd6364, .searchBar_f0963d {
     background: var(--background-tertiary)!important;
+    box-shadow: var(--shadow-ledge)!important;
 }
