@@ -62,3 +62,7 @@
 .flex_dc333f.horizontal_dc333f.justifyEnd_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
     padding-top: 10px;
 }
+
+:where(.visual-refresh) .menu_d90b3d{
+    background-color: var(--background-floating);
+}
