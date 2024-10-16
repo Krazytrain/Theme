@@ -91,7 +91,8 @@
     border-radius: 10px;
 }
 .vc-spotify-button-row button, .vc-spotify-button-row:hover button {
-    background: none!important;
+    background: var(--brand-500)!important;
+    color: var(--white-500);
     border: 1px solid var(--input-border)!important;
     border-radius: 10px;
     width: 40px;
@@ -157,4 +158,42 @@ button.button_adca65:hover{
 }
 .theme-light .dot_d373b2 {
     background-color:  var(--brand-500);
+}
+
+
+
+
+
+
+/*Shake animation hover to the text area when you don't have permission !*/
+
+/* Define the shake animation */
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Hover state to trigger the shake animation */
+.vc-spotify-button svg:hover {
+  animation: spin-animation 0.8s ease-in-out;
+}
+.vc-spotify-button svg{
+    width: 70px;
+    height: 26px;
+}
+
+[aria-label="Disable Game Activity"]:hover{
+    animation: spin-animation 0.8s ease-in-out;
 }
