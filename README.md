@@ -19,7 +19,7 @@ Click copy and add it into your quick css. Pick which one you wanna use.
 ```
 Inside Experiments add visual refresh! Wont work without it.
 ![alt text](https://i.postimg.cc/yN1RsTcz/4234234234.png)
-![alt text](https://i.imgur.com/Z478HO8.png)
+![alt text](https://i.imgur.com/lLtyIhP.png)
 ## FAQ
 
 #### Does this work with Better Discord and Vencord?
