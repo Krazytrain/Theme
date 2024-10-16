@@ -278,6 +278,9 @@ button.button_adca65, span.button_adca65{
 .scroller_b91a2d{
     background: var(--bg-base-primary);
 }
+.mainContent_a08117:before{
+    left: 8px;
+}
 /*Server Side Bar with threads*/
 [style="height: 12px;"]{
     display: none;
