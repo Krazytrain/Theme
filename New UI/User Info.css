@@ -18,8 +18,8 @@
     height: 85px;
     z-index: 3;
     position: fixed;
-    bottom: 60px;
-    left: 0px;
+    bottom: 48px;
+    left: 2px;
     padding: 10px;
     background: transparent;
     display: flex;
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background: var(--bg-overlay-3,var(--background-secondary));
+    background: var(--bg-surface-raised);
     border-radius: 20px;
     padding-top: 50px;
     margin-top: -8px!important;
@@ -94,8 +94,8 @@
     border: 3px solid var(--background-primary)!important;
 }
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
-    background: var(--bg-overlay-1, var(--background-secondary-alt))!important;
-    border: 3px solid var(--background-primary)!important;
+    background: var(--bg-surface-raised)!important;
+    border: 1px solid var(--input-border)!important;
     margin-left: -2px;
 }
 button.button_adca65:hover{
