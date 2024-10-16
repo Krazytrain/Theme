@@ -9,13 +9,13 @@
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Theme Links.css');
 /*==================================================
-=   Radial Chat Status NEED PLATORMINDICATORS ON   =
-==================================================*//*
-@import url('https://krazytrain.github.io/Theme/Main Theme/Radial chat Status.css');
-/*==================================================
 =                  Radial Status                   =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Main Theme/Radial Status.css');
+/*==================================================
+=   Radial Chat Status NEED PLATORMINDICATORS ON   =
+==================================================*/
+@import url('https://krazytrain.github.io/Theme/Main Theme/Radial chat Status.css');
 :root {
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 2px;
