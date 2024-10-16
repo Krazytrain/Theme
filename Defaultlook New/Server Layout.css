@@ -539,6 +539,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .visual-refresh .chat_a7d72e {
     border-top: none;
 }
-.theme-dark .themed_fc4f04, .container_fc4f04, .header_fd6364 {
+.theme-dark .themed_fc4f04, .container_fc4f04, .header_fd6364, .searchBar_f0963d {
     background: var(--background-tertiary)!important;
 }
