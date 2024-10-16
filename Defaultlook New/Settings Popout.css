@@ -44,3 +44,32 @@
 .platform-win .standardSidebarView_c25c6d {
     top: 0px;
 }
+
+
+
+
+
+/*Shake animation hover to the text area when you don't have permission !*/
+
+/* Define the shake animation */
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Hover state to trigger the shake animation */
+[aria-label="Disable Game Activity"]:hover{
+    animation: spin-animation 0.8s ease-in-out;
+}
