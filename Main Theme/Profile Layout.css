@@ -52,3 +52,7 @@
     width: fit-content;
     height: 24px;
 }
+
+.full-motion .overlay_f94206:after {
+    display: none!important;
+}
