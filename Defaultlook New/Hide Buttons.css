@@ -56,3 +56,6 @@ div[class^="buttonContainer"]>div>div {
 .theme-light .dot_d373b2 {
     background-color:  var(--brand-500)!important;
 }
+.popover_cf8aee .avatarPopover_cf8aee .wrapper_f7e168{
+    display: none;
+}
