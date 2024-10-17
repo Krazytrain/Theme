@@ -89,9 +89,7 @@ button.button_adca65, span.button_adca65{
 .base_d7ebeb{
     bottom: -26px;
 }
-.button_df39bd {
-    background: var(--bg-overlay-3,var(--channeltextarea-background)) !important;
-}
+
 .visual-refresh .form_a7d72e {
     background-color: var(--bg-base-tertiary)!important;
     border: 1px solid var(--border-faint);
@@ -112,7 +110,7 @@ button.button_adca65, span.button_adca65{
     padding-bottom: 8px;
     padding-top: 10px;
 }
-.visual-refresh .panels_a4d4d9, .visual-refresh .themedBackground_d0696b, .button_df39bd, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd, .searchBar_a46bef, .container_c18ec9, .theme-dark .scrollableContainer_d0696b.themedBackground_d0696b, .theme-light .scrollableContainer_d0696b.themedBackground_d0696b{
+.visual-refresh .panels_a4d4d9, .visual-refresh .themedBackground_d0696b, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .theme-dark.visual-refresh .searchBar_a46bef, .searchBar_a46bef, .container_c18ec9, .theme-dark .scrollableContainer_d0696b.themedBackground_d0696b, .theme-light .scrollableContainer_d0696b.themedBackground_d0696b{
     border: 1px solid var(--input-border)!important;
 }
 .channelTextAreaDisabled_d0696b .scrollableContainer_d0696b{
@@ -141,7 +139,7 @@ button.button_adca65, span.button_adca65{
 .container_f1fd9c, .header_f1fd9c, .pageBody_c2efea {
     background: var(--bg-overlay-chat, var(--bg-base-primary))!important;
 }
-.notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd{
+.notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef{
     background: var(--bg-overlay-3,var(--bg-surface-raised)) !important;
 }
 .theme-dark .themed_fc4f04, .container_fc4f04 {
@@ -381,8 +379,8 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 
 
 /*Channel List Color and Text Boxs*/
-.visual-refresh .panels_a4d4d9, .visual-refresh .themedBackground_d0696b, .button_df39bd, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, 
-.notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .button_df39bd, .searchBar_a46bef, .container_c18ec9 {
+.visual-refresh .panels_a4d4d9, .visual-refresh .themedBackground_d0696b, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, 
+.notice_c02a8d, .theme-dark.visual-refresh .searchBar_a46bef, .searchBar_a46bef, .container_c18ec9 {
     background: var(--bg-surface-raised)!important;
 }
 .panel_bf1a22 {
