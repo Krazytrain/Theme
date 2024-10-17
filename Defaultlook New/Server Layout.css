@@ -128,7 +128,9 @@ button.button_adca65, span.button_adca65{
     padding-top: 0px;
     padding-bottom: 46px;
 }
-
+.form_a7d72e:before {
+    background: none;
+}
 /*Forum Channel Background*/
 .container_a6d69a{
     background: var(--bg-overlay-chat,var(--bg-base-primary));
