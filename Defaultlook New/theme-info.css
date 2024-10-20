@@ -8,7 +8,7 @@
 .wordmarkWindows_a934d8:before {
     content: 'Default Look New';
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 100px;
     color: var(--text-muted);
     display: block;
@@ -34,14 +34,17 @@
 
 
 
+.visual-refresh .winButtons_a934d8{
+    margin-top: 40px;
+}
+.visual-refresh .bar_b66418{
+    margin-top: 0px!important;
+    right: 80px!important;
+}
 .bar_b66418, .base_a4d4d9{
     margin-top: 0px;
 }
-.visual-refresh .bar_b66418{
-    padding-top: 22px!important;
-    right: 80px!important;
-}
 .visual-refresh .typeWindows_a934d8 {
     height: 0px!important;
-    margin-top: 20px!important;
+    margin-top: 0px!important;
 }
