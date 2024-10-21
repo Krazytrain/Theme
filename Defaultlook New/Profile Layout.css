@@ -56,17 +56,6 @@
 .visual-refresh .button_df39bd{
     background: none!important;
 }
-button.button_adca65, span.button_adca65 {
-    background-color: var(--button-secondary-background);
-    border-color: var(--border-faint) !important;
-    border-radius: var(--radius-sm) !important;
-    width: 34px;
-    margin-left: -2px;
-    margin-right: -2px;
-}
-button.button_adca65:hover, span.button_adca65:hover{
-    background-color: var(--button-secondary-background-hover)!important;
-}
 :where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65 {
     width: 68px;
     background-color: var(--button-secondary-background);
@@ -87,16 +76,5 @@ button.button_adca65:hover, span.button_adca65:hover{
     margin-right: 3px;
 }
 .vc-spotify-button:hover{
-    background-color: var(--button-secondary-background-hover);
-}
-
-.avatarWrapper_b2ca13{
-    background-color: var(--button-secondary-background);
-    border-radius: var(--radius-sm) !important;
-    border-color: var(--border-faint) !important;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.avatarWrapper_b2ca13:hover{
     background-color: var(--button-secondary-background-hover);
 }
