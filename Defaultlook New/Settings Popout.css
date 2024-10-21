@@ -70,6 +70,6 @@
   }
 }
 /* Hover state to trigger the shake animation */
-[aria-label="Disable Game Activity"]:hover{
+[aria-label="Disable Game Activity"] .contents_dd4f85:hover{
     animation: spin-animation 0.8s ease-in-out;
 }
