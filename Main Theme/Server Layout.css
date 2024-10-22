@@ -540,5 +540,5 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 /*Thread Side Spine*/
 .container_e1e976 .spineBorder_e1e976{
-    left: 26px;
+    left: 26px!important;
 }
