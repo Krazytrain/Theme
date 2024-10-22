@@ -44,6 +44,7 @@ div[class^="buttonContainer"]>div>div {
 .lookFilled_dd4f85.colorBrand_dd4f85 {
     color: var(--white-500)!important;
     background-color: var(--brand-500)!important;
+    border: 1px solid rgba(255,255,255,.1)!important;
 }
 .lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
     fill: var(--white-500)!important;
