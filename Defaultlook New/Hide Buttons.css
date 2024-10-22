@@ -38,23 +38,5 @@ div[class^="buttonContainer"]>div>div {
 .popover_cf8aee.avatarPopover_cf8aee.wrapper_f7e168{
     display: none;
 }
-[aria-label= "Disconnect"] .lottieIcon_f73ef7 :not(defs)[fill][fill-opacity] {
-    fill: var(--red-400);
-}
-.lookFilled_dd4f85.colorBrand_dd4f85 {
-    color: var(--white-500)!important;
-    background-color: var(--brand-500)!important;
-    border: 1px solid rgba(255,255,255,.1)!important;
-}
-.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
-    fill: var(--white-500)!important;
-    stroke: var(--white-500)!important;
-}
-.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[stroke][stroke-opacity] {
-    fill: var(--white-500)!important;
-    stroke: var(--white-500)!important;
-}
-.theme-light .dot_d373b2 {
-    background-color:  var(--brand-500)!important;
-}
+
 
