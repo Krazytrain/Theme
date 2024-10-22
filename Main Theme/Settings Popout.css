@@ -5,7 +5,7 @@
 /*Settings Popout Layout*/
 [class^=standardSidebarView_]
  {  position: static;
-   overflow: auto !important;
+   overflow: hidden !important;
  opacity: 1 !important;}
 .layer_d4b6c5 + .layer_d4b6c5
  { border-radius: 10px !important;
