@@ -59,7 +59,7 @@
 }
 :where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65, :where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65:hover {
     width: 68px;
-    background: var(--bg-base-tertiary);
+    background: var(--input-border);
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--input-border)!important;
     margin-left: 0px;
@@ -71,7 +71,7 @@
 
 .vc-spotify-button {
     width: 54px;
-    background: var(--bg-base-tertiary)!important;
+    background: var(--input-border)!important;
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--input-border)!important;
     margin-left: 3px;
