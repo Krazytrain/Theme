@@ -53,3 +53,27 @@
     height: 24px;
 }
 
+/*User info bottom left*/
+.visual-refresh .button_df39bd{
+    background: none!important;
+}
+:where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65, :where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65:hover {
+    width: 68px;
+    background: var(--bg-base-tertiary);
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border)!important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+[aria-label="Disconnect"]{
+    background-color: var(--red-400)!important;
+}
+
+.vc-spotify-button {
+    width: 54px;
+    background: var(--bg-base-tertiary)!important;
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border)!important;
+    margin-left: 3px;
+    margin-right: 3px;
+}
