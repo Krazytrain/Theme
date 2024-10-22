@@ -570,3 +570,7 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     box-shadow: none!important;
     background-color: transparent!important;
 }
+/*Thread Side Spine*/
+.container_e1e976 .spineBorder_e1e976{
+    left: 26px;
+}
