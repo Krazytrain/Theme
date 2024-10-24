@@ -54,18 +54,8 @@ div[class*=pollContainer] {
     width: auto;
 }
 
-.avatar_f9f2ca,
-.avatarDecoration_f9f2ca,
 .timestampVisibleOnHover_f9f2ca { /* Fix avatar, avatar decoration, timestamp position */
   margin-left: -16px;
-}
-.avatar_f9f2ca{
-    width: 50px!important;
-    height: 50px!important;
-}
-.avatarDecoration_f9f2ca{
-    width: 60px!important;
-    height: 60px!important;
 }
 .timestampVisibleOnHover_f9f2ca {
   margin-left: -8px;
@@ -160,13 +150,7 @@ div[class*=pollContainer] {
     margin-left: 0px;
     width: 30px!important;
 }
-.searchResult_ddc613 .avatar_f9f2ca{
-    margin-left: 62px;
-}
-.replying_d5deea .avatar_f9f2ca {
-    left: 12px !important;
-    margin-top: 3px !important;
-}
+
 
 
 /*Epmemeral Messages*/
@@ -357,13 +341,7 @@ div[class*=pollContainer] {
     left: -27px!important;
     bottom: 39px!important;
 }
-.avatar_f9f2ca {
-    left: -46px!important;
-    margin-top: 3px!important;
-}
-.avatarDecoration_f9f2ca{
-    left: -50px!important;
-}
+
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
     left: -70px!important;
 }
@@ -497,10 +475,6 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     position: absolute;
 }
 
-.avatarDecoration_f9f2ca, .avatar_f9f2ca{
-    scale: 80%!important;
-    margin-top: -5px!important;
-}
 .cozy_f9f2ca.hasThread_f9f2ca:after{
     top: 58px!important;
 }
