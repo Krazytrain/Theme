@@ -474,9 +474,13 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     border-left: 4px solid var(--chat-bubble-border-color);
     position: absolute;
 }
-
-.cozy_f9f2ca.hasThread_f9f2ca:after{
-    top: 58px!important;
+.cozy_f9f2ca.hasThread_f9f2ca:after {
+    border-left: 4px solid var(--chat-bubble-border-color);
+    border-bottom: 4px solid var(--chat-bubble-border-color);
+    border-width: 4px solid var(--chat-bubble-border-color);
+    width: 28px !important;
+    left: -40px !important;
+    top: 74px !important;
 }
 
 .footer_d8e2d0, .textContainer_d8e2d0, .markup_f8f345 code, .container_c15230, .embed_e365d2, div[class*=pollContainer], .wrapperAudio_f72aac{
