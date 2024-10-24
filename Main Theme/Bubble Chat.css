@@ -507,7 +507,7 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 
 
 
-.footer_d8e2d0, .textContainer_d8e2d0, .markup_f8f345 code, .container_c15230, .embed_e365d2, div[class*=pollContainer], .wrapperAudio_f72aac, .container_d6cb89, .container_a3d172{
+.footer_d8e2d0, .textContainer_d8e2d0, .markup_f8f345 code, .container_c15230, .embed_e365d2, div[class*=pollContainer], .wrapperAudio_f72aac, .container_d6cb89, .container_a3d172, .tile_b5b752{
     border: 1px solid var(--input-border)!important;
 }
 
@@ -523,6 +523,7 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-light .wrapperAudio_f72aac,
 .theme-light .container_d6cb89,
 .theme-light .container_a3d172,
+.theme-light .tile_b5b752,
 .theme-dark .footer_d8e2d0, 
 .theme-dark .textContainer_d8e2d0, 
 .theme-dark .markup_f8f345 code, 
@@ -531,7 +532,8 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-dark div[class*=pollContainer],
 .theme-dark .wrapperAudio_f72aac,
 .theme-dark .container_d6cb89,
-.theme-dark .container_a3d172{
+.theme-dark .container_a3d172,
+.theme-dark .tile_b5b752{
     background: var(--bg-base-primary) !important;
 }
 .theme-darker.visual-refresh .embedFull_b0068a, .theme-midnight.visual-refresh .embedFull_b0068a,
@@ -544,6 +546,7 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-darker.wrapperAudio_f72aac,
 .theme-darker .container_d6cb89,
 .theme-darker .container_a3d172,
+.theme-darker .tile_b5b752,
 .theme-midnight .footer_d8e2d0, 
 .theme-midnight .textContainer_d8e2d0, 
 .theme-midnight .markup_f8f345 code, 
@@ -551,7 +554,8 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-midnight .embed_e365d2, 
 .theme-midnight div[class*=pollContainer],
 .theme-midnight .wrapperAudio_f72aac,
-.theme-midnight .container_d6cb89
-.theme-midnight .container_a3d172{
+.theme-midnight .container_d6cb89,
+.theme-midnight .container_a3d172,
+.theme-midnight .tile_b5b752{
     background: var(--bg-base-secondary) !important;
 }
