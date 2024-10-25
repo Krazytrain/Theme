@@ -196,6 +196,9 @@ button.button_adca65, span.button_adca65{
 .wrapper_ba23fe, .wrapper_efd8e6, .categoryHeader_fe2299{
     background: var(--bg-surface-raised);
 }
+.action_e3f878, .row_b53f4f{
+    background: var(--background-secondary);
+}
 /*Message forwarding*/
 .root_f9a4c9{
     background: var(--bg-base-secondary);
