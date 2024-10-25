@@ -12,3 +12,47 @@
 @import url('https://krazytrain.github.io/Theme/Main Theme/User Info.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/Settings Popout.css');
 @import url('https://krazytrain.github.io/Theme/Main Theme/theme-info.css');
+
+
+
+
+
+
+/* Private Channel shortcuts as Icons */
+.avatarWithText_c91bad.layout_ec8679 .content_ec8679{
+  display: none;
+}
+.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+    width: 56px;
+    display: inline-flex ;
+}
+.channel_c91bad {
+    display:contents;
+}
+.linkButtonIcon_c91bad{
+  margin-left: 2px;
+  margin-top: 0px;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  scale: 1.0;
+}
+.interactive_f5eb4b.interactive_c91bad.linkButton_c91bad{
+    background-color: transparent;
+    margin-left: 8px;
+}
+.content_eed6a8{
+    height: fit-content !important;
+    margin-bottom: 10px;
+}
+.friendsButtonContainer_f0963d{
+    width: 62px;
+    display: inline-flex ;
+}
+.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+    width: 54px;
+    display: inline-flex;
+    background: var(--input-border)!important;
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border) !important;
+    height: 36px;
+}
