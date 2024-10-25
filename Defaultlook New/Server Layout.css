@@ -371,6 +371,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .progressBarContainer_e31e8a{
     padding-top: 18px;
 }
+[style="height: 16px;"]{
+    display: none!important;
+}
 /*Emoji Picker*/
 .contentWrapper_af5dbb, .header_a3bc57, .wrapper_ba23fe.categoryList_c6ee36, .packHeader_de4721, .wrapper_ba23fe.categoryList_a7a485, .container_b56bbc, .header_b56bbc{
     background: var(--bg-base-secondary);
