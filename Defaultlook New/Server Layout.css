@@ -282,6 +282,9 @@ button.button_adca65, span.button_adca65{
 [style="height: 16px;"]{
     display: none!important;
 }
+[class="progressBarContainer_e31e8a"] + [class="divider_e31e8a"] {
+    margin-bottom: 10px!important;
+}
 /*Server Side Bar with threads*/
 
 .basicChannelRowLink_d8bfb3{
