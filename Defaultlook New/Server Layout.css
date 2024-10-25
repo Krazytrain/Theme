@@ -280,7 +280,7 @@ button.button_adca65, span.button_adca65{
     margin-top: -12px!important;
 }
 [style="height: 16px;"]{
-    display: none;
+    display: none!important;
 }
 /*Server Side Bar with threads*/
 
