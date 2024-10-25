@@ -313,7 +313,7 @@ button.button_adca65, span.button_adca65{
 }
 li:not([class]):has(.basicChannelRowLink_d8bfb3),
 div:not([class]):has(.basicChannelRowLink_d8bfb3) {
-    width: 52px;
+    width: 57px;
     display: inline-flex;
 }
 .basicChannelRowLink_d8bfb3 .icon_d8bfb3{
@@ -331,17 +331,17 @@ li:not([class]) > .containerDefault_f6f816{
 .wrapper_d8bfb3.modeSelected_d8bfb3 .basicChannelRowLink_d8bfb3 .icon_d8bfb3 {
     color: var(--interactive-active);
 }
-.basicChannelRowLink_d8bfb3 .icon_d8bfb3:hover {
-    color: var(--interactive-active);
-}
 .basicChannelRowLink_d8bfb3{
-    width: 50px!important;
-    background: var(--bg-surface-raised);
-    margin-left: -10px!important;
+    width: 54px!important;
+    background: var(--input-border);
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border) !important;
+    justify-content: center;
+    margin-left: -6px!important;
     margin-top: 10px;
 }
 li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicChannelRowLink_d8bfb3){
-    margin-left: 10px!important;
+    margin-left: 5px!important;
     direction:rtl;
 }
 .basicChannelRowLink_d8bfb3{
@@ -349,6 +349,8 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 }
 .basicChannelRowLink_d8bfb3 .icon_d8bfb3{
     margin-left: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 /*Server Channel Sidebar*/
