@@ -148,10 +148,10 @@ button.button_adca65, span.button_adca65{
 .theme-dark .children_fc4f04:after{
     background: none;
 }
-.row_b53f4f, .sidebarCardWrapper_e85cee{
+.row_b53f4f, .sidebarCardWrapper_e85cee, .action_e3f878{
     background: var(--bg-surface-raised);
 }
-.theme-midnight.row_b53f4f, .theme-midnight.sidebarCardWrapper_e85cee{
+.theme-midnight.row_b53f4f, .theme-midnight.sidebarCardWrapper_e85cee, .theme-midnight .action_e3f878{
     background: var(--bg-base-tertiary);
 }
 .theme-midnight .page_d20375{
