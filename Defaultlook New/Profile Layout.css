@@ -77,3 +77,19 @@
     margin-left: 3px;
     margin-right: 3px;
 }
+
+.actions_d14755 button.button_adca65 {
+    padding-left: 36px;
+    padding-right: 34px;
+    margin-left: -20px;
+    background: transparent!important;
+    border-radius: var(--radius-sm) !important;
+    border: 1px transparent var(--input-border) !important;
+}
+.actions_d14755, .actions_d14755:hover {
+    width: 66px;
+    background: var(--input-border);
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border) !important;
+    justify-content: center;
+}
