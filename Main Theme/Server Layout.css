@@ -272,9 +272,6 @@ button.button_adca65, span.button_adca65{
  .container_b2ca13 {
     height: calc(21px + var(--custom-channel-textarea-text-area-height));
 }
-
-
-
 .container_e462a4{
     background: var(--bg-base-tertiary);
 }
@@ -285,6 +282,14 @@ button.button_adca65, span.button_adca65{
     left: 8px;
 }
 
+.containerDefault_f6f816:first-child{
+    margin-top: -10px!important;
+}
+[style="height: 12px;"] + [class="containerDefault_f6f816"],
+[style="height: 12px;"] + [class="containerDefault_f6f816 selected_f6f816"],
+[style="height: 12px;"] + [class="containerDefault_f6f816"]{
+    margin-top: -12px!important;
+}
 /*Server Side Bar with threads*/
 .basicChannelRowLink_d8bfb3{
     margin-top: 4px;
