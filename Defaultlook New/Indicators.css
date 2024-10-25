@@ -5,7 +5,7 @@
 :root {
   --indicator-border-size: 4px;
   --indicator-border-style: solid;
-  --indicator-rounding: 5px;
+  --indicator-rounding: 0px;
 }
 
 .theme-light {
