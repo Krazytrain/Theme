@@ -391,10 +391,6 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
 }
 
-.cozy_f9f2ca .messageContent_f9f2ca{
-    margin-left: 0px;
-    padding-left: 0px;
-}
 
 .contentContainer_c1668f .themedBackground_d0696b {
     background: transparent !important;
