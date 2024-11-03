@@ -519,7 +519,7 @@ button.button_adca65, span.button_adca65{
 }
 .channelRow_f04d06{
     background: var(--background-secondary)!important;
-    border: 2px solid var(--background-modifier-accent)!important;
+    border: 2px solid var(--background-modifier-accent);
     border-bottom: none;
 }
 .channelRow_f04d06.lastChannel_f04d06{
