@@ -28,6 +28,9 @@
 .panels_a4d4d9 > .container_b2ca13:has([aria-label= "Disable Game Activity"]) {
     bottom: 46px;
 }
+.panels_a4d4d9 > .container_b2ca13:has([aria-label= "Enable Game Activity"]) {
+    bottom: 46px;
+}
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
     display: flex;
