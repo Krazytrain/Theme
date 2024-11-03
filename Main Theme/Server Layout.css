@@ -511,3 +511,26 @@ button.button_adca65, span.button_adca65{
 .container_e1e976 .spineBorder_e1e976{
     left: 26px!important;
 }
+
+/*Server Role panel and channels*/
+.visual-refresh .header_f9a4c9{
+    padding-bottom: 14px;
+}
+.prompt_c6b11b, .row_b53f4f, .sidebarCardWrapper_e85cee, .action_e3f878, .profileCard_c6b11b{
+    background: var(--background-secondary);
+    border: 2px solid var(--background-modifier-accent)!important;
+}
+.channelRow_f04d06{
+    background: var(--background-secondary);
+    border: 2px solid var(--background-modifier-accent);
+    border-bottom: none;
+}
+.channelRow_f04d06.lastChannel_f04d06{
+    border: 2px solid var(--background-modifier-accent);
+}
+.separator_f04d06{
+    display: none;
+}
+.optionButtonWrapper_bd5e1f.selected_bd5e1f {
+    border: 2px solid var(--interactive-muted);
+}
