@@ -129,15 +129,15 @@
 .categoryItem_c72b37:hover .itemInner_c72b37 {
   background-color: transparent;
 }
-.categoryItem_c72b37.selected_e9f61e {
+.categoryItem_c72b37.selected_d808b0 {
   border-left-color: var(--indicator-selected-border);
   color: var(--interactive-active);
   background-color: var(--indicator-selected-background);
 }
-.categoryItem_c72b37.selected_e9f61e .itemInner_c72b37 {
+.categoryItem_c72b37.selected_d808b0 .itemInner_c72b37 {
   background-color: transparent;
 }
-.categoryItem_c72b37.selected_e9f61e svg {
+.categoryItem_c72b37.selected_d808b0 svg {
   color: var(--indicator-selected-border);
 }
 
@@ -161,14 +161,14 @@
 .channel_c91bad:has(.selected_f5eb4b) .linkButtonIcon_c91bad{
   color: var(--indicator-selected-border);
 }
-.channel_c91bad:has(.highlighted_f9647d) {
+.channel_c91bad:has(.highlighted_ec8679) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.channel_c91bad:has(.highlighted_f9647d):hover {
+.channel_c91bad:has(.highlighted_ec8679):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.channel_c91bad:has(.highlighted_f9647d) .linkButtonIcon_c91bad {
+.channel_c91bad:has(.highlighted_ec8679) .linkButtonIcon_c91bad {
   color: var(--indicator-unread-border);
 }
 .containerDefault_f6f816:has(.modeUnreadLessImportant_d8bfb3) {
