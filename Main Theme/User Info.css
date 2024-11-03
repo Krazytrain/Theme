@@ -26,10 +26,10 @@
     flex-direction: column;
 }
 .panels_a4d4d9 > .container_b2ca13:has([aria-label= "Disable Game Activity"]) {
-    bottom: 46px;
+    bottom: 46px!important;
 }
 .panels_a4d4d9 > .container_b2ca13:has([aria-label= "Enable Game Activity"]) {
-    bottom: 46px;
+    bottom: 46px!important;
 }
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
