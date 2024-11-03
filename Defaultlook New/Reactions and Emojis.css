@@ -39,3 +39,10 @@
 [class^="positionContainer_"] {
   height: calc(100vh - 180px);
 }
+/* Reactions Hover */
+.reaction_ec6b19 .emoji {
+  transition: transform 0.5s ease;
+}
+.reaction_ec6b19:hover .emoji {
+  transform: translateY(0px) scale(1.5);
+}
