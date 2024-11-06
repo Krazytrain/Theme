@@ -79,13 +79,13 @@ div[class*=pollContainer] {
 }
 /*Custom theme backgrounds makes it easy to see them*/
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
-    backdrop-filter: brightness(300%);
+    backdrop-filter: brightness(300%)!important;
 }
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
-    backdrop-filter: brightness(200%);
+    backdrop-filter: brightness(200%)!important;
 }
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
-    backdrop-filter: brightness(200%);
+    backdrop-filter: brightness(200%)!important;
 }
 
 /*System Messages*/
