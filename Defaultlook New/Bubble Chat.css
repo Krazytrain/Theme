@@ -221,10 +221,10 @@ div[class*=pollContainer] {
 }
 
 /*Dividers*/
-.divider_d5deea, .divider_c2654d { /* Fix dividers indents */
+.divider_d5deea, .divider_c2654d {
   position: relative;
   top: 0px !important;
-  margin: 17px 0px !important;
+  margin: 40px 0px !important;
 }
 
 /*Alt-text*/
