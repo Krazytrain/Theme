@@ -555,11 +555,4 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-midnight .tile_b5b752{
     background: var(--bg-base-secondary) !important;
 }
-/*Pinned Messages*/
-.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .messageSpine_f9f2ca:before{
-    left: -24px!important;
-    width: 28px!important;
-}
-.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .avatar_f9f2ca{
-    left: 26px!important;
-}
+
