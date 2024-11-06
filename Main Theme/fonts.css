@@ -70,3 +70,25 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
 .messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .avatar_f9f2ca{
     left: 26px!important;
 }
+/*Folders*/
+.expandedFolderBackground_bc7085 {
+    margin-top: 0px !important;
+}
+.listItem_c96c45{
+    margin-bottom: 8px;
+}
+.expandedFolderBackground_bc7085.collapsed_bc7085{
+    background: transparent!important;
+}
+.theme-light .expandedFolderBackground_bc7085, .theme-light .folder_bc7085{
+    background: var(--bg-surface-raised)!important;
+}
+.theme-dark .expandedFolderBackground_bc7085, .theme-dark .folder_bc7085{
+    background: var(--bg-surface-raised)!important;
+}
+.theme-darker .expandedFolderBackground_bc7085, .theme-darker .folder_bc7085{
+    background: var(--bg-surface-raised)!important;
+}
+.theme-midnight .expandedFolderBackground_bc7085, .theme-midnight .folder_bc7085{
+    background: var(--background-secondary)!important;
+}
