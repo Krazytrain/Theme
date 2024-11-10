@@ -245,9 +245,6 @@ div[class*=pollContainer] {
 .reaction_f61c73 { /* Fix reactions top margin */
   margin-top: unset;
 }
-.reactions_f61c73 { /* Fix reactions position */
-  width: 100%;
-}
 
 
 
