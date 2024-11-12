@@ -220,12 +220,6 @@ div[class*=pollContainer] {
   height: 21px;
 }
 
-/*Dividers*/
-.divider_d5deea, .divider_c2654d {
-  position: relative;
-  top: 0px !important;
-  margin: 40px 0px !important;
-}
 
 /*Alt-text*/
 .altText_cf58b5 { /* Fix alt-text indents */
