@@ -361,6 +361,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .basicChannelRowLink_d8bfb3:hover{
     background: var(--input-background)!important;
 }
+.newChannel_ecb303{
+    display: none;
+}
 
 /*Server Channel Sidebar*/
 .sectionDivider_c43953{
