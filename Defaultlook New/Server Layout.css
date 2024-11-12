@@ -199,6 +199,16 @@ button.button_adca65, span.button_adca65{
 .action_e3f878, .row_b53f4f{
     background: var(--background-secondary);
 }
+
+:where(.visual-refresh) .input_f8bc55:hover, :where(.visual-refresh) .input_f8bc55[readonly]{
+    border: none;
+}
+.scrollableContainer_bdf0de {
+    border-radius: 10px;
+}
+.title_c1668f{
+    margin-left: 5px;
+}
 /*Message forwarding*/
 .root_f9a4c9{
     background: var(--bg-base-secondary);
