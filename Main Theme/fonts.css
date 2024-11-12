@@ -60,7 +60,9 @@ code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .afte
     border: 1px solid var(--input-border) !important;
     height: 36px!important;
 }
-
+.newChannel_ecb303{
+    display: none;
+}
 
 /*Pinned Messages*/
 .messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .messageSpine_f9f2ca:before{
