@@ -47,7 +47,8 @@
     height: 0px!important;
     margin-top: 0px!important;
 }
-.notice_e2ecbf{
+.notice_e2ecbf, .notice_a50047{
     margin-top: 40px;
     margin-bottom: -40px;
+    border-radius: 0;
 }
