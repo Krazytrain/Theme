@@ -552,7 +552,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     background: var(--bg-surface-raised)!important;
     border: 1px solid var(--input-border)!important;
 }
-
+.scrollableContainer_bdf0de {
+    padding: 3px 0px 3px 0px!important;
+}
 .theme-light .bar_f60904{
     background: var(--bg-surface-raised)!important;
     border: 1px solid var(--input-border)!important;
