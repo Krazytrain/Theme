@@ -84,7 +84,7 @@
 [class*="panels"] [class*="avatarWrapper"] {
     min-width: 34px !important;
     position: absolute;
-    left: 19px;
+    left: 18px;
     justify-content: center!important;
     align-items: center!important;
 }
