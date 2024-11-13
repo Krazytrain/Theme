@@ -290,7 +290,7 @@ button.button_adca65, span.button_adca65{
     border-bottom: 1px solid var(--border-strong);
 }
 .visual-refresh .container_b2ca13 {
-    height: calc(21px + var(--custom-channel-textarea-text-area-height));
+    height: calc(26px + var(--custom-channel-textarea-text-area-height));
 }
 .container_e462a4{
     background: var(--bg-base-tertiary);
