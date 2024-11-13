@@ -150,7 +150,7 @@ button.button_adca65, span.button_adca65{
 .notice_c02a8d, .theme-dark .searchBar_a46bef, .button_df39bd{
     background: var(--bg-overlay-3,var(--bg-surface-raised)) !important;
 }
-.theme-dark .themed_fc4f04, .container_fc4f04 {
+.theme-dark .themed_fc4f04, .container_fc4f04, .header_fd6364, .searchBar_f0963d {
     background: var(--bg-base-tertiary)!important;
 }
 .theme-dark .children_fc4f04:after{
@@ -223,6 +223,10 @@ button.button_adca65, span.button_adca65{
 }
  .bannerImg_fd6364{
     min-width: 330px!important;
+}
+.hasBanner_fd6364 .header_fd6364, .hasBanner_fd6364 .header_fd6364:hover, .communityInfoVisible_fd6364 .header_fd6364, .communityInfoVisible_fd6364 .header_fd6364:hover {
+    box-shadow: none !important;
+    background-color: transparent !important;
 }
  .sidebar_a4d4d9{
     min-width: 258px!important;
