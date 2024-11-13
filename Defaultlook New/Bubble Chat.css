@@ -312,10 +312,9 @@ div[class*=pollContainer] {
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
     padding-right: 24px!important;
 }
-.cozyMessage_d5deea:is(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
-    padding-right: 24px !important;
+.scrollbarGhostHairline_c858ce.scrollbar_c858ce.hljs{
+    padding-right: 24px;
 }
-
 /*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
     width: auto;
