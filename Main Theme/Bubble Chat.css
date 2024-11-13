@@ -499,7 +499,7 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 }
 .cozy_f9f2ca .messageSpine_f9f2ca:before {
     left: -40px;
-    width: 37px !important;
+    width: 36px !important;
     border-top: 4px solid var(--chat-bubble-border-color);
     border-left: 4px solid var(--chat-bubble-border-color);
     position: absolute;
