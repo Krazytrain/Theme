@@ -88,3 +88,57 @@
 .full-motion .overlay_f94206:after {
     display: none!important;
 }
+/*User info bottom left*/
+.button_df39bd{
+    background: none!important;
+}
+.voiceButtonsContainer_adcaac button.button_adca65, .voiceButtonsContainer_adcaac button.button_adca65:hover {
+    width: 34px;
+    background: var(--input-border)!important;
+    border-radius: 10px !important;
+    border: 1px solid var(--input-border)!important;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+
+.voiceButtonsContainer_adcaac button.button_adca65[aria-label="Disconnect"], .voiceButtonsContainer_adcaac button.button_adca65[aria-label="Disconnect"]:hover{
+    background: var(--red-400)!important;
+    border-radius: 10px !important;
+    border: 1px solid var(--input-border)!important;
+}
+
+
+.actionButtons_adcaac {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-gap: 5px;
+    padding-top: 4px;
+    justify-content: space-between;
+}
+
+
+.vc-spotify-button {
+    width: 54px;
+    background: var(--input-border)!important;
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border)!important;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.actions_d14755 button.button_adca65 {
+    padding-left: 36px;
+    padding-right: 34px;
+    margin-left: -20px;
+    background: transparent!important;
+    border-radius: var(--radius-sm) !important;
+    border: 1px transparent var(--input-border) !important;
+}
+.actions_d14755, .actions_d14755:hover {
+    width: 66px;
+    background: var(--input-border);
+    border-radius: var(--radius-sm) !important;
+    border: 1px solid var(--input-border) !important;
+    justify-content: center;
+}
