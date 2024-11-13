@@ -31,7 +31,7 @@
   margin-bottom: .125rem;
   margin-right: 48px!important;
   width: fit-content;
-  padding: 10px !important;
+  padding: 8px 8px 12px 4px !important;
   border-radius: var(--cb-bubble-corner-radius);
   background-size: calc(var(--chat-bubble) * 1px);
   border: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
@@ -312,7 +312,9 @@ div[class*=pollContainer] {
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
     padding-right: 24px!important;
 }
-
+.cozyMessage_d5deea:is(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
+    padding-right: 24px !important;
+}
 
 /*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
@@ -360,7 +362,8 @@ div[class*=pollContainer] {
 }
 
 .cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
-    left: -70px!important;
+    padding-top: 12px;
+    left: -70px !important;
 }
 div.message_d5deea.cozyMessage_d5deea.groupStart_d5deea.wrapper_f9f2ca.cozy_f9f2ca.zalgo_f9f2ca.hasThread_f9f2ca.hasReply_f9f2ca{
     max-width: calc(100% - 130px);
