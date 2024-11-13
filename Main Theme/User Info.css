@@ -60,6 +60,9 @@
     background: transparent!important;
     background-color: transparent!important;
 }
+.panels_a4d4d9{
+    border: 1px solid var(--input-border)!important;
+}
 /*User Game Button*//*FIXED*/
 .guilds_a4d4d9 {
     padding-bottom: 220px;
