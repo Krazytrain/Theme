@@ -117,8 +117,11 @@ button.button_adca65, span.button_adca65{
     margin-top: 2px;
 }
 .fontSize16Padding_bdf0de {
-    padding-bottom: 8px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+.stackedBars_bdf0de{
+    background: var(--bg-surface-raised)!important;
 }
 .themedBackground_bdf0de, .button_df39bd, .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d, .theme-dark .searchBar_a46bef, .button_df39bd, .searchBar_a46bef, .container_c18ec9, .theme-dark .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-dark .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85, .theme-light .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
     border: 1px solid var(--input-border)!important;
