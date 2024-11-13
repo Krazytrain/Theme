@@ -319,9 +319,8 @@ div[class*=pollContainer] {
 }
 
 .scrollbarGhostHairline_c858ce.scrollbar_c858ce.hljs{
-    padding-right: 24px;
+    padding-right: 24px!important;
 }
-
 /*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
     width: auto;
