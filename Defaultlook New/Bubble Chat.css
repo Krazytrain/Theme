@@ -258,6 +258,9 @@ div[class*=pollContainer] {
     top: .25rem;
     position: static;
 }
+.group-spacing-8 .divider_d5deea.hasContent_d5deea {
+    position: static!important;
+}
 
 /*Images*/
 .imageWrapper__178ee {
