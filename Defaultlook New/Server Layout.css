@@ -464,7 +464,6 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
     background: var(--bg-surface-raised);
 }
 .visual-refresh .form_a7d72e .wrapper_faf5ab{
-    margin-bottom: -8px;
     background: var(--bg-surface-raised);
 }
 /*Other*/
