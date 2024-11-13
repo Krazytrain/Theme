@@ -406,12 +406,22 @@ button.button_adca65, span.button_adca65{
     margin-bottom: 2px;
     background: var(--bg-surface-raised);
 }
+.form_a7d72e.formWithLoadedChatInput_a7d72e .channelTextAreaDisabled_bdf0de {
+    margin-bottom: -2px!important;
+    padding-bottom: 2px;
+    background: var(--bg-surface-raised);
+}
  .form_a7d72e .wrapper_faf5ab{
-    margin-bottom: -8px;
     background: var(--bg-surface-raised);
 }
 .form_a7d72e:before {
     background: none;
+}
+.clipContainer_b11c5e{
+    padding: 0px;
+}
+.channelTextArea_a7d72e{
+    background: var(--bg-surface-raised) !important;
 }
 /*Other*/
 .jump_d5deea{
