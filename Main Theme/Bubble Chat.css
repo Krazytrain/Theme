@@ -133,8 +133,9 @@ div[class*=pollContainer] {
     background: var(--background-mentioned-hover)!important;
     border: calc(4px* var(--chat-bubble)) solid var(--background-mentioned-hover)!important;
 }
-.replying_d5deea .avatar_f9f2ca { /* Fix avatar indent when replying */
-  margin-left: calc(-4.5rem - var(--cb-replying-indicator-width));
+.replying_d5deea .avatar_f9f2ca {
+    left: 7px !important;
+    margin-top: -5px !important;
 }
 /*Replying*/
 .replying_d5deea:before {
