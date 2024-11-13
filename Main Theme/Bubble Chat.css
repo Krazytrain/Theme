@@ -31,7 +31,7 @@
   margin-bottom: .125rem;
   margin-right: 48px!important;
   width: fit-content;
-  padding: 10px !important;
+  padding: 8px 14px 12px 10px !important;
   border-radius: var(--cb-bubble-corner-radius);
   background-size: calc(var(--chat-bubble) * 1px);
   border: calc(4px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
@@ -321,7 +321,9 @@ div[class*=pollContainer] {
 .cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
     padding-right: 24px!important;
 }
-
+.cozyMessage_d5deea:is(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
+    padding-right: 24px !important;
+}
 
 /*Other Fixes*/
 .container_d1c246 .container_b385c8 .reactions_f61c73 {
