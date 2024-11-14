@@ -125,6 +125,8 @@
     border: 1px solid var(--input-border)!important;
     border-radius: 10px;
     width: 41px;
+    margin-left: 3px!important;
+    margin-right: 3px!important;
 }
 .vc-spotify-button-row{
     gap: 0px!important;
