@@ -295,7 +295,7 @@ div[class*=pollContainer] {
 
 /*Dividers*/
 .divider_d5deea, .divider_c2654d { /* Fix dividers indents */
-  position: relative;
+  position: static;
   top: 0px !important;
   margin: 17px 0px !important;
 }
