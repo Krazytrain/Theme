@@ -118,14 +118,19 @@
 }
 
 
-.vc-spotify-button {
-    width: 54px;
+
+.vc-spotify-button-row button, .vc-spotify-button-row:hover button {
     background: var(--input-border)!important;
-    border-radius: var(--radius-sm) !important;
+    color: var(--white-500);
     border: 1px solid var(--input-border)!important;
-    margin-left: 3px;
-    margin-right: 3px;
+    border-radius: 10px;
+    width: 41px;
 }
+.vc-spotify-button-row{
+    gap: 0px!important;
+    padding-top: 5px;
+}
+
 
 .actions_d14755 button.button_adca65 {
     padding-left: 36px;
