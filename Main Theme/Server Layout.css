@@ -499,25 +499,7 @@ button.button_adca65, span.button_adca65{
     height: calc(-200px + 100%);
 }
 
- .channelTextArea_a7d72e{
-    margin-bottom: -2px;
-}
-.theme-light .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
-    background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--input-border)!important;
-}
-.theme-dark .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-dark .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
-    background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--input-border)!important;
-}
-.theme-darker .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-darker .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
-    background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--input-border)!important;
-}
-.theme-midnight .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-midnight .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
-    background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--input-border)!important;
-}
+
 
 /*User Buttons VC*/
 .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
