@@ -567,3 +567,12 @@ button.button_adca65, span.button_adca65{
 .optionButtonWrapper_bd5e1f.selected_bd5e1f {
     border: 2px solid var(--interactive-muted)!important;
 }
+
+
+
+
+.children_a6ae9b .inputDefault_f8bc55.input_f8bc55{
+   background: var(--bg-mod-faint);
+   border: 1px solid var(--border-faint);
+   border-radius: var(--radius-md);
+}
