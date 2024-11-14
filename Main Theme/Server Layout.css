@@ -518,6 +518,11 @@ button.button_adca65, span.button_adca65{
     background: var(--bg-surface-raised)!important;
     border: 1px solid var(--input-border)!important;
 }
+.children_a6ae9b .inputDefault_f8bc55.input_f8bc55{
+   background: var(--bg-mod-faint);
+   border: 1px solid var(--border-faint);
+   border-radius: var(--radius-md);
+}
 
 /*User Buttons VC*/
 .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
