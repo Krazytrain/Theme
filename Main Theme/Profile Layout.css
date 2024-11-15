@@ -93,6 +93,10 @@
     background: none!important;
     margin-bottom: -2px;
     height: 48px;
+    margin-left: 6px!important;
+}
+.positionLayer_ec62fd{
+    margin-right: 6px!important;
 }
 
 .voiceButtonsContainer_adcaac button.button_adca65, .voiceButtonsContainer_adcaac button.button_adca65:hover {
