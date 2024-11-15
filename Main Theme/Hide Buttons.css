@@ -23,7 +23,9 @@ button[aria-label="Open GIF picker"] {
 }
 .searchBar_a46bef{
     width: 140px;
+    height: 28px;
 }
+
 .anchor_af404b.anchorUnderlineOnHover_af404b [aria-label="Help"]{
   display: none;
 }
