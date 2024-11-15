@@ -81,51 +81,96 @@ div[class*=pollContainer] {
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     backdrop-filter: brightness(80%) invert(10%) sepia(100%);
 }
+.custom-theme-background .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(15%) sepia(100%);
+}
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     backdrop-filter: brightness(80%) invert(10%) sepia(50%);
 }
+.custom-theme-background .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(15%) sepia(50%);
+}
 .custom-theme-background .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     backdrop-filter: brightness(80%) invert(15%) sepia(0%);
+}
+.custom-theme-background .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(20%) sepia(0%);
 }
 
 .theme-light .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     backdrop-filter: brightness(80%) invert(10%) sepia(100%);
 }
+.theme-light .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(15%) sepia(100%);
+}
 .theme-light .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     backdrop-filter: brightness(80%) invert(10%) sepia(50%);
 }
+.theme-light .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(15%) sepia(50%);
+}
 .theme-light .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     backdrop-filter: brightness(80%) invert(15%) sepia(0%);
+}
+.theme-light .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(20%) sepia(0%);
 }
 
 .theme-dark .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(100%);
 }
+.theme-dark .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(100%);
+}
 .theme-dark .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(50%);
 }
+.theme-dark .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(50%);
+}
 .theme-dark .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     backdrop-filter: brightness(80%) invert(15%) sepia(0%);
+}
+.theme-dark .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(20%) sepia(0%);
 }
 
 .theme-darker .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(100%);
 }
+.theme-darker .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(100%);
+}
 .theme-darker .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(50%);
 }
+.theme-darker .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(50%);
+}
 .theme-darker .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     backdrop-filter: brightness(80%) invert(15%) sepia(0%);
+}
+.theme-darker .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(20%) sepia(0%);
 }
 
 .theme-midnight .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(100%);
 }
+.theme-midnight .message_d5deea:not(.systemMessage_d5deea).mentioned_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(100%);
+}
 .theme-midnight .message_d5deea:not(.systemMessage_d5deea).replying_d5deea {
     backdrop-filter: brightness(100%) invert(10%) sepia(50%);
 }
+.theme-midnight .message_d5deea:not(.systemMessage_d5deea).replying_d5deea:hover {
+    backdrop-filter: brightness(100%) invert(15%) sepia(50%);
+}
 .theme-midnight .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea {
     backdrop-filter: brightness(80%) invert(15%) sepia(0%);
+}
+.theme-midnight .message_d5deea:not(.systemMessage_d5deea).ephemeral_d5deea:hover {
+    backdrop-filter: brightness(80%) invert(20%) sepia(0%);
 }
 
 /*System Messages*/
