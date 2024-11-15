@@ -196,3 +196,11 @@
 .interactive_f5eb4b.interactive_c91bad:hover{
     background: var(--bg-overlay-hover,var(--background-modifier-hover));
 }
+
+/*Voice Total Users*/
+.total_a5bc92 {
+    width: 24px;
+}
+.users_a5bc92{
+    width: 30px;
+}
