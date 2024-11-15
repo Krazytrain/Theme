@@ -91,7 +91,10 @@
 /*User info bottom left*/
 .button_df39bd{
     background: none!important;
+    margin-bottom: -2px;
+    height: 48px;
 }
+
 .voiceButtonsContainer_adcaac button.button_adca65, .voiceButtonsContainer_adcaac button.button_adca65:hover {
     width: 34px;
     background: var(--input-border)!important;
