@@ -518,7 +518,13 @@ button.button_adca65, span.button_adca65{
     background: var(--bg-surface-raised)!important;
     border: 1px solid var(--input-border)!important;
 }
-
+.channelTextAreaInner_c1668f.scrollableContainer_bdf0de {
+    background: var(--bg-surface-raised) !important;
+    border: 1px solid var(--input-border) !important;
+    padding: 6px 10px 6px 10px !important;
+    border-radius: 10px;
+    margin-top: 6px;
+}
 /*User Buttons VC*/
 .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
     background: var(--brand-500)!important;
