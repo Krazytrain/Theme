@@ -99,6 +99,38 @@
 .containerDragBefore_f6f816:has(.mentionsBadge_e2a798) .link_d8bfb3 svg {
   color: var(--indicator-unread-mention-border);
 }
+
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ) ,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3){
+  border-left-color: var(--indicator-unread-mention-border);
+  background-color: var(--indicator-unread-mention-background);
+}
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3):hover,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3):hover {
+  background-color: var(--indicator-unread-mention-hover-background);
+}
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3) .link_d8bfb3 svg,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3) .link_d8bfb3 svg {
+  color: var(--indicator-unread-mention-border);
+}
+
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3) ,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3){
+  border-left-color: var(--indicator-unread-border);
+  background-color: var(--indicator-unread-background);
+}
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3):hover,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3):hover {
+  background-color: var(--indicator-unread-hover-background);
+}
+.containerDefault_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3) .link_d8bfb3 svg,
+.containerDragBefore_f6f816:has(.modeConnected_d8bfb3 .unread_d8bfb3) .link_d8bfb3 svg {
+  color: var(--indicator-unread-border);
+}
+
+
+
+
 .containerDefault_f6f816:has(.modeConnected_d8bfb3),
 .containerDragBefore_f6f816:has(.modeConnected_d8bfb3) {
   border-left-color: var(--indicator-connected-border);
@@ -184,9 +216,12 @@
 .modeUnreadLessImportant_d8bfb3 .name_d8bfb3{
     color: var(--interactive-active)!important;
 }
+
 .unread_d8bfb3{
     display: none;
 }
+
+
 .channel_c91bad .interactive_f5eb4b {
   background: transparent;
 }
