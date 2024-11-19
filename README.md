@@ -11,7 +11,7 @@ Click copy and add it into your quick css. Pick which one you wanna use.
 ```
 @import url('https://krazytrain.github.io/Theme/Defaultlook.theme.css');
 ```
-![alt text](https://postimg.cc/F7hwzmGD)
+![alt text](https://i.postimg.cc/Qx7D6d7G/screenshot-129.png)
 
 ### Default Look New UI
 ```
