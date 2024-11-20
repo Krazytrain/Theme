@@ -40,6 +40,13 @@
     margin-top: 22px!important;
     right: 80px!important;
 }
+.visual-refresh.platform-win .right_b66418{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 40px;
+}
 .bar_b66418, .base_a4d4d9, .custom-theme-background.bar_b66418, .custom-theme-background.base_a4d4d9{
     margin-top: 0px!important;
 }
