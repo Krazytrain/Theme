@@ -594,3 +594,9 @@ button.button_adca65, span.button_adca65{
     margin-right: -15px!important;
     margin-left: 15px!important;
 }
+.card_cc2c09 {
+    background: var(--bg-base-tertiary);
+}
+.card_cc2c09:hover {
+    background: var(--background-tertiary);
+}
