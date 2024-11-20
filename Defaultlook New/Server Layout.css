@@ -673,3 +673,9 @@ li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicCha
 .optionButtonWrapper_bd5e1f.selected_bd5e1f {
     border: 2px solid var(--interactive-muted);
 }
+
+
+/*Events*/
+:where(.visual-refresh) .top_a0 .item_a0.selected_a0 {
+    color: var(--interactive-active);
+}
