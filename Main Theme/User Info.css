@@ -181,9 +181,7 @@ button.button_adca65:hover{
   }
 }
 /* Hover state to trigger the shake animation */
-.vc-spotify-button svg:hover {
-  animation: spin-animation 0.8s ease-in-out;
-}
+
 .vc-spotify-button svg{
     width: 70px;
     height: 26px;
