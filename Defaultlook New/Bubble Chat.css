@@ -603,6 +603,10 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 }
 
 
+.custom-theme-background .embedFull_b0068a {
+    background: var(--bg-overlay-chat,var(--bg-base-primary))!important;
+}
+
 
 .theme-light.visual-refresh .embedFull_b0068a, .theme-dark.visual-refresh .embedFull_b0068a,
 .theme-light .footer_d8e2d0, 
