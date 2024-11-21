@@ -53,10 +53,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-/* Make profile & derivatives stop hogging the entire bottom left corner*/
- [class^=panels_] {
-  border-radius: 10px;
-}
+
 /* preference, match spotifycontrols to panel tint */
 .theme-dark #vc-spotify-player {
  background: unset; 
