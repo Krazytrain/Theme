@@ -619,8 +619,9 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 }
 
 
-
-.theme-light .embedFull_b0068a, .theme-dark .embedFull_b0068a,
+.custom-theme-background .embedFull_b0068a,
+.theme-light .embedFull_b0068a, 
+.theme-dark .embedFull_b0068a,
 .theme-light .footer_d8e2d0, 
 .theme-light .textContainer_d8e2d0, 
 .theme-light .markup_f8f345 code, 
@@ -643,7 +644,9 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-dark .tile_b5b752{
     background: var(--bg-base-primary) !important;
 }
-.theme-darker .embedFull_b0068a, .theme-midnight .embedFull_b0068a,
+.custom-theme-background .embedFull_b0068a,
+.theme-darker .embedFull_b0068a, 
+.theme-midnight .embedFull_b0068a,
 .theme-darker .footer_d8e2d0, 
 .theme-darker .textContainer_d8e2d0, 
 .theme-darker .markup_f8f345 code, 
