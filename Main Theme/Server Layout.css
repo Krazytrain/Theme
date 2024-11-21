@@ -422,6 +422,7 @@ button.button_adca65, span.button_adca65{
  .form_a7d72e .wrapper_faf5ab{
     background: var(--bg-surface-raised);
     border: 1px solid var(--input-border)!important;
+    margin-bottom: -2px;
 }
 
 
