@@ -120,12 +120,8 @@ button.button_adca65:hover{
 
 
 
-[class^=panels_] {
-    margin: 5px !important;
-}
 
 .container_adcaac {
-    border-radius: 10px!important;
     border-bottom: none;
 }
 #vc-spotify-player {
