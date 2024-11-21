@@ -604,8 +604,9 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 
 
 
-
-.theme-light.visual-refresh .embedFull_b0068a, .theme-dark.visual-refresh .embedFull_b0068a,
+.custom-theme-background .embedFull_b0068a,
+.theme-light.visual-refresh .embedFull_b0068a, 
+.theme-dark.visual-refresh .embedFull_b0068a,
 .theme-light .footer_d8e2d0, 
 .theme-light .textContainer_d8e2d0, 
 .theme-light .markup_f8f345 code, 
@@ -628,7 +629,8 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-dark .tile_b5b752{
     background: var(--bg-base-primary) !important;
 }
-.theme-darker.visual-refresh .embedFull_b0068a, .theme-midnight.visual-refresh .embedFull_b0068a,
+.theme-darker.visual-refresh .embedFull_b0068a, 
+.theme-midnight.visual-refresh .embedFull_b0068a,
 .theme-darker .footer_d8e2d0, 
 .theme-darker .textContainer_d8e2d0, 
 .theme-darker .markup_f8f345 code, 
@@ -650,10 +652,6 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-midnight .container_a3d172,
 .theme-midnight .tile_b5b752{
     background: var(--bg-base-secondary) !important;
-}
-
-.custom-theme-background .embedFull_b0068a {
-    background: var(--bg-overlay-chat,var(--bg-base-primary))!important;
 }
 
 
