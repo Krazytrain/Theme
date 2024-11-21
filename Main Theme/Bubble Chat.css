@@ -619,7 +619,12 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 }
 
 
-.custom-theme-background .embedFull_b0068a,
+.custom-theme-background .embedFull_b0068a {
+    background: var(--bg-overlay-chat,var(--bg-base-primary))!important;
+}
+
+
+
 .theme-light .embedFull_b0068a, 
 .theme-dark .embedFull_b0068a,
 .theme-light .footer_d8e2d0, 
@@ -644,7 +649,7 @@ div.message_d5deea.cozyMessage_d5deea.selected_d5deea.wrapper_f9f2ca.cozy_f9f2ca
 .theme-dark .tile_b5b752{
     background: var(--bg-base-primary) !important;
 }
-.custom-theme-background .embedFull_b0068a,
+
 .theme-darker .embedFull_b0068a, 
 .theme-midnight .embedFull_b0068a,
 .theme-darker .footer_d8e2d0, 
