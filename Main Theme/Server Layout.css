@@ -497,7 +497,9 @@ button.button_adca65, span.button_adca65{
  .footer_d71945, .footer_f8ec41{
     background: none!important;
 }
-
+.custom-theme-background .withBackgroundOverride_a934d8.typeWindows_a934d8{
+    margin-top: 4px;
+}
 .tree_fea3ef {
     height: calc(-200px + 100%);
 }
