@@ -494,10 +494,7 @@ button.button_adca65, span.button_adca65{
  .form_a7d72e{
     background: var(--bg-overlay-chat, var(--bg-base-tertiary))!important;
 }
- .footer_d71945{
-    background: none!important;
-}
-.footer_d71945{
+ .footer_d71945, .footer_f8ec41{
     background: none!important;
 }
 
