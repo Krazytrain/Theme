@@ -39,10 +39,24 @@
 [class^="positionContainer_"] {
   height: calc(100vh - 180px);
 }
+/*Reactions from me*/
+.reaction_ec6b19.reactionMe_ec6b19, .reaction_f61c73.reactionMe_ec6b19, .reaction_f61c73.reactionMe_f61c73{
+    background: var(--background-secondary)!important;
+    border-color: var(--brand-500)!important;
+}
+.reaction_ec6b19, .reaction_f61c73{
+    background: var(--background-secondary)!important;
+}
+.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19, .reaction_f61c73.reactionMe_f61c73 .reactionCount_f61c73 {
+    color: var(--brand-500)!important;
+}
+
+
+
 /* Reactions Hover */
-.reaction_ec6b19 .emoji {
+.reaction_ec6b19 .emoji, .reaction_f61c73 .emoji {
   transition: transform 0.5s ease;
 }
-.reaction_ec6b19:hover .emoji {
+.reaction_ec6b19:hover .emoji, .reaction_f61c73:hover .emoji {
   transform: translateY(0px) scale(1.5);
 }
