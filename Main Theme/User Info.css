@@ -190,3 +190,9 @@ button.button_adca65:hover{
 [aria-label="Disable Game Activity"] .contents_dd4f85:hover{
     animation: spin-animation 0.8s ease-in-out;
 }
+
+
+
+.itemsContainer_fea3ef {
+    background: transparent!important;
+}
