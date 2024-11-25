@@ -363,7 +363,7 @@ button.button_adca65, span.button_adca65{
     border-radius: 0px!important;
 }
  .container_adcaac{
-    border-top-left-radius: 10px;
+    border-top-left-radius: 0px;
     border-top-right-radius: 10px;
 }
 
