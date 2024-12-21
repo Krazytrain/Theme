@@ -507,6 +507,14 @@ button.button_adca65, span.button_adca65{
  .channelTextArea_a7d72e{
     margin-bottom: -2px;
 }
+.entryPointButtonContainer_a7d72e {
+    align-content: flex-end;
+    margin-bottom: -2px;
+    
+}
+.entryPointAppCommandButton_d1f06a{
+    height: 48px;
+}
 .theme-light .scrollableContainer_bdf0de.themedBackground_bdf0de, .theme-light .button_df39bd.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85.grow_dd4f85{
     background: var(--bg-surface-raised)!important;
     border: 1px solid var(--input-border)!important;
