@@ -1,15 +1,20 @@
 /*=============================================
 =                  User Info                  =
 =============================================*/
-
+.wrapper_fea3ef.guilds_a4d4d9 {
+    margin-bottom: 210px;
+}
+.guilds_a4d4d9 {
+    padding-bottom: 0px!important;
+}
+.unreadMentionsFixedFooter_fea3ef {
+    bottom: 0px;
+}
 /*User Info*//*FIXED*/
 .fade_f88ae3.didRender_f88ae3{
     margin-left: 20px;
 }
-.guilds_a4d4d9 {
-    padding-bottom: 270px;
-    background: var(--bg-overlay-app-frame,var(--background-tertiary));
-}
+
 .panels_a4d4d9 {
     position: relative;
     z-index: 3;
@@ -18,7 +23,7 @@
     height: 85px;
     z-index: 3;
     position: fixed;
-    bottom: 30px;
+    bottom: 15px;
     left: 1px;
     padding: 10px;
     background: transparent;
@@ -31,6 +36,11 @@
 .panels_a4d4d9 > .container_b2ca13:has([aria-label= "Enable Game Activity"]) {
     bottom: 46px!important;
 }
+
+.wrapper_fea3ef.guilds_a4d4d9 {
+    margin-bottom: 180px;
+}
+
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
     display: flex;
@@ -62,28 +72,37 @@
 }
 
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
-    margin-left: 50px!important;
+    margin-left: 70px!important;
 }
 /*User Game Button*//*FIXED*/
-.guilds_a4d4d9 {
-    padding-bottom: 220px;
-}
 .panels_a4d4d9 > .container_b2ca13 {
-    height: 130px;
+    height: 135px;
 }
 [class*="withTagAsButton"] {
     min-width: 36px !important;
+}
+
+
+
+
+
+.guilds_a4d4d9 {
+    padding-bottom: 220px;
 }
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
     padding-top: 55px;
     margin-top: -6px!important;
 }
-
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
     left: 10px;
 }
+
+
+
+
+
 [class*="panels"] [class*="avatarWrapper"] {
-    min-width: 34px !important;
+    min-width: 52px !important;
     position: absolute;
     left: 19px;
     justify-content: center!important;
@@ -101,8 +120,9 @@
     border-radius: 10px;
 }
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
-    background: var(--bg-surface-raised)!important;
-    border: 1px solid var(--input-border)!important;
+    background: var(--bg-4);
+    border-radius: var(--roundness-xl);
+    width: 52px;
     margin-left: -2px;
 }
 button.button_adca65:hover{
@@ -122,8 +142,8 @@ button.button_adca65:hover{
 
 
 .panels_a4d4d9 {
-    border-top-left-radius: 0px!important;
-    border-top-right-radius: 10px!important;
+    border-top-left-radius: var(--roundness-xl)!important;
+    border-top-right-radius: var(--roundness-xl)!important;
 }
 .container_adcaac {
     border-bottom: 1px solid var(--input-border)!important;
@@ -134,29 +154,10 @@ button.button_adca65:hover{
 #vc-spotify-player {
     padding: .375rem .5rem;
     border-bottom: 0px solid var(--background-modifier-accent);
-    --vc-spotify-green: #1db954;
 }
 
 
-.sidebar_a4d4d9 {
-    background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
-}
 
-.lookFilled_dd4f85.colorBrand_dd4f85 {
-    color: var(--white-500)!important;
-    background-color: var(--brand-500)!important;
-}
-.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
-    fill: var(--white-500)!important;
-    stroke: var(--white-500)!important;
-}
-.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[stroke][stroke-opacity] {
-    fill: var(--white-500)!important;
-    stroke: var(--white-500)!important;
-}
-.theme-light .dot_d373b2 {
-    background-color:  var(--brand-500)!important;
-}
 
 
 
@@ -198,4 +199,17 @@ button.button_adca65:hover{
 
 .itemsContainer_fea3ef {
     background: transparent!important;
+}
+
+
+
+
+
+#app-mount .panels_a4d4d9 > div.container_b2ca13{
+    background: transparent;
+    margin-left: 1px;
+}
+
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 button.button_adca65{
+    margin-left: 9px;
 }
