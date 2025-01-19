@@ -190,26 +190,22 @@ button.button_adca65:hover{
     width: 70px;
     height: 26px;
 }
-
 [aria-label="Disable Game Activity"] .contents_dd4f85:hover{
     animation: spin-animation 0.8s ease-in-out;
 }
-
-
-
 .itemsContainer_fea3ef {
     background: transparent!important;
 }
-
-
-
-
-
 #app-mount .panels_a4d4d9 > div.container_b2ca13{
     background: transparent;
     margin-left: 1px;
 }
-
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 button.button_adca65{
     margin-left: 9px;
+}
+
+
+
+.searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d{
+    padding-top: 2px;
 }
