@@ -209,3 +209,16 @@ button.button_adca65:hover{
 .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d{
     padding-top: 2px;
 }
+.name_d8bfb3, .title_fc4f04, .title_fc4f04{
+    text-transform: capitalize!important;
+}
+.container_a5ad5c{
+    text-align: center;
+}
+[class^=membersGroup], .container_a5ad5c{
+    font-size: 14px;
+}
+.membersGroup_cbd271 {
+    padding: 20px 8px 0 16px;
+    height: 40px;
+}
