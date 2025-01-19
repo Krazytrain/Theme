@@ -5,7 +5,7 @@
 :root {
   --indicator-border-size: 4px;
   --indicator-border-style: solid;
-  --indicator-rounding: 0px;
+  --indicator-rounding: 10px;
 }
 
 .theme-light {
@@ -18,12 +18,12 @@
 .theme-dark {
   --indicator-unread: var(--primary-130-hsl);
   --indicator-unread-mention: var(--red-400-hsl);
-  --indicator-selected: var(--brand-500-hsl);
+  --indicator-selected: var(--blue-300-hsl);
   --indicator-connected: var(--green-230-hsl);
 }
 
 :root {
-  --indicator-hover: var(--background-modifier-hover);
+  --indicator-hover: transparent;
   --indicator-unread-border: hsla(var(--indicator-unread)/0.75);
   --indicator-unread-background: hsla(var(--indicator-unread)/0.05);
   --indicator-unread-hover-background: hsla(var(--indicator-unread)/0.10);
@@ -31,7 +31,7 @@
   --indicator-unread-mention-background: hsla(var(--indicator-unread-mention)/0.15);
   --indicator-unread-mention-hover-background: hsla(var(--indicator-unread-mention)/0.25);
   --indicator-selected-border: hsl(var(--indicator-selected));
-  --indicator-selected-background: hsla(var(--indicator-selected)/0.1);
+  --indicator-selected-background: hsla(var(--indicator-selected)/0.2);
   --indicator-selected-hover-background: hsla(var(--indicator-selected)/0.25);
   --indicator-connected-border: hsl(var(--indicator-connected));
   --indicator-connected-background: hsla(var(--indicator-connected)/0.15);
