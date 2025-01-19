@@ -5,7 +5,9 @@
 /*Chat Status*/
 
 .avatar_f9f2ca {
-    left: -51px !important;
+    left: 12px !important;
+    margin-top: -2px;
+    scale: 80%;
 }
 .avatarDecoration_f9f2ca{
     margin-left: -18px!important;
