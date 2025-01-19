@@ -1,0 +1,201 @@
+/*=============================================
+=                  User Info                  =
+=============================================*/
+
+/*User Info*//*FIXED*/
+.fade_f88ae3.didRender_f88ae3{
+    margin-left: 20px;
+}
+.guilds_a4d4d9 {
+    padding-bottom: 270px;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.panels_a4d4d9 {
+    position: relative;
+    z-index: 3;
+}
+.panels_a4d4d9 > .container_b2ca13 {
+    height: 85px;
+    z-index: 3;
+    position: fixed;
+    bottom: 30px;
+    left: 1px;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.panels_a4d4d9 > .container_b2ca13:has([aria-label= "Disable Game Activity"]) {
+    bottom: 46px!important;
+}
+.panels_a4d4d9 > .container_b2ca13:has([aria-label= "Enable Game Activity"]) {
+    bottom: 46px!important;
+}
+.withTagAsButton_b2ca13, .withTagless_b2ca13 {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    min-width: 0px;
+    padding-left: 2px;
+    position: fixed;
+    margin-top: 5px;
+}
+.withTagAsButton_b2ca13 .nameTag_b2ca13, .withTagless_b2ca13 .nameTag_b2ca13{
+    display: none;
+}
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: var(--bg-surface-raised);
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-top: -8px!important;
+}
+.popoutContainer_ad5fac {
+    margin-left: 80px;
+    margin-bottom: -50px;
+}
+.scroller_fea3ef {
+    background: transparent!important;
+    background-color: transparent!important;
+}
+
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    margin-left: 50px!important;
+}
+/*User Game Button*//*FIXED*/
+.guilds_a4d4d9 {
+    padding-bottom: 220px;
+}
+.panels_a4d4d9 > .container_b2ca13 {
+    height: 130px;
+}
+[class*="withTagAsButton"] {
+    min-width: 36px !important;
+}
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    padding-top: 55px;
+    margin-top: -6px!important;
+}
+
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
+    left: 10px;
+}
+[class*="panels"] [class*="avatarWrapper"] {
+    min-width: 34px !important;
+    position: absolute;
+    left: 19px;
+    justify-content: center!important;
+    align-items: center!important;
+}
+.nameTag_b2ca13.canCopy_b2ca13 {
+    display: none;
+}
+
+
+
+.button_adcaac.buttonColor_adcaac {
+    background: none;
+    border: 0px solid var(--background-primary)!important;
+    border-radius: 10px;
+}
+.container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+    background: var(--bg-surface-raised)!important;
+    border: 1px solid var(--input-border)!important;
+    margin-left: -2px;
+}
+button.button_adca65:hover{
+    background: transparent!important;
+}
+.dot_d373b2 {
+    display: none!important;
+}
+.container_b2ca13 .avatar_b2ca13{
+    margin-left: -1px!important;
+    margin-top: 5px!important;
+}
+.avatarWrapper_b2ca13:hover{
+    background: transparent!important;
+}
+
+
+
+.panels_a4d4d9 {
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 10px!important;
+}
+.container_adcaac {
+    border-bottom: 1px solid var(--input-border)!important;
+}
+
+
+
+#vc-spotify-player {
+    padding: .375rem .5rem;
+    border-bottom: 0px solid var(--background-modifier-accent);
+    --vc-spotify-green: #1db954;
+}
+
+
+.sidebar_a4d4d9 {
+    background: var(--bg-overlay-chat,var(--bg-base-tertiary))!important;
+}
+
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+    color: var(--white-500)!important;
+    background-color: var(--brand-500)!important;
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[fill]{
+    fill: var(--white-500)!important;
+    stroke: var(--white-500)!important;
+}
+.lottieIcon_f73ef7.buttonIcon_adcaac :not(defs *)[stroke][stroke-opacity] {
+    fill: var(--white-500)!important;
+    stroke: var(--white-500)!important;
+}
+.theme-light .dot_d373b2 {
+    background-color:  var(--brand-500)!important;
+}
+
+
+
+
+
+
+/*Shake animation hover to the text area when you don't have permission !*/
+
+/* Define the shake animation */
+@keyframes spin-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Hover state to trigger the shake animation */
+
+.vc-spotify-button svg{
+    width: 70px;
+    height: 26px;
+}
+
+[aria-label="Disable Game Activity"] .contents_dd4f85:hover{
+    animation: spin-animation 0.8s ease-in-out;
+}
+
+
+
+.itemsContainer_fea3ef {
+    background: transparent!important;
+}

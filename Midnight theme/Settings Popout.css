@@ -1,0 +1,46 @@
+/*=============================================
+=           Settings Popout Layout            =
+=============================================*/
+
+/*Settings Popout Layout*/
+[class^=standardSidebarView_]
+ {  position: static;
+   overflow: hidden !important;
+ opacity: 1 !important;}
+.layer_d4b6c5 + .layer_d4b6c5
+ { border-radius: 10px !important;
+   box-shadow: 5px 5px 25px black !important;
+   width: calc(100% - 100px);
+   max-width: 1100px;
+   height: 80vh !important;
+   margin: auto !important;
+   padding: 0 !important;
+   opacity: 1 !important;
+   transform: 1125 !important;
+ }
+.baseLayer_d4b6c5[aria-hidden="true"]::after {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #00000099;
+  content: '';
+  z-index: 100;
+}
+.layer_d4b6c5[aria-hidden="false"] + .layer_d4b6c5[aria-hidden="false"] {
+  display: none
+}
+#app-mount .baseLayer_d4b6c5 /*keep view under settings*/
+ { opacity: 1 !important;
+   transform: scale(1) !important;
+ }
+.baseLayer_d4b6c5[aria-hidden="true"] {
+   pointer-events: none;
+}
+.layers_d4b6c5>.layer_d4b6c5.animating_d4b6c5 {
+  will-change: unset !important;
+}
+.platform-win .standardSidebarView_c25c6d {
+    top: 0px;
+}
