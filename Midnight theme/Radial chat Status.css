@@ -1,0 +1,41 @@
+/*=============================================
+=                 Chat Status                 =
+=============================================*/
+
+/*Chat Status*/
+
+.avatar_f9f2ca {
+    left: -51px !important;
+}
+.avatarDecoration_f9f2ca{
+    margin-left: -18px!important;
+}
+
+.contents_f9f2ca .avatar_f9f2ca {
+    border: 4px solid transparent;
+    box-shadow: 0 0 0 2px #747f8d!important;
+}
+.contents_f9f2ca .vc-platform-indicator>svg {
+    display: none!important;
+}
+.contents_f9f2ca:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px #80848e!important;
+}
+.contents_f9f2ca:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px #23a55a!important;
+}
+.contents_f9f2ca:has(.vc-platform-indicator>[fill="#f0b232"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px #f0b232!important;
+}
+.contents_f9f2ca:has(.vc-platform-indicator>[fill="#f23f43"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px #f23f43!important;
+}
+
+.contents_f9f2ca:has([aria-label="Verified App"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px #23a55a!important;
+}
+.avatarDecoration_f9f2ca{
+    margin-top: -6px !important;
+    margin-left: -18px!important;
+
+}
