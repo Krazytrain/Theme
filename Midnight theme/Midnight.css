@@ -1280,3 +1280,11 @@ html.theme-light,
     border-radius: var(--rs-avatar-shape);
     box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, var(--status-speaking)), inset 0 0 0 1px var(--background-secondary)!important;
 }
+
+.cozy_f9f2ca.wrapper_f9f2ca{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.group-spacing-16 .groupStart_d5deea {
+    --custom-group-spacing-start: 4px;
+}
