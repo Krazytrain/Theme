@@ -126,9 +126,6 @@ button.button_adca65:hover{
     border-top-left-radius: var(--roundness-xl)!important;
     border-top-right-radius: var(--roundness-xl)!important;
 }
-.container_adcaac {
-    border-bottom: 1px solid var(--input-border)!important;
-}
 #vc-spotify-player {
     padding: .375rem .5rem;
     border-bottom: 0px solid var(--background-modifier-accent);
