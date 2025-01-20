@@ -204,3 +204,8 @@ button.button_adca65:hover{
 .container_c75f85 {
   padding-top: 12px;
 }
+
+/*Spotty Image*/
+#vc-spotify-album-expanded-wrapper img { 
+ border-radius: 20px;
+}
