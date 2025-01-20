@@ -1278,5 +1278,5 @@ html.theme-light,
     width: calc(100% - 4px);
     height: calc(100% - 4px);
     border-radius: var(--rs-avatar-shape);
-    box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, var(--status-speaking)), inset 0 0 0 1px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, var(--status-speaking)), inset 0 0 0 1px var(--background-secondary)!important;
 }
