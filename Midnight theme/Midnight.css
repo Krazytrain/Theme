@@ -1281,10 +1281,14 @@ html.theme-light,
     box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, var(--status-speaking)), inset 0 0 0 1px var(--background-secondary)!important;
 }
 
-.cozy_f9f2ca.wrapper_f9f2ca{
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
 .group-spacing-16 .groupStart_d5deea {
-    --custom-group-spacing-start: 4px;
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+}
+.username_f9f2ca{
+    font-size: 18px;
+}
+.cozy_f9f2ca.wrapper_f9f2ca {
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
