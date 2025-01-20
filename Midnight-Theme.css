@@ -1,7 +1,13 @@
+/**
+ * @name Discord Midnight
+ * @author Krazytrain
+ * @version 1.0.0
+ * @description A soft and comfy feel for Discord.
+ **/
+/*==================================================
+=                 Main Theme Link                  =
+==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight theme/Midnight.css');
-
-
-
 /*==================================================
 =                  Radial Status                   =
 ==================================================*/
@@ -10,6 +16,22 @@
 =   Radial Chat Status NEED PLATORMINDICATORS ON   =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight theme/Radial chat Status.css');
+/*==================================================
+=                     Indicators                   =
+==================================================*/
+@import url('https://krazytrain.github.io/Theme/Midnight theme/Indicators.css');
+/*==================================================
+=                    Hide Buttons                  =
+==================================================*/
+@import url('https://krazytrain.github.io/Theme/Midnight theme/Hide Buttons.css');
+/*==================================================
+=                  User Info Panels                =
+==================================================*/
+@import url('https://krazytrain.github.io/Theme/Midnight theme/User Info.css');
+/* Add this if you use game active plugin */
+.wrapper_fea3ef.guilds_a4d4d9 {
+    margin-bottom: 210px;
+}
 
 
 /* customize things here */
@@ -18,9 +40,12 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'Discord Midnight';
 
-	/* color of status indicators and window controls */
+	/* thickness of messages divider */
+	--divider-thickness: 3px;
+
+    /* color of status indicators and window controls */
 	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
 	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
 	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
@@ -41,16 +66,16 @@
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
 	--text-3: hsl(220, 15%, 60%); /* normal text */
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-5: hsl(220, 15%, 45%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-1: hsl(234, 13%, 31%); /* dark buttons when clicked */
+	--bg-2: hsl(237, 16%, 23%); /* dark buttons */
+	--bg-3: hsl(240, 21%, 12%); /* spacing, secondary elements */
+	--bg-4: hsl(240, 21%, 15%); /* main background color */
+	--hover: hsla(237, 18%, 53%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(235, 15%, 53%, 0.0); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(240, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
@@ -65,11 +90,24 @@
 	/* corner roundness (border-radius) */
 	--roundness-xl: 22px; /* roundness of big panel outer corners */
 	--roundness-l: 20px; /* popout panels */
-	--roundness-m: 16px; /* smaller panels, images, embeds */
+	--roundness-m: 4px; /* smaller panels, images, embeds */
 	--roundness-s: 12px; /* members, settings inputs */
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
 
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: none; /* moon icon */
+	--moon-icon-url: none; /* custom icon url */
+	--moon-icon-size: auto;
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: none; /* login background artwork */
+	--green-to-accent-3-filter: none; /* add friend page explore icon */
+	--blurple-to-accent-3-filter: none; /* add friend page school icon */
+	
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
@@ -87,18 +125,18 @@
 	--windows-nav: none;
 	--custom-nav: block;
 
-  /* Radial Status Settings */
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 2px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 3px;
-  --rs-large-width: 3px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
+    /* Radial Status Settings */
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 2px;
+    --rs-large-spacing: 2px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 3px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-phone-visible: block;
 }
