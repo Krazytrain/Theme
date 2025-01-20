@@ -194,3 +194,16 @@ button.button_adca65:hover{
 .outer_af9888.biteSize_af9888::after, .outer_af9888:before{
     display: none;
 }
+/*Server Side Bar*/
+[style="height: 135px;"]{
+  height: 110px!important;
+}
+[style="height: 16px;"]{
+  display: none;
+}
+[style="height: 12px;"]{
+  display: none;
+}
+.container_c75f85 {
+  padding-top: 12px;
+}
