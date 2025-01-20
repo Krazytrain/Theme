@@ -14,7 +14,6 @@
 .fade_f88ae3.didRender_f88ae3{
     margin-left: 20px;
 }
-
 .panels_a4d4d9 {
     position: relative;
     z-index: 3;
@@ -36,11 +35,9 @@
 .panels_a4d4d9 > .container_b2ca13:has([aria-label= "Enable Game Activity"]) {
     bottom: 46px!important;
 }
-
 .wrapper_fea3ef.guilds_a4d4d9 {
     margin-bottom: 180px;
 }
-
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
     display: flex;
@@ -81,11 +78,6 @@
 [class*="withTagAsButton"] {
     min-width: 36px !important;
 }
-
-
-
-
-
 .guilds_a4d4d9 {
     padding-bottom: 220px;
 }
@@ -96,11 +88,6 @@
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 {
     left: 10px;
 }
-
-
-
-
-
 [class*="panels"] [class*="avatarWrapper"] {
     min-width: 52px !important;
     position: absolute;
@@ -111,9 +98,6 @@
 .nameTag_b2ca13.canCopy_b2ca13 {
     display: none;
 }
-
-
-
 .button_adcaac.buttonColor_adcaac {
     background: none;
     border: 0px solid var(--background-primary)!important;
@@ -138,9 +122,6 @@ button.button_adca65:hover{
 .avatarWrapper_b2ca13:hover{
     background: transparent!important;
 }
-
-
-
 .panels_a4d4d9 {
     border-top-left-radius: var(--roundness-xl)!important;
     border-top-right-radius: var(--roundness-xl)!important;
@@ -148,22 +129,10 @@ button.button_adca65:hover{
 .container_adcaac {
     border-bottom: 1px solid var(--input-border)!important;
 }
-
-
-
 #vc-spotify-player {
     padding: .375rem .5rem;
     border-bottom: 0px solid var(--background-modifier-accent);
 }
-
-
-
-
-
-
-
-
-
 /*Shake animation hover to the text area when you don't have permission !*/
 
 /* Define the shake animation */
@@ -203,9 +172,6 @@ button.button_adca65:hover{
 .container_b2ca13 .flex_dc333f.horizontal_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20 button.button_adca65{
     margin-left: 9px;
 }
-
-
-
 .searchBar_a46bef, .searchBar_f0963d .searchBarComponent_f0963d{
     padding-top: 2px;
 }
