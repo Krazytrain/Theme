@@ -1,22 +1,11 @@
 /*==================================================
-=                    Import Links                  =
+=                     Master CSS                   =
 ==================================================*/
+@import url('https://krazytrain.github.io/Theme/Midnight/Theme.css');
 /*==================================================
-=                      Fonts                       =
+=                    Addons Links                  =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Fonts.css');
-/*==================================================
-=               Radial & Chat Status               =
-==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Radial & Chat Status.css');
-/*==================================================
-=                     Indicators                   =
-==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Indicators.css');
-/*==================================================
-=                    Popout Settings               =
-==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Settings Popout.css');
+@import url('https://krazytrain.github.io/Theme/Midnight/Theme.css');
 /*==================================================
 =                    Bug Fixes                     =
 ==================================================*/
