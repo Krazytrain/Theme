@@ -240,6 +240,9 @@ button.button_adca65:hover{
     background: var(--bg-4);
     border-radius: var(--roundness-xs);
 }
+.searchBar_e0840f.container_c18ec9 {
+    background: var(--background-tertiary);
+}
 .messageGroupWrapper_ac90a2{
     padding-top: 8px;
     padding-bottom: 4px;
