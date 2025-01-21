@@ -1,5 +1,5 @@
 /*=============================================
-=                  User Info                  =
+=                  Bug Fixes                  =
 =============================================*/
 .wrapper_fea3ef.guilds_a4d4d9 {
     margin-bottom: 210px;
@@ -208,4 +208,58 @@ button.button_adca65:hover{
 /*Spotty Image*/
 #vc-spotify-album-expanded-wrapper img { 
  border-radius: 20px;
+}
+
+
+ /*Fix color speaking*/
+#app-mount .avatarSpeaking_c51b4e {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: inset 0 0 0 2px var(--rs-self-speaking-colour, var(--status-speaking)), inset 0 0 0 1px var(--background-secondary)!important;
+}
+ /*Nicer Messages*/ 
+.group-spacing-16 .groupStart_d5deea {
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+}
+.username_f9f2ca{
+    font-size: 18px;
+}
+.cozy_f9f2ca.wrapper_f9f2ca {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+/*Bigger Popouts*/
+.floating_d1c246 {
+    border-left: 1px solid var(--background-modifier-accent);
+    filter: none;
+}
+.container_c18ec9{
+    background: var(--bg-4);
+    border-radius: var(--roundness-xs);
+}
+.messageGroupWrapper_ac90a2{
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+.browser_f542fc.container_e664f3, .messagesPopoutWrap_ac90a2{
+    min-width: 520px;
+}
+/*Fix panels*/
+.sidebar_a4d4d9{
+    row-gap: 0px;
+}
+.sidebar_a4d4d9:has(.container_adcaac), .sidebar_a4d4d9:has(#vc-spotify-player){
+    row-gap: var(--spacing);
+}
+.container_adcaac{
+    margin-bottom: -2px;
+}
+/*Fixed Group Call Layout*/
+.chat_a7d72e:has(.callContainer_d880dc) .content_a7d72e .members_cbd271.thin_c49869, .chat_a7d72e:has(.callContainer_d880dc) .content_a7d72e .chatContent_a7d72e {
+    border-radius: var(--roundness-xl);
 }
