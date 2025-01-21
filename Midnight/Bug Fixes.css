@@ -38,6 +38,9 @@
 .wrapper_fea3ef.guilds_a4d4d9 {
     margin-bottom: 180px;
 }
+.container_a4d4d9:has(.container_b2ca13 button[aria-label="Disable Game Activity"]) .wrapper_fea3ef.guilds_a4d4d9, .container_a4d4d9:has(.container_b2ca13 button[aria-label="Enable Game Activity"]) .wrapper_fea3ef.guilds_a4d4d9{
+    margin-bottom: 210px;
+}
 .withTagAsButton_b2ca13, .withTagless_b2ca13 {
     align-items: center;
     display: flex;
