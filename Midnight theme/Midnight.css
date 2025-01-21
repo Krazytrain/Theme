@@ -1308,3 +1308,13 @@ html.theme-light,
 .browser_f542fc.container_e664f3, .messagesPopoutWrap_ac90a2{
     min-width: 520px;
 }
+/*Fix panels*/
+.sidebar_a4d4d9{
+    row-gap: 0px;
+}
+.sidebar_a4d4d9:has(.container_adcaac), .sidebar_a4d4d9:has(#vc-spotify-player){
+    row-gap: var(--spacing);
+}
+.container_adcaac{
+    margin-bottom: -2px;
+}
