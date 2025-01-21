@@ -1318,3 +1318,7 @@ html.theme-light,
 .container_adcaac{
     margin-bottom: -2px;
 }
+/*Fixed Group Call Layout*/
+.chat_a7d72e:has(.callContainer_d880dc) .content_a7d72e .members_cbd271.thin_c49869, .chat_a7d72e:has(.callContainer_d880dc) .content_a7d72e .chatContent_a7d72e {
+    border-radius: var(--roundness-xl);
+}
