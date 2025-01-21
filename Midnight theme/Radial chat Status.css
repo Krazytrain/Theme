@@ -35,20 +35,20 @@
     display: none!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_f9f2ca {
-    box-shadow: 0 0 0 2.5px #80848e!important;
+    box-shadow: 0 0 0 2.5px var(--offline-indicator)!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_f9f2ca {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#f0b232"]) .avatar_f9f2ca {
-    box-shadow: 0 0 0 2.5px hsl(50, 60%, 60%)!important;
+    box-shadow: 0 0 0 2.5px var(--idle-indicator)!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#f23f43"]) .avatar_f9f2ca {
-    box-shadow: 0 0 0 2.5px hsl(340, 60%, 60%)!important;
+    box-shadow: 0 0 0 2.5px var(--dnd-indicator)!important;
 }
 
 .contents_f9f2ca:has([aria-label="Verified App"]) .avatar_f9f2ca {
-    box-shadow: 0 0 0 2.5px var(--accent-2)!important;
+    box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
 .avatarDecoration_f9f2ca{
     margin-top: -2.5px !important;
