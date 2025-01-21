@@ -76,7 +76,7 @@ button[aria-label="Select emoji"] {
 .footer_d71945 {
   display: var(--server-discoverable-button);
 }
-.listItem_c96c45 [aria-label="Add a Server"]{
+.tutorialContainer_c96c45{
     display: var(--server-create-button);
 }
 
