@@ -38,6 +38,12 @@
   --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
 }
 
+
+.interactive_f5eb4b.interactive_c91bad:hover{
+  background: none;
+}
+
+
 .containerDefault_f6f816,
 .containerDragBefore_f6f816 {
   margin: 0px 0;
