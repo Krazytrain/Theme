@@ -2,10 +2,6 @@
 =                  Import Links                    =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight theme/Import Links.css');
-/*==================================================
-=                    Bug Fixes                     =
-==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Bug Fixes.css')!important;
 	/* top left corner text */
 	--corner-text: 'Midnight';
 
