@@ -10,3 +10,8 @@
 =                    Bug Fixes                     =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight/Bug Fixes.css');
+
+	/* Version Number */
+:root {
+    --corner-text: 'Discord Midnight v2.0';
+}
