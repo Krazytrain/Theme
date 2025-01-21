@@ -9,7 +9,7 @@
   --rs-medium-width: 3px;
   --rs-large-width: 3px;
   --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
+  --rs-online-color: hsl(190, 70%, 48%);
   --rs-idle-color: #faa61a;
   --rs-dnd-color: #f04747;
   --rs-offline-color: #636b75;
@@ -38,7 +38,7 @@
     box-shadow: 0 0 0 2.5px #80848e!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_f9f2ca {
-    box-shadow: 0 0 0 2.5px var(--accent-2)!important;
+    box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#f0b232"]) .avatar_f9f2ca {
     box-shadow: 0 0 0 2.5px hsl(50, 60%, 60%)!important;
