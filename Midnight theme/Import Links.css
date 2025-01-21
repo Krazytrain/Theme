@@ -2,18 +2,23 @@
 =                Import Links                 =
 =============================================*/
 /*==================================================
-=                  Radial Status                   =
+=                      Fonts                       =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Radial Status.css');
+@import url('https://krazytrain.github.io/Theme/Midnight theme/Fonts.css');
 /*==================================================
-=   Radial Chat Status NEED PLATORMINDICATORS ON   =
+=               Radial & Chat Status               =
 ==================================================*/
-@import url('https://krazytrain.github.io/Theme/Midnight theme/Radial chat Status.css');
+@import url('https://krazytrain.github.io/Theme/Midnight theme/Radial & Chat Status.css');
 /*==================================================
 =                     Indicators                   =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight theme/Indicators.css');
 /*==================================================
+=                    Popout Settings               =
+==================================================*/
+@import url('https://krazytrain.github.io/Theme/Midnight theme/Settings Popout.css');
+/*==================================================
 =                  User Info Panels                =
 ==================================================*/
 @import url('https://krazytrain.github.io/Theme/Midnight theme/User Info.css');
+
