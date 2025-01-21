@@ -95,6 +95,7 @@ div[class^="buttonContainer"]>div>div {
 .recentsIcon_ea0547 [aria-label="Inbox"] {
   display: var(--inbox-button);
 }
-.container_c64476, .membersGroup_cbd271.container_a5ad5c.text_a5ad5c:has(.headerContainer_bc6acb) {
+[class^=membersGroup_]:has([d^="M10.56 1.1c-.46.05-.7.53-.64.98.18"]),
+div:not([class]):has([class^=facePile_]), .membersGroup_cbd271.container_a5ad5c.text_a5ad5c:has(.headerContainer_bc6acb) {
     display: var(--activity-list-buttons);
 }
