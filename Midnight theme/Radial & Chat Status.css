@@ -315,7 +315,7 @@
 
 /*Chat Status*/
 .avatar_f9f2ca {
-    left: -51px !important;
+    left: 12px !important;
 }
 .avatarDecoration_f9f2ca{
     margin-left: -18px!important;
@@ -345,7 +345,7 @@
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
 .avatarDecoration_f9f2ca{
-    margin-top: -6px !important;
-    margin-left: -18px!important;
+    margin-top: 2px !important;
+    margin-left: 0px!important;
 
 }
