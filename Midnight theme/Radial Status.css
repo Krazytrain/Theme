@@ -269,10 +269,14 @@
     height: 25px!important;
 }
 
-/*Chat Status*//*
 
+
+
+/*Chat Status*/
 .avatar_f9f2ca {
-    left: -51px !important;
+    left: 12px !important;
+    margin-top: -2px;
+    scale: 100%;
 }
 .avatarDecoration_f9f2ca{
     margin-left: -18px!important;
@@ -280,10 +284,13 @@
 
 .contents_f9f2ca .avatar_f9f2ca {
     border: 4px solid transparent;
-    box-shadow: 0 0 0 2px var(--offline-indicator)!important;
+    box-shadow: 0 0 0 2px #747f8d!important;
 }
 .contents_f9f2ca .vc-platform-indicator>svg {
     display: none!important;
+}
+.contents_f9f2ca:has(.vc-platform-indicator>[fill="#80848e"]) .avatar_f9f2ca {
+    box-shadow: 0 0 0 2.5px var(--offline-indicator)!important;
 }
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#23a55a"]) .avatar_f9f2ca {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
@@ -294,25 +301,46 @@
 .contents_f9f2ca:has(.vc-platform-indicator>[fill="#f23f43"]) .avatar_f9f2ca {
     box-shadow: 0 0 0 2.5px var(--dnd-indicator)!important;
 }
+
 .contents_f9f2ca:has([aria-label="Verified App"]) .avatar_f9f2ca {
     box-shadow: 0 0 0 2.5px var(--online-indicator)!important;
 }
-
-
-
-
 .avatarDecoration_f9f2ca{
-    margin-top: -6px!important;
+    margin-top: -2.5px !important;
+    margin-left: -0.7px!important;
 }
-.avatar_d808b0 .avatarDecoration_c51b4e{
-    left: -4px!important;
-    scale: 85%!important;
-}
-.avatar_f94206.biteSize_f94206 .avatarDecoration_c51b4e{
-    left: -9px!important;
-    scale: 87%!important;
-}
-.avatar_f94206.fullSize_f94206 .avatarDecoration_c51b4e{
-    left: -14px!important;
-    scale: 88%!important;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
