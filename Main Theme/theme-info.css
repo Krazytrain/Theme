@@ -2,10 +2,10 @@
 =                  Theme Info                 =
 =============================================*/
 
-.wordmarkWindows_a934d8{
+.wordmarkWindows__421ed{
     left: -100px!important;
 }
-.wordmarkWindows_a934d8:before {
+.wordmarkWindows__421ed:before {
     content: 'Default Look';
     position: absolute;
     top: 0px;
@@ -24,14 +24,14 @@
 .visual-refresh.platform-win .sidebar_b66418, .visual-refresh.platform-win .sidebar_b66418[data-sidebar-collapsed=true] {
     margin-left: 10px;
 }
-.custom-theme-background .withBackgroundOverride_a934d8.typeWindows_a934d8 {
+.custom-theme-background .withBackgroundOverride__421ed.typeWindows__421ed {
     margin-top: 4px;
     padding-top: 0px;
 }
-.platform-win .bg_d4b6c5 {
+.platform-win .bg__960e4 {
     top: -40px;
 }
-.custom-theme-background .withBackgroundOverride_a934d8.typeWindows_a934d8 {
+.custom-theme-background .withBackgroundOverride__421ed.typeWindows__421ed {
     margin-top: 0px;
     padding-top: 5px;
 }
