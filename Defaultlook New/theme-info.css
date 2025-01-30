@@ -2,10 +2,10 @@
 =                  Theme Info                 =
 =============================================*/
 
-.wordmarkWindows_a934d8{
+.wordmarkWindows__421ed{
     left: -100px!important;
 }
-.wordmarkWindows_a934d8:before {
+.wordmarkWindows__421ed:before {
     content: 'Default Look New';
     position: absolute;
     top: 20px;
@@ -24,10 +24,10 @@
 .visual-refresh.platform-win .sidebar_b66418, .visual-refresh.platform-win .sidebar_b66418[data-sidebar-collapsed=true] {
     margin-left: 10px!important;
 }
-.platform-win .bg_d4b6c5, .custom-theme-background .platform-win .bg_d4b6c5 {
+.platform-win .bg__960e4, .custom-theme-background .platform-win .bg__960e4 {
     top: -40px!important;
 }
-.custom-theme-background .withBackgroundOverride_a934d8.typeWindows_a934d8 {
+.custom-theme-background .withBackgroundOverride__421ed.typeWindows__421ed {
     margin-top: 0!important;
     padding-top: 0px!important;
     background: none;
@@ -47,14 +47,14 @@
     align-items: center;
     margin-right: 50px;
 }
-.bar_b66418, .base_a4d4d9, .custom-theme-background.bar_b66418, .custom-theme-background.base_a4d4d9{
+.bar_b66418, .base_c48ade, .custom-theme-background.bar_b66418, .custom-theme-background.base_c48ade{
     margin-top: 0px!important;
 }
-.visual-refresh .typeWindows_a934d8, .visual-refresh .custom-theme-background.typeWindows_a934d8{
+.visual-refresh .typeWindows__421ed, .visual-refresh .custom-theme-background.typeWindows__421ed{
     height: 0px!important;
     margin-top: 0px!important;
 }
-.notice_e2ecbf, .notice_a50047, .notice_be03aa{
+.notice_c9e42f, .notice__30f28, .notice__6e2b9{
     margin-top: 40px;
     margin-bottom: -40px;
     border-radius: 0;
