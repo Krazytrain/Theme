@@ -2,10 +2,10 @@
 =                 Status Box                  =
 =============================================*/
 /*Status Box*/
-.userProfileOuter_c69a7b .statusBubbleOuter_d0a252{
+.userProfileOuter_c69a7b .statusBubbleOuter_af9888{
     border-radius:12px;
     border:1px solid #000}
-.userProfileOuter_c69a7b .statusBubbleOuter_d0a252::before{
+.userProfileOuter_c69a7b .statusBubbleOuter_af9888::before{
     border:1px solid #000;
     border-radius:0;
     inset:unset;
@@ -14,28 +14,28 @@
     top:10px;
     transform:skewX(60deg);
     left:-6px}
-.statusBubble_d0a252{
+.statusBubble_af9888{
     border-radius:10px;
     padding:6px}
-.content_d0a252{
+.content_ab8609{
     color:#000}
-.userProfileOuter_c69a7b .statusBubbleOuter_d0a252::after{
+.userProfileOuter_c69a7b .statusBubbleOuter_af9888::after{
     display:none}
-.custom-profile-theme .statusBubble_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252:before, .custom-profile-theme .statusBubbleOuter_d0a252:after {
+.custom-profile-theme .statusBubble_af9888, .custom-profile-theme .statusBubbleOuter_af9888, .custom-profile-theme .statusBubbleOuter_af9888:before, .custom-profile-theme .statusBubbleOuter_af9888:after {
     background-color: var(--background-secondary)!important;
 }
-.statusBubbleOuter_d0a252:before {
+.statusBubbleOuter_af9888:before {
     background-color: var(--custom-status-bubble-background)!important;
 }
-.statusBubble_d0a252 {
+.statusBubble_af9888 {
     background-color: var(--custom-status-bubble-background)!important;
 }
 
 /*Status Box*//*Fixed for now...*/
-.outer_c69a7b .statusBubbleOuter_d0a252{
+.outer_c0bea0 .statusBubbleOuter_af9888{
     border-radius:12px;
     border:1px solid #000}
-.outer_c69a7b .statusBubbleOuter_d0a252::before{
+.outer_c0bea0 .statusBubbleOuter_af9888::before{
     border:1px solid #000;
     border-radius:0;
     inset:unset;
@@ -44,20 +44,20 @@
     top:10px;
     transform:skewX(60deg);
     left:-6px}
-.statusBubble_d0a252{
+.statusBubble_af9888{
     border-radius:10px;
     padding:6px}
-.content_d0a252{
+.content_ab8609{
     color:#000}
-.outer_c69a7b .statusBubbleOuter_d0a252::after{
+.outer_c0bea0 .statusBubbleOuter_af9888::after{
     display:none}
-.custom-profile-theme .statusBubble_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252, .custom-profile-theme .statusBubbleOuter_d0a252:before, .custom-profile-theme .statusBubbleOuter_d0a252:after {
+.custom-profile-theme .statusBubble_af9888, .custom-profile-theme .statusBubbleOuter_af9888, .custom-profile-theme .statusBubbleOuter_af9888:before, .custom-profile-theme .statusBubbleOuter_af9888:after {
     background-color: var(--background-secondary)!important;
 }
-.statusBubbleOuter_d0a252:before {
+.statusBubbleOuter_af9888:before {
     background-color: var(--custom-status-bubble-background)!important;
 }
-.statusBubble_d0a252 {
+.statusBubble_af9888 {
     background-color: var(--custom-status-bubble-background)!important;
 }
 
@@ -65,20 +65,20 @@
 
 
 /*Profile Edit Buttons*/
-:where(.button_f9d37d).hover_f9d37d, :where(.button_f9d37d).banner_f9d37d{
+:where(.button_fb7f94).hover_fb7f94, :where(.button_fb7f94).banner_fb7f94{
     padding: 8px 16px 8px 16px;
 }
-:where(.button_f9d37d).icon_f9d37d {
+:where(.button_fb7f94).icon_fb7f94 {
     width: 32px;
     height: 32px;
 }
 /*Message Box*/
-.footer_b8cc6d .fontSize16Padding_bdf0de {
+.footer__5be3e .fontSize16Padding__74017 {
     padding-bottom: 0px;
     padding-top: 10px;
 }
 /*Profile Popout*/
-.accountProfilePopoutWrapper_b2ca13 {
+.accountProfilePopoutWrapper__37e49 {
     position: relative;
     left: 0px;
 }
@@ -88,10 +88,10 @@
 }
 
 /*User info bottom left*/
-.visual-refresh .button_df39bd{
+.visual-refresh .button_e6e74f{
     background: none!important;
 }
-:where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65, :where(.visual-refresh) .voiceButtonsContainer_adcaac button.button_adca65:hover {
+:where(.visual-refresh) .voiceButtonsContainer_e131a9 button.button__67645, :where(.visual-refresh) .voiceButtonsContainer_e131a9 button.button__67645:hover {
     width: 68px;
     background: var(--input-border);
     border-radius: var(--radius-sm) !important;
@@ -112,7 +112,7 @@
     margin-right: 3px;
 }
 
-.actions_d14755 button.button_adca65 {
+.actions__4cd01 button.button__67645 {
     padding-left: 36px;
     padding-right: 34px;
     margin-left: -20px;
@@ -120,13 +120,13 @@
     border-radius: var(--radius-sm) !important;
     border: 1px transparent var(--input-border) !important;
 }
-.actions_d14755, .actions_d14755:hover {
+.actions__4cd01, .actions__4cd01:hover {
     width: 66px;
     background: var(--input-border);
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--input-border) !important;
     justify-content: center;
 }
-.disabledButtonWrapper_dd4f85 .button_dd4f85.grow_dd4f85 {
+.disabledButtonWrapper__201d5 .button__201d5.grow__201d5 {
     margin-left: -0px;
 }
