@@ -8,7 +8,7 @@
     --font-headline: "Noto Serif", serif!important;
 }
 
-.text-sm\/medium_dc00ef{
+.text-sm\/medium_cf4812{
     font-size: 95%;
 }
 
@@ -18,34 +18,34 @@
 
 
 /* Private Channel shortcuts as Icons */
-.avatarWithText_c91bad.layout_ec8679 .content_ec8679{
+.avatarWithText__972a0.layout__20a53 .content__20a53{
   display: none!important;
 }
-.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 {
     display: inline-flex !important;
 }
-.channel_c91bad {
+.channel__972a0 {
     display:contents!important;
 }
-.linkButtonIcon_c91bad{
+.linkButtonIcon__972a0{
   margin-left: 2px!important;
   margin-top: 0px!important;
   padding-top: 0px!important;
   padding-bottom: 0px!important;
 }
-.interactive_f5eb4b.interactive_c91bad.linkButton_c91bad{
+.interactive_bf202d.interactive__972a0.linkButton__972a0{
     background-color: transparent;
     margin-left: 8px!important;
 }
-.content_eed6a8{
+.content__99f8c{
     height: fit-content !important;
     margin-bottom: 10px!important;
 }
-.friendsButtonContainer_f0963d{
+.friendsButtonContainer__35e86{
     width: 62px!important;
     display: inline-flex !important;
 }
-.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad {
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 {
     width: 54px!important;
     display: inline-flex!important;
     background: var(--input-border)!important;
@@ -53,37 +53,37 @@
     border: 1px solid var(--input-border) !important;
     height: 36px!important;
 }
-.newChannel_ecb303{
+.newChannel__599fa{
     display: none;
 }
 
 /*Pinned Messages*/
-.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .messageSpine_f9f2ca:before{
+.messageGroupWrapper__45690 .messageGroupCozy__45690 .messageSpine_c19a55:before{
     left: -24px!important;
     width: 28px!important;
 }
-.messageGroupWrapper_ac90a2 .messageGroupCozy_ac90a2 .avatar_f9f2ca{
+.messageGroupWrapper__45690 .messageGroupCozy__45690 .avatar_c19a55{
     left: 26px!important;
 }
 /*Folders*/
-.expandedFolderBackground_bc7085 {
+.expandedFolderBackground__48112 {
     margin-top: 0px !important;
 }
-.listItem_c96c45{
+.listItem__650eb{
     margin-bottom: 8px;
 }
-.expandedFolderBackground_bc7085.collapsed_bc7085{
+.expandedFolderBackground__48112.collapsed__48112{
     background: transparent!important;
 }
-.theme-light .expandedFolderBackground_bc7085, .theme-light .folder_bc7085{
+.theme-light .expandedFolderBackground__48112, .theme-light .folder__48112{
     background: var(--bg-surface-raised)!important;
 }
-.theme-dark .expandedFolderBackground_bc7085, .theme-dark .folder_bc7085{
+.theme-dark .expandedFolderBackground__48112, .theme-dark .folder__48112{
     background: var(--bg-surface-raised)!important;
 }
-.theme-darker .expandedFolderBackground_bc7085, .theme-darker .folder_bc7085{
+.theme-darker .expandedFolderBackground__48112, .theme-darker .folder__48112{
     background: var(--bg-surface-raised)!important;
 }
-.theme-midnight .expandedFolderBackground_bc7085, .theme-midnight .folder_bc7085{
+.theme-midnight .expandedFolderBackground__48112, .theme-midnight .folder__48112{
     background: var(--background-secondary)!important;
 }
