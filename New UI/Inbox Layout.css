@@ -1,3 +1,64 @@
+
+/*=============================================
+=                                             =
+=                 Inbox Layout                =
+=                                             =
+=============================================*/
+/* Private Channel shortcuts as Icons */
+.avatarWithText__972a0.layout__20a53 .content__20a53{
+  display: none;
+}
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 {
+    width: 52px;
+    display: inline-flex ;
+}
+.channel__972a0 {
+    display:contents;
+}
+.linkButtonIcon__972a0{
+  margin-left: 2px;
+  margin-top: 0px;
+  scale: 1.2;
+}
+.interactive_bf202d.interactive__972a0.linkButton__972a0{
+    background-color: transparent;
+    margin-left: 6px;
+}
+.content__99f8c{
+    height: fit-content !important;
+    margin-bottom: 10px;
+}
+.friendsButtonContainer__35e86{
+    width: 52px;
+    display: inline-flex ;
+}
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 {
+    width: 58px;
+    display: inline-flex;
+    background: none!important;
+}
+
+/*Shop Button*/
+.marketingButtonBackground__4ed1a{
+    display: none;
+}
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 .newBadge__4ed1a{
+    display: none;
+}
+/*Shop and Nitro page*/
+.scroller_c880e8, .shop__08415{
+    background: var(--bg-overlay-chat,var(--bg-base-primary));
+}
+.searchBar__35e86{
+    height: 48px!important;
+}
+.header_f37cb1{
+    height: 48px!important;
+}
+/*Private Call Background*/
+.wrapper_cb9592.minimum_cb9592{
+    background: var(--bg-base-tertiary)!important;
+}
 /*=============================================
 =                                             =
 =                 Inbox Layout                =
