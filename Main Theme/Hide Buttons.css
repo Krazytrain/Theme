@@ -12,31 +12,31 @@ button[aria-label="Open sticker picker"] {
 button[aria-label="Open GIF picker"] {
     display: none;
 }
-.toolbar_fc4f04 [aria-label="Help"] {
+.toolbar__9293f [aria-label="Help"] {
   display: none;
 }
-.toolbar_fc4f04 [aria-label="Notification Settings"] {
+.toolbar__9293f [aria-label="Notification Settings"] {
   display: none;
 }
-.iconWrapper_fc4f04 {
+.iconWrapper__9293f {
     margin: 0 4px;
 }
-.searchBar_a46bef{
+.searchBar__97492{
     width: 140px;
     height: 28px;
 }
 
-.anchor_af404b.anchorUnderlineOnHover_af404b [aria-label="Help"]{
+.anchor_edefb8.anchorUnderlineOnHover_edefb8 [aria-label="Help"]{
   display: none;
 }
 /*Hide Reactions on message Hover*/
 div[class^="buttonContainer"]>div>div {
     >div[aria-label^="Click to react with"],
     >div[aria-label^="Click to remove"],
-    .separator_e986d9{
+    .separator_f84418{
         display: none;
     }
 }
-.popover_cf8aee.avatarPopover_cf8aee.wrapper_f7e168{
+.popover__2d0ab.avatarPopover__2d0ab.wrapper_f7ecac{
     display: none;
 }
