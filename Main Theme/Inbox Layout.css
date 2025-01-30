@@ -1,3 +1,4 @@
+
 /*=============================================
 =                                             =
 =                 Inbox Layout                =
@@ -5,27 +6,27 @@
 =============================================*/
 
 /*Shop Button*/
-.marketingButtonBackground_a25714{
+.marketingButtonBackground__4ed1a{
     display: none;
 }
-.channel_c91bad .interactive_f5eb4b.interactive_c91bad.linkButton_c91bad .newBadge_a25714{
+.channel__972a0 .interactive_bf202d.interactive__972a0.linkButton__972a0 .newBadge__4ed1a{
     display: none;
 }
 /*Shop and Nitro page*/
-.scroller_a8b566, .shop_ebba41{
+.scroller_c880e8, .shop__08415{
     background: var(--bg-overlay-chat,var(--bg-base-primary));
 }
-.searchBar_f0963d{
+.searchBar__35e86{
     height: 48px!important;
 }
-.header_fd6364{
+.header_f37cb1{
     height: 48px!important;
 }
 /*Private Call Background*/
-.wrapper_d880dc.minimum_d880dc {
+.wrapper_cb9592.minimum_cb9592 {
     background: var(--background-tertiary)!important;
 }
 
-.flex_dc333f.horizontal_dc333f.justifyEnd_ec1a20.alignStretch_ec1a20.noWrap_ec1a20{
+.flex__7c0ba.horizontal__7c0ba.justifyEnd_abf706.alignStretch_abf706.noWrap_abf706{
     padding-top: 10px;
 }
