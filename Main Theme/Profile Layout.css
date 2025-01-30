@@ -17,7 +17,7 @@
 .statusBubble_af9888{
     border-radius:10px;
     padding:6px}
-.content_af9888{
+.content_ab8609{
     color:#000}
 .userProfileOuter_c69a7b .statusBubbleOuter_af9888::after{
     display:none}
@@ -32,10 +32,10 @@
 }
 
 /*Status Box*//*Fixed for now...*/
-.outer_c69a7b .statusBubbleOuter_af9888{
+.outer_c0bea0 .statusBubbleOuter_af9888{
     border-radius:12px;
     border:1px solid #000}
-.outer_c69a7b .statusBubbleOuter_af9888::before{
+.outer_c0bea0 .statusBubbleOuter_af9888::before{
     border:1px solid #000;
     border-radius:0;
     inset:unset;
@@ -47,9 +47,9 @@
 .statusBubble_af9888{
     border-radius:10px;
     padding:6px}
-.content_af9888{
+.content_ab8609{
     color:#000}
-.outer_c69a7b .statusBubbleOuter_af9888::after{
+.outer_c0bea0 .statusBubbleOuter_af9888::after{
     display:none}
 .custom-profile-theme .statusBubble_af9888, .custom-profile-theme .statusBubbleOuter_af9888, .custom-profile-theme .statusBubbleOuter_af9888:before, .custom-profile-theme .statusBubbleOuter_af9888:after {
     background-color: var(--background-secondary)!important;
@@ -63,20 +63,20 @@
 
 
 /*Profile Edit Buttons*/
-:where(.button_f9d37d).hover_f9d37d, :where(.button_f9d37d).banner_f9d37d{
+:where(.button_fb7f94).hover_fb7f94, :where(.button_fb7f94).banner_fb7f94{
     padding: 8px 16px 8px 16px;
 }
-:where(.button_f9d37d).icon_f9d37d {
+:where(.button_fb7f94).icon_fb7f94 {
     width: 32px;
     height: 32px;
 }
 /*Message Box*/
-.footer_b8cc6d .fontSize16Padding_bdf0de {
+.footer__5be3e .fontSize16Padding__74017 {
     padding-bottom: 0px;
     padding-top: 10px;
 }
 /*Profile Popout*/
-.accountProfilePopoutWrapper_b2ca13 {
+.accountProfilePopoutWrapper__37e49 {
     position: relative;
     left: 0px;
 }
@@ -85,18 +85,18 @@
     height: 24px;
 }
 
-.full-motion .overlay_f94206:after {
+.full-motion .overlay__75742:after {
     display: none!important;
 }
 /*User info bottom left*/
-.button_df39bd{
+.button_e6e74f{
     background: none!important;
     margin-bottom: -2px;
     height: 48px;
     margin-left: 6px!important;
 }
 
-.voiceButtonsContainer_adcaac button.button_adca65, .voiceButtonsContainer_adcaac button.button_adca65:hover {
+.voiceButtonsContainer_e131a9 button.button__67645, .voiceButtonsContainer_e131a9 button.button__67645:hover {
     width: 34px;
     background: var(--input-border)!important;
     border-radius: 10px !important;
@@ -106,14 +106,14 @@
 }
 
 
-.voiceButtonsContainer_adcaac button.button_adca65[aria-label="Disconnect"], .voiceButtonsContainer_adcaac button.button_adca65[aria-label="Disconnect"]:hover{
+.voiceButtonsContainer_e131a9 button.button__67645[aria-label="Disconnect"], .voiceButtonsContainer_e131a9 button.button__67645[aria-label="Disconnect"]:hover{
     background: var(--red-400)!important;
     border-radius: 10px !important;
     border: 1px solid var(--input-border)!important;
 }
 
 
-.actionButtons_adcaac {
+.actionButtons_e131a9 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     grid-gap: 5px;
@@ -137,12 +137,12 @@
     padding-top: 5px;
 }
 
-.actions_d14755 {
+.actions__4cd01 {
     background: var(--input-border);
     border-radius: var(--radius-sm) !important;
     border: 1px solid var(--input-border) !important;
     
 }
-.disabledButtonWrapper_dd4f85 .button_dd4f85.grow_dd4f85 {
+.disabledButtonWrapper__201d5 .button__201d5.grow__201d5 {
     margin-left: -0px;
 }
