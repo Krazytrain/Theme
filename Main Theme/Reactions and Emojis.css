@@ -3,35 +3,35 @@
 =============================================*/
 
 /*Reactions*/
-.reaction_ec6b19, .updateReactionButton_d331f1>div{
+.reaction__23977, .updateReactionButton_faa96b>div{
     zoom: 120%;
 }
 
 /*Emoji*//*FIXED*/
-.theme-light .reaction_ec6b19, 
-.theme-light .addReactButton_b385c8, 
-.theme-light .button_b385c8.button_dd4f85 .contents_dd4f85, 
+.theme-light .reaction__23977, 
+.theme-light .addReactButton__34c2c, 
+.theme-light .button__34c2c.button__201d5 .contents__201d5, 
 .theme-light .addReactionContainer__3b393 .addReactButton_c67c5a{
     border-color: hsl(var(--black-500-hsl)/.2);
     border: 1px solid hsl(var(--black-500-hsl)/.2);
 }
 
-.theme-dark .reaction_ec6b19, 
-.theme-dark .addReactButton_b385c8, 
-.theme-dark .button_b385c8.button_dd4f85 .contents_dd4f85, 
+.theme-dark .reaction__23977, 
+.theme-dark .addReactButton__34c2c, 
+.theme-dark .button__34c2c.button__201d5 .contents__201d5, 
 .theme-dark .addReactionContainer__3b393 .addReactButton_c67c5a{
     border-color: hsl(var(--white-500-hsl)/.2);
     border: 1px solid hsl(var(--white-500-hsl)/.2);
 }
 
 /*Super Reactions*//*FIXED*/
-.reaction_ec6b19.reactionMe_ec6b19, .reaction_f61c73.reactionMe_ec6b19 {
+.reaction__23977.reactionMe__23977, .reaction_f8896c.reactionMe__23977 {
     border-color: var(--brand-500);
 }
-.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19, .reaction_f61c73.reactionMe_ec6b19 .reactionCount_ec6b19 {
+.reaction__23977.reactionMe__23977 .reactionCount__23977, .reaction_f8896c.reactionMe__23977 .reactionCount__23977 {
     color: var(--brand-500);
 }
-.reaction_ec6b19.reactionMe_ec6b19:hover, .reaction_f61c73.reactionMe_ec6b19:hover {
+.reaction__23977.reactionMe__23977:hover, .reaction_f8896c.reactionMe__23977:hover {
     border-color: var(--brand-500);
 }
 
@@ -41,23 +41,23 @@
 }
 
 /*Reactions from me*/
-.reaction_ec6b19.reactionMe_ec6b19, .reaction_f61c73.reactionMe_ec6b19, .reaction_f61c73.reactionMe_f61c73{
+.reaction__23977.reactionMe__23977, .reaction_f8896c.reactionMe__23977, .reaction_f8896c.reactionMe_f8896c{
     background: var(--background-secondary)!important;
     border-color: var(--brand-500)!important;
 }
-.reaction_ec6b19, .reaction_f61c73{
+.reaction__23977, .reaction_f8896c{
     background: var(--background-secondary)!important;
 }
-.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19, .reaction_f61c73.reactionMe_f61c73 .reactionCount_f61c73 {
+.reaction__23977.reactionMe__23977 .reactionCount__23977, .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
     color: var(--brand-500)!important;
 }
 
 
 
 /* Reactions Hover */
-.reaction_ec6b19 .emoji, .reaction_f61c73 .emoji {
+.reaction__23977 .emoji, .reaction_f8896c .emoji {
   transition: transform 0.5s ease;
 }
-.reaction_ec6b19:hover .emoji, .reaction_f61c73:hover .emoji {
+.reaction__23977:hover .emoji, .reaction_f8896c:hover .emoji {
   transform: translateY(0px) scale(1.5);
 }
