@@ -37,30 +37,30 @@
 =================================================*/
 
 /* Server shortcuts as Icons */
-.basicChannelRowLink_d8bfb3 .name_d8bfb3{
+.basicChannelRowLink__2ea32 .name__2ea32{
   display: none;
 }
-li:not([class]):has(.basicChannelRowLink_d8bfb3),
-div:not([class]):has(.basicChannelRowLink_d8bfb3) {
+li:not([class]):has(.basicChannelRowLink__2ea32),
+div:not([class]):has(.basicChannelRowLink__2ea32) {
     width: 57px;
     display: inline-flex;
 }
-.basicChannelRowLink_d8bfb3 .icon_d8bfb3{
+.basicChannelRowLink__2ea32 .icon__2ea32{
   margin-left: 2px;
   margin-top: 0px;
   scale: 1.2;
 }
-li:not([class]) > .containerDefault_f6f816{
+li:not([class]) > .containerDefault_c69b6d{
     background-color: transparent;
 }
-.content_eed6a8{
+.content__99f8c{
     height: fit-content !important;
     margin-bottom: 10px;
 }
-.wrapper_d8bfb3.modeSelected_d8bfb3 .basicChannelRowLink_d8bfb3 .icon_d8bfb3 {
+.wrapper__2ea32.modeSelected__2ea32 .basicChannelRowLink__2ea32 .icon__2ea32 {
     color: var(--interactive-active);
 }
-.basicChannelRowLink_d8bfb3{
+.basicChannelRowLink__2ea32{
     width: 54px!important;
     background: var(--input-border);
     border-radius: var(--radius-sm) !important;
@@ -69,14 +69,14 @@ li:not([class]) > .containerDefault_f6f816{
     margin-left: -6px!important;
     margin-top: 10px;
 }
-li:not([class]):has(.basicChannelRowLink_d8bfb3), div:not([class]):has(.basicChannelRowLink_d8bfb3){
+li:not([class]):has(.basicChannelRowLink__2ea32), div:not([class]):has(.basicChannelRowLink__2ea32){
     margin-left: 5px!important;
     direction:rtl;
 }
-.basicChannelRowLink_d8bfb3{
+.basicChannelRowLink__2ea32{
     border-radius: 10px;
 }
-.basicChannelRowLink_d8bfb3 .icon_d8bfb3{
+.basicChannelRowLink__2ea32 .icon__2ea32{
     margin-left: 6px;
     padding-left: 12px;
     padding-right: 12px;
